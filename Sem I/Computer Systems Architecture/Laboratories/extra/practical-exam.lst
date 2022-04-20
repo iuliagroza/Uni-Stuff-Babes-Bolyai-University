@@ -1,0 +1,100 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, fopen, fread, fprintf, fclose               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import fopen msvcrt.dll
+    10                                  import fread msvcrt.dll
+    11                                  import fprintf msvcrt.dll
+    12                                  import fclose msvcrt.dll
+    13                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17 00000000 696E7075742E747874-         input_file db "input.txt", 0
+    17 00000009 00                 
+    18 0000000A 6F75747075742E7478-         output_file db "output.txt", 0
+    18 00000013 7400               
+    19 00000015 <res 00000004>              fd resd 1
+    20 00000019 7700                        write_mode db "w", 0
+    21 0000001B 7200                        read_mode db "r", 0
+    22                                      len equ 10000
+    23 0000001D 00<rept>                    text times len db 0
+    24 0000272D 25730D00                    print_format db "%s", 13, 0
+    25 00002731 00<rept>                    sentence times 100 db 0
+    26                                  
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                      ; scrieti un program care citeste din fisier propozitii(siruri de caractere care se termin cu .). Scrieti intr-un alt fisier propozitiile de ordin par. numele fisierelor se dau in segmentul de date.
+    31 00000000 68[1B000000]                    push read_mode
+    32 00000005 68[00000000]                    push input_file
+    33 0000000A FF15[00000000]                  call [fopen]
+    34 00000010 83C408                          add esp, 4*2
+    35 00000013 A3[15000000]                    mov [fd], eax
+    36                                          
+    37 00000018 FF35[15000000]                  push dword[fd]
+    38 0000001E 6810270000                      push len
+    39 00000023 6A01                            push 1
+    40 00000025 68[1D000000]                    push text
+    41 0000002A FF15[00000000]                  call [fread]
+    42 00000030 83C410                          add esp, 4*4
+    43                                          
+    44 00000033 FF35[15000000]                  push dword[fd]
+    45 00000039 FF15[00000000]                  call [fclose]
+    46 0000003F 83C404                          add esp, 4
+    47                                          
+    48 00000042 68[19000000]                    push write_mode
+    49 00000047 68[0A000000]                    push output_file
+    50 0000004C FF15[00000000]                  call [fopen]
+    51 00000052 83C408                          add esp, 4*2
+    52 00000055 A3[15000000]                    mov [fd], eax
+    53                                          
+    54                                          ; mov esi, text
+    55                                          ; mov edi, sentence
+    56                                          ; cld
+    57                                          ; mov ebx, 0
+    58                                          ; mov edx, 0
+    59                                          ; repeat:
+    60                                              ; lodsb
+    61                                              ; cmp al, 0
+    62                                              ; je end
+    63                                              ; inc edx
+    64                                              ; cmp al, '.'
+    65                                              ; je punct
+    66                                          ; jmp repeat
+    67                                          ; punct:
+    68                                                  ; inc bl
+    69                                                  ; push ebx
+    70                                                  ; and bl, 00000001b
+    71                                                  ; cmp bl, 0
+    72                                                  ; pop ebx
+    73                                                  ; je par
+    74                                          ; par:
+    75                                              ; mov ecx, text
+    76                                              ; add ecx, edx
+    77                                              ; mov [edi], ecx
+    78                                              ; dec edi
+    79                                              ; push sentence
+    80                                              ; push print_format
+    81                                              ; push dword[fd]
+    82                                              ; call [fprintf]
+    83                                              ; add esp, 4*3
+    84                                          
+    85 0000005A 68[1D000000]                    push text
+    86 0000005F 68[2D270000]                    push print_format
+    87 00000064 FF35[15000000]                      push dword[fd]
+    88 0000006A FF15[00000000]                      call [fprintf]
+    89 00000070 83C40C                              add esp, 4*3
+    90                                          
+    91                                          ; end:
+    92 00000073 FF35[15000000]                  push dword[fd]
+    93 00000079 FF15[00000000]                  call [fclose]
+    94 0000007F 83C404                          add esp, 4
+    95                                      
+    96                                          ; exit(0)
+    97 00000082 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    98 00000084 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,46 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                  
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  
+    13                                  ; First exercise
+    14 00000000 F9                      a10 db 11111001b
+    15 00000001 89                      b10 db 10001001b
+    16                                  
+    17 00000002 25                      c10 db 25h
+    18 00000003 7B                      d10 db 7Bh
+    19                                  
+    20                                  ; Second exercise
+    21                                  ; a0 db 10b;
+    22                                  ; a1 dw 0h12;
+    23                                  ; a2 db 123456h;
+    24                                  ; a3 db 1111_0011_1111_0000b;
+    25                                  ; _a4 dw 124h;
+    26                                  ; a5# db 33h;
+    27                                  ; ?a6 dw 233h;
+    28                                  ; a7~ db 1233h;
+    29                                  
+    30                                  ; segmentul de cod
+    31                                  segment code use32 class=code
+    32                                  start:
+    33                                  ; ... 
+    34                                      
+    35                                      ; First exercise
+    36 00000000 B800000000                  mov eax, 0      ; EAX = 0
+    37 00000005 A0[00000000]                mov al, [a10]   ; AL = aa
+    38 0000000A 660305[01000000]            add ax, [b10]   ; AX = AX + bb
+    39                                      
+    40                                      ;mov eax, 0      ; EAX = 0
+    41                                      ;mov al, [c10]   ; AL = cc
+    42                                      ;add ax, [d10]   ; AX = AX + dc
+    43                                  
+    44                                      ; exit(0)
+    45 00000011 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    46 00000013 FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

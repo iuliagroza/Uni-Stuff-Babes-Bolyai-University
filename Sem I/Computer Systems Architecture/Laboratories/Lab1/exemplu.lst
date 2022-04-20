@@ -1,0 +1,34 @@
+     1                                  bits 32 ;asamblare și compilare pentru arhitectura de 32 biți
+     2                                  ; definim punctul de intrare in programul principal
+     3                                  global start
+     4                                  
+     5                                  ; declaram functiile externe necesare programului nostru 
+     6                                  extern exit ; indicam asamblorului ca exit exista, chiar daca noi nu o vom defini
+     7                                  import exit msvcrt.dll  ; exit este o functie care incheie procesul, este definita in msvcrt.dll
+     8                                          ; msvcrt.dll contine exit, printf si toate celelalte functii C-runtime importante
+     9                                  
+    10                                  ; segmentul de date in care se vor defini variabilele 
+    11                                  segment data use32 class=data
+    12                                  ; A DB 0A2h ;se declara variabila a de tip BYTE si se initializeaza cu valoarea 0A2h
+    13                                  ; B DW 'ab' ;se declara variabila a de tip WORD si se initializeaza cu valoarea 'ab'
+    14                                  ; C DD 12345678h ;se declara variabila a de tip DOUBLE WORD si se initializeaza cu valoarea 12345678h
+    15                                  ; D DQ 1122334455667788h ;se declara variabila a de tip QUAD WORD si se initializeaza cu valoarea 1122334455667788h
+    16                                  ; a DB 02
+    17                                  ; b DB 02h
+    18                                  ; c DB 102
+    19 00000000 1FE2                    a DW  123423
+    19          ******************       warning: word data exceeds bounds [-w+number-overflow]
+    20 00000002 7523                    b DW 12375h
+    20          ******************       warning: word data exceeds bounds [-w+number-overflow]
+    21 00000004 616161616161616161-     c DW 'aaaaaaaaaaazzzzzz'
+    21 0000000D 61617A7A7A7A7A7A00 
+    22 00000016 FC03                    d DW 1020
+    23                                  
+    24                                  ; segmentul de cod
+    25                                  segment code use32 class=code
+    26                                  start:
+    27                                  ; ... 
+    28                                  
+    29                                      ; exit(0)
+    30 00000000 6A00                        push dword 0 ; se pune pe stiva parametrul functiei exit
+    31 00000002 FF15[00000000]              call [exit] ; apelul functiei exit pentru terminarea executiei programului

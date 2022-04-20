@@ -1,0 +1,110 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, scanf, fopen, fprintf, fclose               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll
+     9                                  import scanf msvcrt.dll
+    10                                  import fopen msvcrt.dll 
+    11                                  import fprintf msvcrt.dll 
+    12                                  import fclose msvcrt.dll      
+    13                                  ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    14                                  ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    15                                  
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 <res 00000064>              sir1 resb 100
+    19 00000064 <res 00000064>              sir2 resb 100
+    20 000000C8 257300                      read_format db "%s", 0
+    21                                      
+    22 000000CB 6F75747075742E7478-         filename db "output.txt", 0
+    22 000000D4 7400               
+    23 000000D6 7700                        access_mode db "w", 0
+    24 000000D8 FFFFFFFF                    file_descriptor dd -1
+    25                                      
+    26 000000DC 256400                      write_format db "%d", 0
+    27                                      
+    28 000000DF 000202010101020102-         frecv db 0, 2, 2, 1, 1, 1, 2, 1, 2, 2, 0
+    28 000000E8 0200               
+    29                                      
+    30                                  
+    31                                  ; our code starts here
+    32                                  segment code use32 class=code
+    33                                      start:
+    34 00000000 68[00000000]                    push dword sir1
+    35 00000005 68[C8000000]                    push dword read_format
+    36 0000000A FF15[00000000]                  call [scanf]
+    37 00000010 83C408                          add esp, 4*2
+    38                                          
+    39 00000013 68[64000000]                    push dword sir2
+    40 00000018 68[C8000000]                    push dword read_format
+    41 0000001D FF15[00000000]                  call [scanf]
+    42 00000023 83C408                          add esp, 4*2
+    43                                          
+    44 00000026 68[D6000000]                    push dword access_mode
+    45 0000002B 68[CB000000]                    push dword filename
+    46 00000030 FF15[00000000]                  call [fopen]
+    47 00000036 83C408                          add esp, 4*2
+    48                                          
+    49 00000039 A3[D8000000]                    mov [file_descriptor], eax
+    50                                          
+    51 0000003E 83F800                          cmp eax, 0
+    52 00000041 7474                            je .finish
+    53                                          
+    54 00000043 BB00000000                      mov ebx, 0
+    55                                          
+    56                                          .frequency1:
+    57 00000048 B800000000                          mov eax, 0
+    58 0000004D 8B83[00000000]                      mov eax, [sir1+ebx] 
+    59 00000053 83FB00                              cmp ebx, 0
+    60 00000056 EB02                                jmp .out1
+    61 00000058 EBEE                                jmp .frequency1
+    62                                          .out1:
+    63                                          
+    64 0000005A BB00000000                      mov ebx, 0
+    65                                          
+    66                                          .frequency2:
+    67 0000005F B800000000                          mov eax, 0
+    68 00000064 8B83[64000000]                      mov eax, [sir2+ebx]
+    69 0000006A 83FB00                              cmp ebx, 0
+    70 0000006D EB02                                jmp .out2
+    71 0000006F EBEE                                jmp .frequency2
+    72                                          .out2:
+    73                                          
+    74 00000071 BE09000000                      mov esi, 9
+    75                                          
+    76                                          .printing:
+    77 00000076 BB00000000                          mov ebx, 0
+    78 0000007B 8A9E[DF000000]                      mov bl, [frecv+esi]
+    79                                              .digitprinting:
+    80 00000081 60                                      pushad
+    81 00000082 56                                      push dword esi
+    82 00000083 68[DC000000]                            push dword write_format
+    83 00000088 FF35[D8000000]                          push dword [file_descriptor]
+    84 0000008E FF15[00000000]                          call [fprintf]
+    85 00000094 83C40C                                  add esp, 4*3
+    86 00000097 61                                      popad
+    87                                                  
+    88 00000098 4B                                      dec ebx
+    89                                                  
+    90 00000099 83FB00                                  cmp ebx, 0
+    91 0000009C 7402                                    je .digitout
+    92                                                  
+    93 0000009E EBE1                                    jmp .digitprinting
+    94                                              .digitout:
+    95                                              
+    96 000000A0 83FE00                              cmp esi, 0
+    97 000000A3 7403                                je .printingout
+    98                                              
+    99 000000A5 4E                                  dec esi
+   100                                              
+   101 000000A6 EBCE                                jmp .printing
+   102                                          .printingout:
+   103 000000A8 FF35[D8000000]                      push dword [file_descriptor]
+   104 000000AE FF15[00000000]                      call [fclose]
+   105 000000B4 83C404                              add esp, 4
+   106                                              .finish:
+   107 000000B7 6A00                                    push    dword 0      ; push the parameter for exit onto the stack
+   108 000000B9 FF15[00000000]                          call    [exit]       ; call exit to terminate the program

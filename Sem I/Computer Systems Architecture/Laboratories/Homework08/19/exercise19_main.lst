@@ -1,0 +1,68 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit, fopen, fread, fclose, printf
+     6                                  import exit msvcrt.dll
+     7                                  import fopen msvcrt.dll
+     8                                  import fread msvcrt.dll
+     9                                  import fclose msvcrt.dll
+    10                                  import printf msvcrt.dll
+    11                                  
+    12                                  extern build_string
+    13                                  
+    14                                  segment data use32 class=data
+    15 00000000 6E756D626572732E74-         file_name db "numbers.txt", 0   ; file to be read
+    15 00000009 787400             
+    16 0000000C 7200                        access_mode db "r", 0           ; file access mode:
+    17                                                                      ; r - opens a file for reading. The file must exist. 
+    18 0000000E FFFFFFFF                    file_descriptor dd -1           ; variable to hold the file descriptor
+    19                                      len equ 100                     ; maximum number of characters to read
+    20 00000012 0C0204050007                s db 12, 2, 4, 5, 0, 7          ; the initial string s
+    21                                      len_d equ $-s                   ; length of s
+    22 00000018 00<rept>                    D times len_d db 0              ; initialize the result string D
+    23 0000001E 25642000                    format db "%d ", 0
+    24                                  
+    25                                  
+    26                                  segment code use32 class=code
+    27                                      start:
+    28                                          ; Read from file numbers.txt a string of numbers. Build a string D which contains the read numbers doubled and in reverse order that they were read. Display the string on the screen.
+    29                                          ; push dword access_mode     
+    30                                          ; push dword file_name
+    31                                          ; call [fopen]
+    32                                          ; add esp, 4*2                ; clean-up the stack
+    33                                  
+    34                                          ; mov [file_descriptor], eax  ; store the file descriptor returned by fopen
+    35                                  
+    36                                          ; ; check if fopen() has successfully created the file (EAX != 0)
+    37                                          ; cmp eax, 0
+    38                                          ; je final
+    39                                  
+    40                                          ; ; read the text from file using fread()
+    41                                          ; push dword [file_descriptor]
+    42                                          ; push dword len
+    43                                          ; push dword 1
+    44                                          ; push dword s       
+    45                                          ; call [fread]
+    46                                          ; add esp, 4*4
+    47                                  
+    48                                          ; ; call fclose() to close the file
+    49                                          ; ; fclose(file_descriptor)
+    50                                          ; push dword [file_descriptor]
+    51                                          ; call [fclose]
+    52                                          ; add esp, 4
+    53                                          
+    54                                          ; final:
+    55 00000000 68[12000000]                    push dword s
+    56 00000005 68[18000000]                    push dword D
+    57 0000000A E8(00000000)                    call build_string
+    58                                          
+    59                                          ; display the list of numbers D
+    60 0000000F 68[18000000]                    push dword D
+    61 00000014 68[1E000000]                    push dword format
+    62 00000019 FF15[00000000]                  call [printf]
+    63 0000001F 83C408                          add esp, 4*2
+    64                                  
+    65 00000022 6A00                                push dword 0
+    66 00000024 FF15[00000000]                      call [exit]
+    67                                  

@@ -1,0 +1,86 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit, fopen, fprintf, fclose
+     6                                  import exit msvcrt.dll
+     7                                  import fopen msvcrt.dll
+     8                                  import fprintf msvcrt.dll
+     9                                  import fclose msvcrt.dll
+    10                                  
+    11                                  segment data use32 class=data
+    12 00000000 613433353374353474-         s db 'a4353t54te8f5g46z9aq', 0xa    ; String to be parsed = 20 = 15h
+    12 00000009 653866356734367A39-
+    12 00000012 61710A             
+    13                                      len equ $-s                         ; Length of s
+    14 00000015 00000000                    sol dd '', 0                        ; Variable in which stores the sum of the digits; it finally should be equal to 56
+    15 00000019 706F72746F63616C65-         file_name db "portocale.txt", 0     ; File to be created
+    15 00000022 2E74787400         
+    16 00000027 7700                        access_mode db "w", 0               ; File access mode:
+    17                                                                          ; w - opens a file for writing. The file does noot exist, so it is firstly created. 
+    18 00000029 FFFFFFFF                    file_descriptor dd -1               ; variable to hold the file descriptor
+    19                                      
+    20 0000002D 256400                      format db "%d", 0
+    21                                  
+    22                                  
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ; A file name and a text (which can contain any type of character) are given in data segment. Calculate the sum of digits in the text. Create a file with the given name and write the result to file.
+    26 00000000 68[27000000]                    push dword access_mode     
+    27 00000005 68[19000000]                    push dword file_name
+    28 0000000A FF15[00000000]                  call [fopen]
+    29 00000010 83C408                          add esp, 4*2                    ; Clean-up the stack.
+    30                                  
+    31 00000013 A3[29000000]                    mov [file_descriptor], eax      ; Store the file descriptor returned by fopen.
+    32                                  
+    33                                          ; Check if fopen() has successfully created the file (EAX != 0).
+    34 00000018 83F800                          cmp eax, 0
+    35 0000001B 746D                            je final
+    36                                          
+    37 0000001D B800000000                      mov eax, 0                      ; Store the result in EAX.
+    38 00000022 B900000000                      mov ecx, 0
+    39 00000027 B915000000                      mov ecx, len                    ; Move the length of s in ECX.
+    40 0000002C BE00000000                      mov esi, 0                      ; Initialize ESI (the iterator) with 0.
+    41                                          
+    42 00000031 E329                            jecxz endFor                    ; The loop is stopped when ECX reaches 0.
+    43                                          
+    44                                          forIndex                        ; Start of loop
+    44          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    45 00000033 80BE[00000000]30                cmp [s+esi], byte 48            ; Check if s[esi] as a string has the ASCII code in [48, 57] range (it is a digit).
+    46                                          
+    47 0000003A 7302                            jae left_range
+    48 0000003C 721B                            jb no
+    49                                          left_range:
+    50 0000003E 80BE[00000000]39                    cmp [s+esi], byte 57
+    51 00000045 7602                                jbe right_range
+    52 00000047 7710                                ja nono
+    53                                              right_range:                ; s[esi] is a digit. (48 <= s[esi] <= 57)
+    54 00000049 BB00000000                              mov ebx, 0  
+    55 0000004E 8A9E[00000000]                          mov bl, [s+esi]
+    56 00000054 80EB30                                  sub bl, 48              ; Convert s[esi] from char to int (by subtracting 48 from its ASCII code).
+    57 00000057 00D8                                    add al, bl              ; Add the digit to the final result.
+    58                                              
+    59                                              nono:
+    60                                          
+    61                                          no:
+    62                                          
+    63 00000059 46                              inc esi
+    64 0000005A E2D7                            loop forIndex
+    65                                          endFor
+    65          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    66                                          
+    67 0000005C A3[15000000]                    mov [sol], eax
+    68                                              
+    69 00000061 FF35[15000000]                  push dword [sol]                ; Write the result into the portocale.txt file.
+    70 00000067 68[2D000000]                    push dword format
+    71 0000006C FF35[29000000]                  push dword [file_descriptor]
+    72 00000072 FF15[00000000]                  call [fprintf]
+    73 00000078 83C40C                          add esp, 4*3
+    74                                  
+    75 0000007B FF35[29000000]                  push dword [file_descriptor]
+    76 00000081 FF15[00000000]                  call [fclose]                   ; Close the given file.
+    77 00000087 83C404                          add esp, 4                      ; Clean-up the stack.
+    78                                          
+    79                                      final:
+    80 0000008A 6A00                            push dword 0
+    81 0000008C FF15[00000000]                  call [exit]

@@ -1,0 +1,28 @@
+     1                                  ; The code below will print the message „Ana has 17 apples”
+     2                                  bits 32
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the program
+     6                                  extern exit, printf         ; add printf as extern function            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf can be found in library msvcrt.dll
+     9                                                            
+    10                                  segment data use32 class=data
+    11                                  ; char arrays are of type byte
+    12 00000000 416E61206861732025-     format db "Ana has %d apples", 0  ; %d will be replaced with a number
+    12 00000009 64206170706C657300 
+    13                                  				; char strings for C functions must terminate with 0
+    14                                  segment  code use32 class=code
+    15                                      start:
+    16 00000000 B811000000                      mov eax, 17
+    17                                          
+    18                                          ; will call printf(format, 17) => will print: „Ana has 17 apples”
+    19                                          ; place parameters on the stack from right to left
+    20 00000005 50                              push dword eax
+    21 00000006 68[00000000]                    push dword format ; ! on the stack is placed the address of the string, not its value
+    22 0000000B FF15[00000000]                  call [printf]      ; call function printf for printing 
+    23 00000011 83C408                          add esp, 4 * 2     ; free parameters on the stack; 4 = size of dword; 2 = number of parameters
+    24                                  
+    25                                          ; exit(0)
+    26 00000014 6A00                            push dword 0      ; push on stack the parameter for exit
+    27 00000016 FF15[00000000]                  call [exit]       ; call exit to terminate the programme

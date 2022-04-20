@@ -1,0 +1,8 @@
+1. 1. Se citesc de la tastatura nume de fisiere pana cand se va introduce 'end' (atunci se opreste citirea). Sa se gaseasca fisierul cu numar maxim de litere mari si sa se afiseze pe ecran numele si continutul lui. Fisierele pot contine oricate caractere. Implementati problema folosind doua functii in module separate: o functie care calculeaza numarul de litere mari dintr-un fisier dat si o functie care primeste un nume de fisier ca parametru si afiseaza pe ecran numele si (pe linie noua) continutul sau.
+
+Read from the keyboard file names until 'end' is entered (then stop reading). Find the file with the maximum number of uppercase letters and display its name and content on the screen. Files can contain an arbitrary number of characters. Implement the problem using two functions in separate modules: a function that calculates the number of uppercase letters in a given file and a function that receives a file name as a parameter and displays its name and (on the newline) content on the screen.
+
+
+2. Se citeste de la tastatura numele unui fisier si apoi se citesc din fisier toate numerele existente reprezentate pe dublucuvant. Sa se afiseze pe ecran numerele ai caror octeti low din cuvintele high sunt primi.
+
+Read the name of a file from the keyboard and then read from the file all the existing numbers, the numbers are represented on doublewords. Display on the screen the numbers whose low bytes from the words high are prime.

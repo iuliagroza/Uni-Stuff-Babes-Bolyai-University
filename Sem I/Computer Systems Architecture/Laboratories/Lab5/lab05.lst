@@ -1,0 +1,29 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit
+     6                                  import exit msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9 00000000 01020304                s db 1, 2, 3, 4 ; declare the string of bytes
+    10                                  l equ $-s ; compute the length of the string in l
+    11 00000004 00<rept>                d times l-1 db 0 ; reserve l bytes for the destination string and initialize it
+    12                                  
+    13                                  segment code use32 class=code
+    14                                  start:
+    15 00000000 B904000000                  mov ecx, l ; we put the length l in ECX in order to make the loop
+    16 00000005 B800000000                  mov eax, 0
+    17 0000000A BE00000000              	mov esi, 0     
+    18 0000000F E315                    	jecxz Sfarsit      
+    19                                  	Repeta:
+    20 00000011 8A86[00000000]          		mov al, [s+esi]
+    21 00000017 F6A6[01000000]                  mul byte [s+esi+1]          
+    22 0000001D 8886[04000000]          		mov [d+esi], al    
+    23 00000023 46                      		inc esi
+    24 00000024 E2EB                    	loop Repeta
+    25                                  	Sfarsit:;end of the program
+    26                                      ;mov eax, 0
+    27                                      ;mov eax, [d]
+    28 00000026 6A00                        push dword 0
+    29 00000028 FF15[00000000]              call [exit]

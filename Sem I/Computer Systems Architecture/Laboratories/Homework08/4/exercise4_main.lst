@@ -1,0 +1,40 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  extern exit
+     6                                  import exit msvcrt.dll
+     7                                  
+     8                                  extern bases
+     9                                  
+    10                                  segment data use32 class=data
+    11 00000000 0D09590A0810                s db 13, 9, 89, 10, 8, 16               ; h: D, 9, 59, A, 8, 10
+    12                                                                              ; b: 1101, 1001, 1011001, 1010, 1000, 10000
+    13                                      len equ $-s  
+    14 00000006 426173652031363A20-         format db "Base 16: %x ; Base 2: \n", 0
+    14 0000000F 2578203B2042617365-
+    14 00000018 20323A205C6E00     
+    15                                  
+    16                                  segment code use32 class=code
+    17                                      start:
+    18 00000000 B906000000                      mov ecx, len
+    19 00000005 BE00000000                      mov esi, 0
+    20                                          
+    21 0000000A E315                            jecxz endFor
+    22                                          
+    23                                          forIndex
+    23          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    24 0000000C 51                                  push ecx
+    25                                              
+    26 0000000D FFB6[00000000]                      push dword [s+esi]
+    27 00000013 68[06000000]                        push dword format
+    28 00000018 E8(00000000)                        call bases
+    29                                                 
+    30 0000001D 46                                  inc esi
+    31 0000001E 59                                  pop ecx
+    32 0000001F E2EB                            loop forIndex
+    33                                          endFor
+    33          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    34                                          
+    35 00000021 6A00                            push dword 0
+    36 00000023 FF15[00000000]                  call [exit]
