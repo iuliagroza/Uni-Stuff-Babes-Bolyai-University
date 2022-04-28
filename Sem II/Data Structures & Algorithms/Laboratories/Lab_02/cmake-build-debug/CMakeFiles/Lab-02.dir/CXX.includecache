@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/ExtendedTest.cpp
+ExtendedTest.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/ExtendedTest.h
+assert.h
+-
+exception
+-
+cstdlib
+-
+vector
+-
+iostream
+-
+ListIterator.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/ListIterator.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/ExtendedTest.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/ListIterator.h
+SortedIndexedList.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/SortedIndexedList.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_02/SortedIndexedList.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/ExtendedTest.cpp
+cassert
+-
+Matrix.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/Matrix.h
+ExtendedTest.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/ExtendedTest.h
+iostream
+-
+exception
+-
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/ExtendedTest.h
+ExtendedTest.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/ExtendedTest.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_01/Matrix.h
+
