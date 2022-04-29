@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a1-iuliagroza/main.c
+stdio.h
+-
+math.h
+-
+

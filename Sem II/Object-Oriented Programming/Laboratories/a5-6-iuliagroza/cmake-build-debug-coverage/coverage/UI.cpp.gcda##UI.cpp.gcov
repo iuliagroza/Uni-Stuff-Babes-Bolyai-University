@@ -1,0 +1,1938 @@
+        -:    0:Source:D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a5-6-iuliagroza/ui/UI.cpp
+        -:    0:Graph:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\ui\UI.cpp.gcno
+        -:    0:Data:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\ui\UI.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "UI.h"
+        -:    2:
+        -:    3:#include <iostream>
+        -:    4:#include <cstring>
+        -:    5:#include <ctime>
+        -:    6:
+        -:    7:using namespace std;
+        -:    8:
+function _ZN2UI8isNumberERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:    9:bool UI::isNumber(const string &str) {
+    #####:   10:    for (char const &c: str) {
+    %%%%%:   10-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:   10-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   10-block  2
+call    5 never executed
+    %%%%%:   10-block  3
+call    6 never executed
+    #####:   11:        if (std::isdigit(c) == 0) {
+branch  0 never executed
+branch  1 never executed
+    #####:   12:            return false;
+    %%%%%:   12-block  0
+        -:   13:        }
+        -:   14:    }
+    #####:   15:    return true;
+    %%%%%:   15-block  0
+        -:   16:}
+        -:   17:
+function _ZN2UI12login_optionB5cxx11Ev called 4 returned 100% blocks executed 86%
+        4:   18:string UI::login_option() {
+        4:   19:    string login_ipt;
+        4:   19-block  0
+call    0 returned 4
+        -:   20:
+        8:   21:    while (login_ipt != "admin" && login_ipt != "user" && login_ipt != "exit") {
+        8:   21-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:   21-block  1
+branch  3 taken 7 (fallthrough)
+branch  4 taken 1
+        7:   21-block  2
+call    5 returned 7
+branch  6 taken 7 (fallthrough)
+branch  7 taken 0 (throw)
+        7:   21-block  3
+branch  8 taken 5 (fallthrough)
+branch  9 taken 2
+        5:   21-block  4
+call   10 returned 5
+branch 11 taken 5 (fallthrough)
+branch 12 taken 0 (throw)
+        5:   21-block  5
+branch 13 taken 4 (fallthrough)
+branch 14 taken 1
+        4:   21-block  6
+        4:   21-block  7
+        8:   21-block  8
+branch 15 taken 4 (fallthrough)
+branch 16 taken 4
+        4:   21-block  9
+        4:   22:        cout << "Welcome to \"Local Movie Database\"! Please choose your user type: (admin\\user\\exit)\n";
+        4:   22-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   23:        cout << ">>> ";
+        4:   23-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   24:        getline(cin, login_ipt);
+        4:   24-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   25:
+       4*:   26:        if (login_ipt != "admin" && login_ipt != "user" && login_ipt != "exit") {
+        4:   26-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   26-block  1
+branch  3 taken 3 (fallthrough)
+branch  4 taken 1
+        3:   26-block  2
+call    5 returned 3
+branch  6 taken 3 (fallthrough)
+branch  7 taken 0 (throw)
+        3:   26-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 2
+        1:   26-block  4
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   26-block  5
+branch 13 taken 0 (fallthrough)
+branch 14 taken 1
+    %%%%%:   26-block  6
+        4:   26-block  7
+        4:   26-block  8
+branch 15 taken 0 (fallthrough)
+branch 16 taken 4
+    #####:   27:            cout << "Invalid input.\n";
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   28:        }
+        -:   29:    }
+        -:   30:
+        4:   31:    return login_ipt;
+        4:   31-block  0
+        4:   31-block  1
+        -:   32:}
+        -:   33:
+function _ZN2UI10admin_menuEv called 3 returned 100% blocks executed 100%
+        3:   34:void UI::admin_menu() {
+        -:   35:    cout << "Choose a command by typing its corresponding number:\n"
+        -:   36:            "1. Add a movie into the database.\n"
+        -:   37:            "2. Remove a movie from the database.\n"
+        -:   38:            "3. Update a movie from the database.\n"
+        -:   39:            "4. Display all the movies.\n"
+        3:   40:            "5. Exit\n";
+        3:   40-block  0
+call    0 returned 3
+        3:   41:}
+        -:   42:
+function _ZN2UI9user_menuEv called 8 returned 100% blocks executed 100%
+        8:   43:void UI::user_menu() {
+        -:   44:    cout << "Choose a command by typing its corresponding number:\n"
+        -:   45:            "1. See the movie database.\n"
+        -:   46:            "2. Remove a movie from the database.\n"
+        -:   47:            "3. See the watchlist.\n"
+        8:   48:            "4. Exit\n";
+        8:   48-block  0
+call    0 returned 8
+        8:   49:}
+        -:   50:
+function _ZN2UI11admin_inputB5cxx11Ev called 3 returned 100% blocks executed 89%
+        3:   51:string UI::admin_input() {
+        3:   52:    string ipt;
+        3:   52-block  0
+call    0 returned 3
+        -:   53:
+        6:   54:    while (ipt != "1" && ipt != "2" && ipt != "3" && ipt != "4" && ipt != "5") {
+        6:   54-block  0
+call    0 returned 6
+branch  1 taken 6 (fallthrough)
+branch  2 taken 0 (throw)
+        6:   54-block  1
+branch  3 taken 6 (fallthrough)
+branch  4 taken 0
+        6:   54-block  2
+call    5 returned 6
+branch  6 taken 6 (fallthrough)
+branch  7 taken 0 (throw)
+        6:   54-block  3
+branch  8 taken 6 (fallthrough)
+branch  9 taken 0
+        6:   54-block  4
+call   10 returned 6
+branch 11 taken 6 (fallthrough)
+branch 12 taken 0 (throw)
+        6:   54-block  5
+branch 13 taken 5 (fallthrough)
+branch 14 taken 1
+        5:   54-block  6
+call   15 returned 5
+branch 16 taken 5 (fallthrough)
+branch 17 taken 0 (throw)
+        5:   54-block  7
+branch 18 taken 4 (fallthrough)
+branch 19 taken 1
+        4:   54-block  8
+call   20 returned 4
+branch 21 taken 4 (fallthrough)
+branch 22 taken 0 (throw)
+        4:   54-block  9
+branch 23 taken 3 (fallthrough)
+branch 24 taken 1
+        3:   54-block 10
+        3:   54-block 11
+        6:   54-block 12
+branch 25 taken 3 (fallthrough)
+branch 26 taken 3
+        3:   54-block 13
+        3:   55:        cout << ">>> ";
+        3:   55-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   56:        getline(cin, ipt);
+        3:   56-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   57:
+       3*:   58:        if (ipt != "1" && ipt != "2" && ipt != "3" && ipt != "4" && ipt != "5") {
+        3:   58-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   58-block  1
+branch  3 taken 3 (fallthrough)
+branch  4 taken 0
+        3:   58-block  2
+call    5 returned 3
+branch  6 taken 3 (fallthrough)
+branch  7 taken 0 (throw)
+        3:   58-block  3
+branch  8 taken 3 (fallthrough)
+branch  9 taken 0
+        3:   58-block  4
+call   10 returned 3
+branch 11 taken 3 (fallthrough)
+branch 12 taken 0 (throw)
+        3:   58-block  5
+branch 13 taken 2 (fallthrough)
+branch 14 taken 1
+        2:   58-block  6
+call   15 returned 2
+branch 16 taken 2 (fallthrough)
+branch 17 taken 0 (throw)
+        2:   58-block  7
+branch 18 taken 1 (fallthrough)
+branch 19 taken 1
+        1:   58-block  8
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   58-block  9
+branch 23 taken 0 (fallthrough)
+branch 24 taken 1
+    %%%%%:   58-block 10
+        3:   58-block 11
+        3:   58-block 12
+branch 25 taken 0 (fallthrough)
+branch 26 taken 3
+    #####:   59:            cout << "Invalid input.\n";
+    %%%%%:   59-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   60:        }
+        -:   61:    }
+        -:   62:
+        3:   63:    return ipt;
+        3:   63-block  0
+        3:   63-block  1
+        -:   64:}
+        -:   65:
+function _ZN2UI10user_inputB5cxx11Ev called 8 returned 100% blocks executed 88%
+        8:   66:string UI::user_input() {
+        8:   67:    string ipt;
+        8:   67-block  0
+call    0 returned 8
+        -:   68:
+       16:   69:    while (ipt != "1" && ipt != "2" && ipt != "3" && ipt != "4") {
+       16:   69-block  0
+call    0 returned 16
+branch  1 taken 16 (fallthrough)
+branch  2 taken 0 (throw)
+       16:   69-block  1
+branch  3 taken 15 (fallthrough)
+branch  4 taken 1
+       15:   69-block  2
+call    5 returned 15
+branch  6 taken 15 (fallthrough)
+branch  7 taken 0 (throw)
+       15:   69-block  3
+branch  8 taken 13 (fallthrough)
+branch  9 taken 2
+       13:   69-block  4
+call   10 returned 13
+branch 11 taken 13 (fallthrough)
+branch 12 taken 0 (throw)
+       13:   69-block  5
+branch 13 taken 10 (fallthrough)
+branch 14 taken 3
+       10:   69-block  6
+call   15 returned 10
+branch 16 taken 10 (fallthrough)
+branch 17 taken 0 (throw)
+       10:   69-block  7
+branch 18 taken 8 (fallthrough)
+branch 19 taken 2
+        8:   69-block  8
+        8:   69-block  9
+       16:   69-block 10
+branch 20 taken 8 (fallthrough)
+branch 21 taken 8
+        8:   69-block 11
+        8:   70:        cout << ">>> ";
+        8:   70-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:   71:        getline(cin, ipt);
+        8:   71-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   72:
+       8*:   73:        if (ipt != "1" && ipt != "2" && ipt != "3" && ipt != "4") {
+        8:   73-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:   73-block  1
+branch  3 taken 7 (fallthrough)
+branch  4 taken 1
+        7:   73-block  2
+call    5 returned 7
+branch  6 taken 7 (fallthrough)
+branch  7 taken 0 (throw)
+        7:   73-block  3
+branch  8 taken 5 (fallthrough)
+branch  9 taken 2
+        5:   73-block  4
+call   10 returned 5
+branch 11 taken 5 (fallthrough)
+branch 12 taken 0 (throw)
+        5:   73-block  5
+branch 13 taken 2 (fallthrough)
+branch 14 taken 3
+        2:   73-block  6
+call   15 returned 2
+branch 16 taken 2 (fallthrough)
+branch 17 taken 0 (throw)
+        2:   73-block  7
+branch 18 taken 0 (fallthrough)
+branch 19 taken 2
+    %%%%%:   73-block  8
+        8:   73-block  9
+        8:   73-block 10
+branch 20 taken 0 (fallthrough)
+branch 21 taken 8
+    #####:   74:            cout << "Invalid input.\n";
+    %%%%%:   74-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   75:        }
+        -:   76:    }
+        -:   77:
+        8:   78:    return ipt;
+        8:   78-block  0
+        8:   78-block  1
+        -:   79:}
+        -:   80:
+function _ZN2UI9add_adminEv called 0 returned 0% blocks executed 0%
+    #####:   81:void UI::add_admin() {
+    #####:   82:    string title;
+    %%%%%:   82-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:   82-block  1
+call    2 never executed
+    #####:   83:    cout << "Please type the title of the movie: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   84:    getline(cin, title);
+    %%%%%:   84-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   85:
+    #####:   86:    string genre;
+    %%%%%:   86-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:   86-block  1
+call    2 never executed
+    #####:   87:    cout << "Please type the genre of the movie: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   88:    getline(cin, genre);
+    %%%%%:   88-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   89:
+    #####:   90:    string year;
+    %%%%%:   90-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:   90-block  1
+call    2 never executed
+        -:   91:    int year_of_release;
+        -:   92:    while (true) {
+    #####:   93:        cout << "Please type the year the movie has been released: ";
+    %%%%%:   93-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   94:        getline(cin, year);
+    %%%%%:   94-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   95:
+    #####:   96:        if (!isNumber(year)) {
+    %%%%%:   96-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   97:            cout << "Invalid input.\n";
+    %%%%%:   97-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   98:        } else {
+    #####:   99:            year_of_release = stoi(year);
+    %%%%%:   99-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  100:            time_t t = time(nullptr);
+    %%%%%:  100-block  0
+call    0 never executed
+    #####:  101:            tm *timePtr = localtime(&t);
+call    0 never executed
+        -:  102:
+    #####:  103:            if (year_of_release < 1850 || year_of_release > 1900 + timePtr->tm_year) {
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  103-block  0
+branch  2 never executed
+branch  3 never executed
+    #####:  104:                cout << "Invalid year.\n";
+    %%%%%:  104-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  105:            } else {
+        -:  106:                break;
+        -:  107:            }
+        -:  108:        }
+    #####:  109:    }
+    %%%%%:  109-block  0
+        -:  110:
+    #####:  111:    string likes;
+    %%%%%:  111-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:  111-block  1
+call    2 never executed
+        -:  112:    int number_of_likes;
+        -:  113:    while (true) {
+    #####:  114:        cout << "Please type the number of likes the movie has received: ";
+    %%%%%:  114-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  114-block  1
+    #####:  115:        getline(cin, likes);
+    %%%%%:  115-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  116:
+    #####:  117:        if (!isNumber(likes)) {
+    %%%%%:  117-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  118:            cout << "Invalid input.\n";
+    %%%%%:  118-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  119:        } else {
+    #####:  120:            number_of_likes = stoi(likes);
+    %%%%%:  120-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  121:            if (number_of_likes < 0) {
+    %%%%%:  121-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  122:                cout << "Invalid number.\n";
+    %%%%%:  122-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  123:            } else {
+    #####:  124:                break;
+    %%%%%:  124-block  0
+        -:  125:            }
+        -:  126:        }
+        -:  127:    }
+        -:  128:
+    #####:  129:    string trailer;
+    %%%%%:  129-block  0
+call    0 never executed
+    %%%%%:  129-block  1
+call    1 never executed
+    $$$$$:  129-block  2
+call    2 never executed
+    #####:  130:    cout << "Please type the link of the trailer of the movie: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  131:    getline(cin, trailer);
+    %%%%%:  131-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  132:
+    #####:  133:    bool result = this->controller.add_admin(Movie(title, genre, year_of_release, number_of_likes, trailer));
+    %%%%%:  133-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  133-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  133-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  133-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  133-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  133-block  5
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+    $$$$$:  133-block  6
+call   19 never executed
+    $$$$$:  133-block  7
+    $$$$$:  133-block  8
+call   20 never executed
+    $$$$$:  133-block  9
+    $$$$$:  133-block 10
+call   21 never executed
+    $$$$$:  133-block 11
+    $$$$$:  133-block 12
+call   22 never executed
+    $$$$$:  133-block 13
+        -:  134:
+    #####:  135:    if (result) {
+branch  0 never executed
+branch  1 never executed
+    #####:  136:        cout << "Movie added successfully.\n";
+    %%%%%:  136-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  137:    } else {
+    #####:  138:        cout << "The movie already exists in the database.\n";
+    %%%%%:  138-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  139:    }
+    #####:  140:}
+        -:  141:
+function _ZN2UI12remove_adminEv called 0 returned 0% blocks executed 0%
+    #####:  142:void UI::remove_admin() {
+    #####:  143:    string trailer;
+    %%%%%:  143-block  0
+call    0 never executed
+    %%%%%:  143-block  1
+call    1 never executed
+    $$$$$:  143-block  2
+call    2 never executed
+    #####:  144:    cout << "Please type the link of the trailer of the movie: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  145:    getline(cin, trailer);
+    %%%%%:  145-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  146:
+    #####:  147:    bool result = this->controller.remove_admin(Movie("a", "a", 0, 0, trailer));
+    %%%%%:  147-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  147-block  1
+call    3 never executed
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  147-block  2
+call    7 never executed
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:  147-block  3
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:  147-block  4
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+    %%%%%:  147-block  5
+call   17 never executed
+call   18 never executed
+call   19 never executed
+call   20 never executed
+call   21 never executed
+call   22 never executed
+    $$$$$:  147-block  6
+call   23 never executed
+    $$$$$:  147-block  7
+    $$$$$:  147-block  8
+call   24 never executed
+    $$$$$:  147-block  9
+    $$$$$:  147-block 10
+call   25 never executed
+    $$$$$:  147-block 11
+    $$$$$:  147-block 12
+call   26 never executed
+    $$$$$:  147-block 13
+    $$$$$:  147-block 14
+call   27 never executed
+    $$$$$:  147-block 15
+    $$$$$:  147-block 16
+call   28 never executed
+    $$$$$:  147-block 17
+        -:  148:
+    #####:  149:    if (result) {
+branch  0 never executed
+branch  1 never executed
+    #####:  150:        cout << "Movie deleted successfully.\n";
+    %%%%%:  150-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  151:    } else {
+    #####:  152:        cout << "The movie trailer you provided does not exist in the database.\n";
+    %%%%%:  152-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  153:    }
+    #####:  154:}
+        -:  155:
+function _ZN2UI12update_adminEv called 1 returned 100% blocks executed 54%
+        1:  156:void UI::update_admin() {
+        2:  157:    string trailer;
+        1:  157-block  0
+call    0 returned 1
+call    1 returned 1
+    $$$$$:  157-block  1
+call    2 never executed
+        1:  158:    cout << "Please type the link of the trailer of the movie: ";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  159:    getline(cin, trailer);
+        1:  159-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  160:
+        2:  161:    string title;
+        1:  161-block  0
+call    0 returned 1
+call    1 returned 1
+    $$$$$:  161-block  1
+call    2 never executed
+        1:  162:    cout << "Please type the updated title of the movie: ";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  163:    getline(cin, title);
+        1:  163-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  164:
+        2:  165:    string genre;
+        1:  165-block  0
+call    0 returned 1
+        1:  165-block  1
+call    1 returned 1
+    $$$$$:  165-block  2
+call    2 never executed
+        1:  166:    cout << "Please type the updated genre of the movie: ";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  167:    getline(cin, genre);
+        1:  167-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  168:
+        -:  169:    int year_of_release;
+        -:  170:    while (true) {
+        1:  171:        cout << "Please type the updated year the movie has been released: ";
+        1:  171-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  172:        cin >> year_of_release;
+        1:  172-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  173:        cin.get();
+        1:  173-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  174:
+        1:  175:        time_t t = time(nullptr);
+        1:  175-block  0
+call    0 returned 1
+        1:  176:        tm *timePtr = localtime(&t);
+call    0 returned 1
+        -:  177:
+        1:  178:        if (year_of_release < 1850 || year_of_release > 1900 + timePtr->tm_year) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:  178-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 1
+    #####:  179:            cout << "Invalid year.\n";
+    %%%%%:  179-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  180:        } else {
+        -:  181:            break;
+        -:  182:        }
+    #####:  183:    }
+    %%%%%:  183-block  0
+        -:  184:
+        -:  185:    int number_of_likes;
+        -:  186:    while (true) {
+       1*:  187:        cout << "Please type the new number of likes the movie has received: ";
+        1:  187-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    %%%%%:  187-block  1
+        1:  188:        cin >> number_of_likes;
+        1:  188-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  189:        cin.get();
+        1:  189-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  190:
+        1:  191:        if (number_of_likes < 0) {
+        1:  191-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    #####:  192:            cout << "Invalid number.\n";
+    %%%%%:  192-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  193:        } else {
+        1:  194:            break;
+        1:  194-block  0
+        -:  195:        }
+        -:  196:    }
+        -:  197:
+        1:  198:    bool result = this->controller.update_admin(Movie("a", "a", 0, 0, trailer),
+        1:  198-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  198-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  198-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:  198-block  3
+call   11 returned 1
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0 (throw)
+        1:  198-block  4
+call   14 returned 1
+branch 15 taken 1 (fallthrough)
+branch 16 taken 0 (throw)
+        1:  198-block  5
+call   17 returned 1
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:  198-block  6
+call   23 never executed
+    $$$$$:  198-block  7
+    $$$$$:  198-block  8
+call   24 never executed
+    $$$$$:  198-block  9
+    $$$$$:  198-block 10
+call   25 never executed
+    $$$$$:  198-block 11
+    $$$$$:  198-block 12
+call   26 never executed
+    $$$$$:  198-block 13
+    $$$$$:  198-block 14
+call   27 never executed
+    $$$$$:  198-block 15
+    $$$$$:  198-block 16
+call   28 never executed
+    $$$$$:  198-block 17
+        2:  199:                                                Movie(title, genre, year_of_release, number_of_likes, trailer));
+        1:  199-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  199-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  199-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  199-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+call   15 returned 1
+    $$$$$:  199-block  4
+call   16 never executed
+    $$$$$:  199-block  5
+    $$$$$:  199-block  6
+call   17 never executed
+    $$$$$:  199-block  7
+    $$$$$:  199-block  8
+call   18 never executed
+    $$$$$:  199-block  9
+    $$$$$:  199-block 10
+call   19 never executed
+    $$$$$:  199-block 11
+        -:  200:
+        1:  201:    if (result) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:  202:        cout << "Movie updated successfully.\n";
+        1:  202-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  203:    } else {
+    #####:  204:        cout << "The movie trailer you provided does not exist in the database.\n";
+    %%%%%:  204-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  205:    }
+        1:  206:}
+        -:  207:
+function _ZN2UI13display_adminEv called 1 returned 100% blocks executed 58%
+        1:  208:void UI::display_admin() {
+       11:  209:    for (int i = 0; i < this->controller.get_admin_repo().get_size(); i++) {
+        1:  209-block  0
+       11:  209-block  1
+call    0 returned 11
+call    1 returned 11
+branch  2 taken 11 (fallthrough)
+branch  3 taken 0 (throw)
+       11:  209-block  2
+call    4 returned 11
+branch  5 taken 10 (fallthrough)
+branch  6 taken 1
+    $$$$$:  209-block  3
+call    7 never executed
+    $$$$$:  209-block  4
+call    8 never executed
+       10:  210:        cout << i + 1 << ". " << this->controller.get_admin_repo().get_movies().get_element(i).to_str();
+       10:  210-block  0
+call    0 returned 10
+call    1 returned 10
+call    2 returned 10
+call    3 returned 10
+branch  4 taken 10 (fallthrough)
+branch  5 taken 0 (throw)
+       10:  210-block  1
+call    6 returned 10
+branch  7 taken 10 (fallthrough)
+branch  8 taken 0 (throw)
+       10:  210-block  2
+call    9 returned 10
+branch 10 taken 10 (fallthrough)
+branch 11 taken 0 (throw)
+       10:  210-block  3
+call   12 returned 10
+branch 13 taken 10 (fallthrough)
+branch 14 taken 0 (throw)
+       10:  210-block  4
+call   15 returned 10
+call   16 returned 10
+call   17 returned 10
+call   18 returned 10
+    $$$$$:  210-block  5
+call   19 never executed
+    $$$$$:  210-block  6
+    $$$$$:  210-block  7
+call   20 never executed
+    $$$$$:  210-block  8
+    $$$$$:  210-block  9
+call   21 never executed
+    $$$$$:  210-block 10
+    $$$$$:  210-block 11
+call   22 never executed
+        -:  211:    }
+        1:  212:}
+        1:  212-block  0
+        -:  213:
+function _ZN2UI15get_genre_inputB5cxx11Ev called 1 returned 100% blocks executed 86%
+        1:  214:string UI::get_genre_input() {
+        1:  215:    string genre;
+        1:  215-block  0
+call    0 returned 1
+        1:  216:    cout << "Please type your preferred genre: ";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  217:    getline(cin, genre);
+        1:  217-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  218:
+        1:  219:    return genre;
+        1:  219-block  0
+        1:  219-block  1
+        -:  220:}
+        -:  221:
+function _ZN2UI18get_response_inputB5cxx11Ev called 7 returned 100% blocks executed 72%
+        7:  222:string UI::get_response_input() {
+        7:  223:    string response;
+        7:  223-block  0
+call    0 returned 7
+        -:  224:    while (true) {
+       7*:  225:        cout << ">>> ";
+        7:  225-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+    %%%%%:  225-block  1
+        7:  226:        getline(cin, response);
+        7:  226-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  227:
+       7*:  228:        if (response != "yes" && response != "no") {
+        7:  228-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        7:  228-block  1
+branch  3 taken 2 (fallthrough)
+branch  4 taken 5
+        2:  228-block  2
+call    5 returned 2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 0 (throw)
+        2:  228-block  3
+branch  8 taken 0 (fallthrough)
+branch  9 taken 2
+    %%%%%:  228-block  4
+        7:  228-block  5
+        7:  228-block  6
+branch 10 taken 0 (fallthrough)
+branch 11 taken 7
+    #####:  229:            cout << "Invalid input.\n";
+    %%%%%:  229-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  230:        } else {
+        7:  231:            break;
+        7:  231-block  0
+        -:  232:        }
+        -:  233:    }
+        -:  234:
+        7:  235:    return response;
+        7:  235-block  0
+        7:  235-block  1
+        -:  236:}
+        -:  237:
+function _ZN2UI6tinderEv called 1 returned 100% blocks executed 54%
+        1:  238:void UI::tinder() {
+        2:  239:    string genre = get_genre_input();
+        1:  239-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  239-block  1
+call    3 returned 1
+    $$$$$:  239-block  2
+call    4 never executed
+        -:  240:
+        1:  241:    int index = 0, seen = 0;
+        1:  241-block  0
+        8:  242:    while (index < this->controller.get_admin_repo().get_size()) {
+        8:  242-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:  242-block  1
+call    3 returned 8
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0 (throw)
+        8:  242-block  2
+call    6 returned 8
+branch  7 taken 8 (fallthrough)
+branch  8 taken 0
+        7:  242-block  3
+    $$$$$:  242-block  4
+call    9 never executed
+    $$$$$:  242-block  5
+       16:  243:        if (this->controller.get_user_repo().find_movie(this->controller.get_admin_repo().get_movies().get_element(
+        8:  243-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:  243-block  1
+call    3 returned 8
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0 (throw)
+        8:  243-block  2
+call    6 returned 8
+        8:  243-block  3
+branch  7 taken 8 (fallthrough)
+branch  8 taken 0
+        8:  243-block  4
+call    9 returned 8
+        8:  243-block  5
+branch 10 taken 8 (fallthrough)
+branch 11 taken 0
+        8:  243-block  6
+call   12 returned 8
+        8:  243-block  7
+branch 13 taken 8 (fallthrough)
+branch 14 taken 0
+        8:  243-block  8
+call   15 returned 8
+        8:  243-block  9
+branch 16 taken 3 (fallthrough)
+branch 17 taken 5
+    $$$$$:  243-block 10
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  243-block 11
+call   20 never executed
+    $$$$$:  243-block 12
+    $$$$$:  243-block 13
+branch 21 never executed
+branch 22 never executed
+    $$$$$:  243-block 14
+call   23 never executed
+    $$$$$:  243-block 15
+    $$$$$:  243-block 16
+branch 24 never executed
+branch 25 never executed
+    $$$$$:  243-block 17
+call   26 never executed
+    $$$$$:  243-block 18
+    $$$$$:  243-block 19
+branch 27 never executed
+branch 28 never executed
+    $$$$$:  243-block 20
+call   29 never executed
+    $$$$$:  243-block 21
+       29:  244:                index)) == -1 &&
+        8:  244-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:  244-block  1
+call    3 returned 8
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0 (throw)
+        8:  244-block  2
+call    6 returned 8
+branch  7 taken 8 (fallthrough)
+branch  8 taken 0 (throw)
+        8:  244-block  3
+branch  9 taken 8 (fallthrough)
+branch 10 taken 0
+branch 11 taken 5 (fallthrough)
+branch 12 taken 3
+        3:  244-block  4
+        5:  244-block  5
+       21:  245:            (this->controller.get_admin_repo().get_movies().get_element(index).get_genre() == genre || genre == "")) {
+        8:  245-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        8:  245-block  1
+call    3 returned 8
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0 (throw)
+        8:  245-block  2
+call    6 returned 8
+branch  7 taken 8 (fallthrough)
+branch  8 taken 0 (throw)
+        8:  245-block  3
+call    9 returned 8
+branch 10 taken 8 (fallthrough)
+branch 11 taken 0 (throw)
+        8:  245-block  4
+call   12 returned 8
+        5:  245-block  5
+call   13 returned 5
+branch 14 taken 0 (fallthrough)
+branch 15 taken 5
+        8:  245-block  6
+branch 16 taken 8 (fallthrough)
+branch 17 taken 0
+        8:  245-block  7
+call   18 returned 8
+        8:  245-block  8
+branch 19 taken 8 (fallthrough)
+branch 20 taken 0
+        8:  245-block  9
+call   21 returned 8
+        8:  245-block 10
+branch 22 taken 8 (fallthrough)
+branch 23 taken 0
+        8:  245-block 11
+call   24 returned 8
+        8:  245-block 12
+branch 25 taken 8 (fallthrough)
+branch 26 taken 0
+        8:  245-block 13
+call   27 returned 8
+        8:  245-block 14
+branch 28 taken 8 (fallthrough)
+branch 29 taken 0
+    $$$$$:  245-block 15
+branch 30 never executed
+branch 31 never executed
+    $$$$$:  245-block 16
+call   32 never executed
+    $$$$$:  245-block 17
+    $$$$$:  245-block 18
+branch 33 never executed
+branch 34 never executed
+    $$$$$:  245-block 19
+call   35 never executed
+    $$$$$:  245-block 20
+    $$$$$:  245-block 21
+branch 36 never executed
+branch 37 never executed
+    $$$$$:  245-block 22
+call   38 never executed
+    $$$$$:  245-block 23
+    $$$$$:  245-block 24
+branch 39 never executed
+branch 40 never executed
+    $$$$$:  245-block 25
+call   41 never executed
+    $$$$$:  245-block 26
+        3:  246:            seen++;
+        3:  247:            cout << this->controller.get_admin_repo().get_movies().get_element(index).to_str();
+        3:  247-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  247-block  1
+call    3 returned 3
+branch  4 taken 3 (fallthrough)
+branch  5 taken 0 (throw)
+        3:  247-block  2
+call    6 returned 3
+branch  7 taken 3 (fallthrough)
+branch  8 taken 0 (throw)
+        3:  247-block  3
+call    9 returned 3
+branch 10 taken 3 (fallthrough)
+branch 11 taken 0 (throw)
+        3:  247-block  4
+call   12 returned 3
+branch 13 taken 3 (fallthrough)
+branch 14 taken 0 (throw)
+        3:  247-block  5
+call   15 returned 3
+call   16 returned 3
+call   17 returned 3
+call   18 returned 3
+    $$$$$:  247-block  6
+call   19 never executed
+    $$$$$:  247-block  7
+    $$$$$:  247-block  8
+call   20 never executed
+    $$$$$:  247-block  9
+    $$$$$:  247-block 10
+call   21 never executed
+    $$$$$:  247-block 11
+    $$$$$:  247-block 12
+call   22 never executed
+    $$$$$:  247-block 13
+        -:  248:            string start_str =
+        6:  249:                    "start " + this->controller.get_admin_repo().get_movies().get_element(index).get_trailer();
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  249-block  0
+call    3 returned 3
+branch  4 taken 3 (fallthrough)
+branch  5 taken 0 (throw)
+        3:  249-block  1
+call    6 returned 3
+branch  7 taken 3 (fallthrough)
+branch  8 taken 0 (throw)
+        3:  249-block  2
+call    9 returned 3
+branch 10 taken 3 (fallthrough)
+branch 11 taken 0 (throw)
+        3:  249-block  3
+call   12 returned 3
+branch 13 taken 3 (fallthrough)
+branch 14 taken 0 (throw)
+call   15 returned 3
+call   16 returned 3
+call   17 returned 3
+    $$$$$:  249-block  4
+    $$$$$:  249-block  5
+    $$$$$:  249-block  6
+    $$$$$:  249-block  7
+    $$$$$:  249-block  8
+call   18 never executed
+        3:  250:            const char *start = start_str.c_str();
+call    0 returned 3
+        3:  251:            system(start);
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  252:            cout << "Are you enjoying the trailer? (yes\\no)\n";
+        3:  252-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  253:            string response = get_response_input();
+        3:  253-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:  253-block  1
+call    3 never executed
+        3:  254:            if (response == "yes") {
+        3:  254-block  0
+call    0 returned 3
+branch  1 taken 2 (fallthrough)
+branch  2 taken 1
+        2:  255:                this->controller.add_user(
+        2:  255-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        4:  256:                        this->controller.get_admin_repo().get_movies().get_element(index));
+        2:  256-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:  256-block  1
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        2:  256-block  2
+call    6 returned 2
+branch  7 taken 2 (fallthrough)
+branch  8 taken 0 (throw)
+        2:  256-block  3
+call    9 returned 2
+call   10 returned 2
+call   11 returned 2
+    $$$$$:  256-block  4
+call   12 never executed
+    $$$$$:  256-block  5
+    $$$$$:  256-block  6
+call   13 never executed
+    $$$$$:  256-block  7
+    $$$$$:  256-block  8
+call   14 never executed
+    $$$$$:  256-block  9
+        -:  257:            }
+        3:  258:            cout << "Do you want to continue? (yes\\no)\n";
+        3:  258-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  259:            string sec_response = get_response_input();
+        3:  259-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:  260:            if (sec_response == "no") {
+        3:  260-block  0
+call    0 returned 3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 2
+        1:  261:                break;
+        1:  261-block  0
+        -:  262:            }
+        -:  263:        }
+        7:  264:        index++;
+        7:  265:        if (index == this->controller.get_admin_repo().get_size()) {
+        7:  265-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        7:  265-block  1
+call    3 returned 7
+branch  4 taken 7 (fallthrough)
+branch  5 taken 0 (throw)
+        7:  265-block  2
+call    6 returned 7
+branch  7 taken 0 (fallthrough)
+branch  8 taken 7
+    $$$$$:  265-block  3
+call    9 never executed
+    $$$$$:  265-block  4
+    #####:  266:            index = 0;
+    #####:  267:            if (seen == 0) {
+    %%%%%:  267-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  268:                cout << "There are no movies that match the provided genre.\n";
+    %%%%%:  268-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  269:                break;
+    %%%%%:  269-block  0
+        -:  270:            }
+    #####:  271:            seen = 0;
+    %%%%%:  271-block  0
+        -:  272:        }
+        -:  273:    }
+        1:  274:}
+        -:  275:
+function _ZN2UI11remove_userEv called 2 returned 100% blocks executed 45%
+        2:  276:void UI::remove_user() {
+        4:  277:    string trailer;
+        2:  277-block  0
+call    0 returned 2
+        2:  277-block  1
+call    1 returned 2
+    $$$$$:  277-block  2
+call    2 never executed
+        2:  278:    cout << "Please type the link of the trailer of the movie: ";
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:  279:    getline(cin, trailer);
+        2:  279-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  280:
+        2:  281:    bool result = this->controller.remove_user(Movie("a", "a", 0, 0, trailer));
+        2:  281-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:  281-block  1
+call    3 returned 2
+call    4 returned 2
+branch  5 taken 2 (fallthrough)
+branch  6 taken 0 (throw)
+        2:  281-block  2
+call    7 returned 2
+call    8 returned 2
+branch  9 taken 2 (fallthrough)
+branch 10 taken 0 (throw)
+        2:  281-block  3
+call   11 returned 2
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0 (throw)
+        2:  281-block  4
+call   14 returned 2
+branch 15 taken 2 (fallthrough)
+branch 16 taken 0 (throw)
+        2:  281-block  5
+call   17 returned 2
+call   18 returned 2
+call   19 returned 2
+call   20 returned 2
+call   21 returned 2
+call   22 returned 2
+    $$$$$:  281-block  6
+call   23 never executed
+    $$$$$:  281-block  7
+    $$$$$:  281-block  8
+call   24 never executed
+    $$$$$:  281-block  9
+    $$$$$:  281-block 10
+call   25 never executed
+    $$$$$:  281-block 11
+    $$$$$:  281-block 12
+call   26 never executed
+    $$$$$:  281-block 13
+    $$$$$:  281-block 14
+call   27 never executed
+    $$$$$:  281-block 15
+    $$$$$:  281-block 16
+call   28 never executed
+    $$$$$:  281-block 17
+        -:  282:
+        2:  283:    if (result) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 1
+        1:  284:        cout << "Movie deleted successfully. Did you like the movie? (yes\\no)\n";
+        1:  284-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        2:  285:        string response = get_response_input();
+        1:  285-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  285-block  1
+call    3 returned 1
+    $$$$$:  285-block  2
+call    4 never executed
+        1:  286:        if (response == "yes") {
+        1:  286-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:  287:            int pos = this->controller.get_admin_repo().find_movie(Movie("a", "a", 0, 0, trailer));
+        1:  287-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  287-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  287-block  2
+call    6 returned 1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:  287-block  3
+call   10 returned 1
+call   11 returned 1
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0 (throw)
+        1:  287-block  4
+call   14 returned 1
+branch 15 taken 1 (fallthrough)
+branch 16 taken 0 (throw)
+        1:  287-block  5
+call   17 returned 1
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0 (throw)
+        1:  287-block  6
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:  287-block  7
+call   27 never executed
+    $$$$$:  287-block  8
+    $$$$$:  287-block  9
+call   28 never executed
+    $$$$$:  287-block 10
+    $$$$$:  287-block 11
+call   29 never executed
+    $$$$$:  287-block 12
+    $$$$$:  287-block 13
+call   30 never executed
+    $$$$$:  287-block 14
+    $$$$$:  287-block 15
+call   31 never executed
+    $$$$$:  287-block 16
+    $$$$$:  287-block 17
+call   32 never executed
+    $$$$$:  287-block 18
+    $$$$$:  287-block 19
+call   33 never executed
+    $$$$$:  287-block 20
+        -:  288:            int number_of_likes =
+        1:  289:                    this->controller.get_admin_repo().get_movies().get_element(pos).get_number_of_likes() + 1;
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  289-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  289-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  289-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:  289-block  3
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    $$$$$:  289-block  4
+call   15 never executed
+    $$$$$:  289-block  5
+    $$$$$:  289-block  6
+call   16 never executed
+    $$$$$:  289-block  7
+    $$$$$:  289-block  8
+call   17 never executed
+    $$$$$:  289-block  9
+        3:  290:            string title = this->controller.get_admin_repo().get_movies().get_element(pos).get_title();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  290-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  290-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  290-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    $$$$$:  290-block  3
+    $$$$$:  290-block  4
+    $$$$$:  290-block  5
+    $$$$$:  290-block  6
+call   15 never executed
+        2:  291:            string genre = this->controller.get_admin_repo().get_movies().get_element(pos).get_genre();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  291-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  291-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  291-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+call   12 returned 1
+call   13 returned 1
+    $$$$$:  291-block  3
+    $$$$$:  291-block  4
+    $$$$$:  291-block  5
+    $$$$$:  291-block  6
+call   14 never executed
+        1:  292:            int year_of_release = this->controller.get_admin_repo().get_movies().get_element(pos).get_year_of_release();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  292-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  292-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  292-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:  292-block  3
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+    $$$$$:  292-block  4
+call   15 never executed
+    $$$$$:  292-block  5
+    $$$$$:  292-block  6
+call   16 never executed
+    $$$$$:  292-block  7
+    $$$$$:  292-block  8
+call   17 never executed
+    $$$$$:  292-block  9
+        1:  293:            this->controller.update_admin(Movie("a", "a", 0, 0, trailer),
+        1:  293-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  293-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  293-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:  293-block  3
+call   11 returned 1
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0 (throw)
+        1:  293-block  4
+call   14 returned 1
+branch 15 taken 1 (fallthrough)
+branch 16 taken 0 (throw)
+        1:  293-block  5
+call   17 returned 1
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+    $$$$$:  293-block  6
+call   23 never executed
+    $$$$$:  293-block  7
+    $$$$$:  293-block  8
+call   24 never executed
+    $$$$$:  293-block  9
+    $$$$$:  293-block 10
+call   25 never executed
+    $$$$$:  293-block 11
+    $$$$$:  293-block 12
+call   26 never executed
+    $$$$$:  293-block 13
+    $$$$$:  293-block 14
+call   27 never executed
+    $$$$$:  293-block 15
+    $$$$$:  293-block 16
+call   28 never executed
+    $$$$$:  293-block 17
+        2:  294:                                          Movie(title, genre, year_of_release, number_of_likes, trailer));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  294-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  294-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:  294-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+call   12 returned 1
+call   13 returned 1
+call   14 returned 1
+call   15 returned 1
+call   16 returned 1
+    $$$$$:  294-block  3
+call   17 never executed
+    $$$$$:  294-block  4
+    $$$$$:  294-block  5
+call   18 never executed
+    $$$$$:  294-block  6
+    $$$$$:  294-block  7
+call   19 never executed
+    $$$$$:  294-block  8
+    $$$$$:  294-block  9
+call   20 never executed
+    $$$$$:  294-block 10
+        -:  295:        }
+        -:  296:    } else {
+        1:  297:        cout << "The movie trailer you provided does not exist in your watchlist.\n";
+        1:  297-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  298:    }
+        2:  299:}
+        -:  300:
+function _ZN2UI12display_userEv called 3 returned 100% blocks executed 59%
+        3:  301:void UI::display_user() {
+        3:  302:    if (this->controller.get_user_repo().get_size() == 0) {
+        3:  302-block  0
+call    0 returned 3
+call    1 returned 3
+branch  2 taken 3 (fallthrough)
+branch  3 taken 0 (throw)
+        3:  302-block  1
+call    4 returned 3
+branch  5 taken 1 (fallthrough)
+branch  6 taken 2
+    $$$$$:  302-block  2
+call    7 never executed
+    $$$$$:  302-block  3
+call    8 never executed
+        1:  303:        cout << "There are no movies in your watchlist.\n";
+        1:  303-block  0
+call    0 returned 1
+        -:  304:    }
+        -:  305:
+        6:  306:    for (int i = 0; i < this->controller.get_user_repo().get_size(); i++) {
+        3:  306-block  0
+        6:  306-block  1
+call    0 returned 6
+call    1 returned 6
+branch  2 taken 6 (fallthrough)
+branch  3 taken 0 (throw)
+        6:  306-block  2
+call    4 returned 6
+branch  5 taken 3 (fallthrough)
+branch  6 taken 3
+    $$$$$:  306-block  3
+call    7 never executed
+    $$$$$:  306-block  4
+call    8 never executed
+        3:  307:        cout << i + 1 << ". " << this->controller.get_user_repo().get_watchlist().get_element(i).to_str();
+        3:  307-block  0
+call    0 returned 3
+call    1 returned 3
+call    2 returned 3
+call    3 returned 3
+branch  4 taken 3 (fallthrough)
+branch  5 taken 0 (throw)
+        3:  307-block  1
+call    6 returned 3
+branch  7 taken 3 (fallthrough)
+branch  8 taken 0 (throw)
+        3:  307-block  2
+call    9 returned 3
+branch 10 taken 3 (fallthrough)
+branch 11 taken 0 (throw)
+        3:  307-block  3
+call   12 returned 3
+branch 13 taken 3 (fallthrough)
+branch 14 taken 0 (throw)
+        3:  307-block  4
+call   15 returned 3
+call   16 returned 3
+call   17 returned 3
+call   18 returned 3
+    $$$$$:  307-block  5
+call   19 never executed
+    $$$$$:  307-block  6
+    $$$$$:  307-block  7
+call   20 never executed
+    $$$$$:  307-block  8
+    $$$$$:  307-block  9
+call   21 never executed
+    $$$$$:  307-block 10
+    $$$$$:  307-block 11
+call   22 never executed
+        -:  308:    }
+        3:  309:}
+        3:  309-block  0
+        -:  310:
+function _ZN2UI5startEv called 1 returned 100% blocks executed 82%
+        1:  311:void UI::start() {
+        1:  312:    this->controller.generate();
+        1:  312-block  0
+call    0 returned 1
+        -:  313:    while (true) {
+        4:  314:        string option = login_option();
+        4:  314-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:  314-block  1
+call    3 never executed
+        -:  315:
+        4:  316:        if (option == "admin") {
+        4:  316-block  0
+call    0 returned 4
+branch  1 taken 1 (fallthrough)
+branch  2 taken 3
+        -:  317:            while (true) {
+        3:  318:                admin_menu();
+        3:  318-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  319:
+        3:  320:                string ipt = admin_input();
+        3:  320-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:  320-block  1
+call    3 never executed
+        -:  321:
+        3:  322:                if (ipt == "1") {
+        3:  322-block  0
+call    0 returned 3
+branch  1 taken 0 (fallthrough)
+branch  2 taken 3
+    #####:  323:                    add_admin();
+    %%%%%:  323-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        3:  324:                } else if (ipt == "2") {
+        3:  324-block  0
+call    0 returned 3
+branch  1 taken 0 (fallthrough)
+branch  2 taken 3
+    #####:  325:                    remove_admin();
+    %%%%%:  325-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        3:  326:                } else if (ipt == "3") {
+        3:  326-block  0
+call    0 returned 3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 2
+        1:  327:                    update_admin();
+        1:  327-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        2:  328:                } else if (ipt == "4") {
+        2:  328-block  0
+call    0 returned 2
+branch  1 taken 1 (fallthrough)
+branch  2 taken 1
+        1:  329:                    display_admin();
+        1:  329-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  330:                } else {
+        1:  331:                    break;
+        1:  331-block  0
+        -:  332:                }
+        2:  333:            }
+        2:  333-block  0
+        3:  334:        } else if (option == "user") {
+        3:  334-block  0
+call    0 returned 3
+branch  1 taken 2 (fallthrough)
+branch  2 taken 1
+        -:  335:            while (true) {
+        8:  336:                user_menu();
+        8:  336-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  337:
+        8:  338:                string ipt = user_input();
+        8:  338-block  0
+call    0 returned 8
+branch  1 taken 8 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:  338-block  1
+call    3 never executed
+        -:  339:
+        8:  340:                if (ipt == "1") {
+        8:  340-block  0
+call    0 returned 8
+branch  1 taken 1 (fallthrough)
+branch  2 taken 7
+        1:  341:                    tinder();
+        1:  341-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        7:  342:                } else if (ipt == "2") {
+        7:  342-block  0
+call    0 returned 7
+branch  1 taken 2 (fallthrough)
+branch  2 taken 5
+        2:  343:                    remove_user();
+        2:  343-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        5:  344:                } else if (ipt == "3") {
+        5:  344-block  0
+call    0 returned 5
+branch  1 taken 3 (fallthrough)
+branch  2 taken 2
+        3:  345:                    display_user();
+        3:  345-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  346:                } else {
+        2:  347:                    break;
+        2:  347-block  0
+        -:  348:                }
+        6:  349:            }
+        6:  349-block  0
+        -:  350:        } else {
+        1:  351:            break;
+        1:  351-block  0
+        -:  352:        }
+        3:  353:    }
+        3:  353-block  0
+        1:  354:}
+        1:  354-block  0

@@ -1,0 +1,3 @@
+"D:\Apps Setup\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\a1_iuliagroza.dir/objects.a
+"D:\Apps Setup\mingw64\bin\ar.exe" cr CMakeFiles\a1_iuliagroza.dir/objects.a @CMakeFiles\a1_iuliagroza.dir\objects1.rsp
+"D:\Apps Setup\mingw64\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\a1_iuliagroza.dir/objects.a -Wl,--no-whole-archive -o a1_iuliagroza.exe -Wl,--out-implib,liba1_iuliagroza.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\a1_iuliagroza.dir\linklibs.rsp

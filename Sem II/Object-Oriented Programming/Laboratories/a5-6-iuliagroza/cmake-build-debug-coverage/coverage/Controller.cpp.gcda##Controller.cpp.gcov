@@ -1,0 +1,669 @@
+        -:    0:Source:D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a5-6-iuliagroza/controller/Controller.cpp
+        -:    0:Graph:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\controller\Controller.cpp.gcno
+        -:    0:Data:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\controller\Controller.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "Controller.h"
+        -:    2:
+function _ZN10Controller14get_admin_repoEv called 73 returned 100% blocks executed 100%
+       73:    3:AdminRepository Controller::get_admin_repo() {
+       73:    4:    return this->admin_repo;
+       73:    4-block  0
+call    0 returned 73
+        -:    5:}
+        -:    6:
+function _ZN10Controller13get_user_repoEv called 22 returned 100% blocks executed 100%
+       22:    7:UserRepository Controller::get_user_repo() {
+       22:    8:    return this->user_repo;
+       22:    8-block  0
+call    0 returned 22
+        -:    9:}
+        -:   10:
+function _ZN10Controller9add_adminERK5Movie called 4 returned 100% blocks executed 78%
+        4:   11:bool Controller::add_admin(const Movie &movie) {
+        4:   12:    return this->admin_repo.add_movie(movie);
+        4:   12-block  0
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0 (throw)
+        4:   12-block  1
+        4:   12-block  2
+call    4 returned 4
+        4:   12-block  3
+    $$$$$:   12-block  4
+call    5 never executed
+        -:   13:}
+        -:   14:
+function _ZN10Controller12remove_adminE5Movie called 2 returned 100% blocks executed 67%
+        2:   15:bool Controller::remove_admin(Movie movie) {
+        2:   16:    this->user_repo.remove_movie(movie);
+        2:   16-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   16-block  1
+call    4 returned 2
+    $$$$$:   16-block  2
+call    5 never executed
+    $$$$$:   16-block  3
+call    6 never executed
+        2:   17:    return this->admin_repo.remove_movie(movie);
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   17-block  0
+        2:   17-block  1
+call    4 returned 2
+        2:   17-block  2
+    $$$$$:   17-block  3
+call    5 never executed
+        -:   18:}
+        -:   19:
+function _ZN10Controller12update_adminE5MovieS0_ called 4 returned 100% blocks executed 56%
+        4:   20:bool Controller::update_admin(Movie movie, Movie new_movie) {
+        4:   21:    this->user_repo.update_movie(movie, new_movie);
+        4:   21-block  0
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0 (throw)
+        4:   21-block  1
+call    4 returned 4
+branch  5 taken 4 (fallthrough)
+branch  6 taken 0 (throw)
+        4:   21-block  2
+call    7 returned 4
+call    8 returned 4
+    $$$$$:   21-block  3
+call    9 never executed
+    $$$$$:   21-block  4
+    $$$$$:   21-block  5
+call   10 never executed
+    $$$$$:   21-block  6
+call   11 never executed
+        4:   22:    return this->admin_repo.update_movie(movie, new_movie);
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0 (throw)
+        4:   22-block  0
+call    4 returned 4
+branch  5 taken 4 (fallthrough)
+branch  6 taken 0 (throw)
+        4:   22-block  1
+        4:   22-block  2
+call    7 returned 4
+call    8 returned 4
+        4:   22-block  3
+    $$$$$:   22-block  4
+call    9 never executed
+    $$$$$:   22-block  5
+    $$$$$:   22-block  6
+call   10 never executed
+        -:   23:}
+        -:   24:
+function _ZN10Controller8add_userE5Movie called 4 returned 100% blocks executed 71%
+        4:   25:void Controller::add_user(Movie movie) {
+        4:   26:    this->user_repo.add_movie(movie);
+        4:   26-block  0
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0 (throw)
+        4:   26-block  1
+call    4 returned 4
+    $$$$$:   26-block  2
+call    5 never executed
+        4:   27:}
+        -:   28:
+function _ZN10Controller11remove_userE5Movie called 3 returned 100% blocks executed 78%
+        3:   29:bool Controller::remove_user(Movie movie) {
+        3:   30:    return this->user_repo.remove_movie(movie);
+        3:   30-block  0
+call    0 returned 3
+call    1 returned 3
+branch  2 taken 3 (fallthrough)
+branch  3 taken 0 (throw)
+        3:   30-block  1
+        3:   30-block  2
+call    4 returned 3
+        3:   30-block  3
+    $$$$$:   30-block  4
+call    5 never executed
+        -:   31:}
+        -:   32:
+function _ZN10Controller8generateEv called 1 returned 100% blocks executed 42%
+        1:   33:void Controller::generate() {
+        1:   34:    this->admin_repo.add_movie(Movie("Once upon a time in Hollywood", "Comedy", 2019, 1234445, "https://www.youtube.com/watch?v=ELeMaP8EPAA"));
+        1:   34-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   34-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   34-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   34-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   34-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   34-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   34-block  6
+call   25 never executed
+    $$$$$:   34-block  7
+    $$$$$:   34-block  8
+call   26 never executed
+    $$$$$:   34-block  9
+    $$$$$:   34-block 10
+call   27 never executed
+    $$$$$:   34-block 11
+    $$$$$:   34-block 12
+call   28 never executed
+    $$$$$:   34-block 13
+    $$$$$:   34-block 14
+call   29 never executed
+    $$$$$:   34-block 15
+    $$$$$:   34-block 16
+call   30 never executed
+    $$$$$:   34-block 17
+    $$$$$:   34-block 18
+call   31 never executed
+    $$$$$:   34-block 19
+call   32 never executed
+        1:   35:    this->admin_repo.add_movie(Movie("Carrie", "Horror", 1979, 6000, "https://www.youtube.com/watch?v=YuO26oJQLVs"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   35-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   35-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   35-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   35-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   35-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   35-block  5
+call   25 never executed
+    $$$$$:   35-block  6
+    $$$$$:   35-block  7
+call   26 never executed
+    $$$$$:   35-block  8
+    $$$$$:   35-block  9
+call   27 never executed
+    $$$$$:   35-block 10
+    $$$$$:   35-block 11
+call   28 never executed
+    $$$$$:   35-block 12
+    $$$$$:   35-block 13
+call   29 never executed
+    $$$$$:   35-block 14
+    $$$$$:   35-block 15
+call   30 never executed
+    $$$$$:   35-block 16
+    $$$$$:   35-block 17
+call   31 never executed
+    $$$$$:   35-block 18
+call   32 never executed
+        1:   36:    this->admin_repo.add_movie(Movie("Jaws", "Horror", 1976, 4445, "https://www.youtube.com/watch?v=U1fu_sA7XhE"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   36-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   36-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   36-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   36-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   36-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   36-block  5
+call   25 never executed
+    $$$$$:   36-block  6
+    $$$$$:   36-block  7
+call   26 never executed
+    $$$$$:   36-block  8
+    $$$$$:   36-block  9
+call   27 never executed
+    $$$$$:   36-block 10
+    $$$$$:   36-block 11
+call   28 never executed
+    $$$$$:   36-block 12
+    $$$$$:   36-block 13
+call   29 never executed
+    $$$$$:   36-block 14
+    $$$$$:   36-block 15
+call   30 never executed
+    $$$$$:   36-block 16
+    $$$$$:   36-block 17
+call   31 never executed
+    $$$$$:   36-block 18
+call   32 never executed
+        1:   37:    this->admin_repo.add_movie(Movie("Taxi driver", "Action", 1983, 3243, "https://www.youtube.com/watch?v=oCjiNBiEUaQ"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   37-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   37-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   37-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   37-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   37-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   37-block  5
+call   25 never executed
+    $$$$$:   37-block  6
+    $$$$$:   37-block  7
+call   26 never executed
+    $$$$$:   37-block  8
+    $$$$$:   37-block  9
+call   27 never executed
+    $$$$$:   37-block 10
+    $$$$$:   37-block 11
+call   28 never executed
+    $$$$$:   37-block 12
+    $$$$$:   37-block 13
+call   29 never executed
+    $$$$$:   37-block 14
+    $$$$$:   37-block 15
+call   30 never executed
+    $$$$$:   37-block 16
+    $$$$$:   37-block 17
+call   31 never executed
+    $$$$$:   37-block 18
+call   32 never executed
+        1:   38:    this->admin_repo.add_movie(Movie("Indiana Jones", "Action", 1999, 100000, "https://www.youtube.com/watch?v=WAdJf4wTC5Y"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   38-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   38-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   38-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   38-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   38-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   38-block  5
+call   25 never executed
+    $$$$$:   38-block  6
+    $$$$$:   38-block  7
+call   26 never executed
+    $$$$$:   38-block  8
+    $$$$$:   38-block  9
+call   27 never executed
+    $$$$$:   38-block 10
+    $$$$$:   38-block 11
+call   28 never executed
+    $$$$$:   38-block 12
+    $$$$$:   38-block 13
+call   29 never executed
+    $$$$$:   38-block 14
+    $$$$$:   38-block 15
+call   30 never executed
+    $$$$$:   38-block 16
+    $$$$$:   38-block 17
+call   31 never executed
+    $$$$$:   38-block 18
+call   32 never executed
+        1:   39:    this->admin_repo.add_movie(Movie("Hangover", "Comedy", 2009, 6969696, "https://www.youtube.com/watch?v=tcdUhdOlz9M"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   39-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   39-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   39-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   39-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   39-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   39-block  5
+call   25 never executed
+    $$$$$:   39-block  6
+    $$$$$:   39-block  7
+call   26 never executed
+    $$$$$:   39-block  8
+    $$$$$:   39-block  9
+call   27 never executed
+    $$$$$:   39-block 10
+    $$$$$:   39-block 11
+call   28 never executed
+    $$$$$:   39-block 12
+    $$$$$:   39-block 13
+call   29 never executed
+    $$$$$:   39-block 14
+    $$$$$:   39-block 15
+call   30 never executed
+    $$$$$:   39-block 16
+    $$$$$:   39-block 17
+call   31 never executed
+    $$$$$:   39-block 18
+call   32 never executed
+        1:   40:    this->admin_repo.add_movie(Movie("The Dark Knight", "Thriller", 2008, 23494244, "https://www.youtube.com/watch?v=EXeTwQWrcwY"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   40-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   40-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   40-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   40-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   40-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   40-block  5
+call   25 never executed
+    $$$$$:   40-block  6
+    $$$$$:   40-block  7
+call   26 never executed
+    $$$$$:   40-block  8
+    $$$$$:   40-block  9
+call   27 never executed
+    $$$$$:   40-block 10
+    $$$$$:   40-block 11
+call   28 never executed
+    $$$$$:   40-block 12
+    $$$$$:   40-block 13
+call   29 never executed
+    $$$$$:   40-block 14
+    $$$$$:   40-block 15
+call   30 never executed
+    $$$$$:   40-block 16
+    $$$$$:   40-block 17
+call   31 never executed
+    $$$$$:   40-block 18
+call   32 never executed
+        1:   41:    this->admin_repo.add_movie(Movie("American Pie", "Comedy", 2002, 123, "https://www.youtube.com/watch?v=iUZ3Yxok6N8"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   41-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   41-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   41-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   41-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   41-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   41-block  5
+call   25 never executed
+    $$$$$:   41-block  6
+    $$$$$:   41-block  7
+call   26 never executed
+    $$$$$:   41-block  8
+    $$$$$:   41-block  9
+call   27 never executed
+    $$$$$:   41-block 10
+    $$$$$:   41-block 11
+call   28 never executed
+    $$$$$:   41-block 12
+    $$$$$:   41-block 13
+call   29 never executed
+    $$$$$:   41-block 14
+    $$$$$:   41-block 15
+call   30 never executed
+    $$$$$:   41-block 16
+    $$$$$:   41-block 17
+call   31 never executed
+    $$$$$:   41-block 18
+call   32 never executed
+        1:   42:    this->admin_repo.add_movie(Movie("Breakfast at Tiffany's", "Classic", 1961, 120001, "https://www.youtube.com/watch?v=OPQkbvo99Ug"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   42-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   42-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   42-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   42-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   42-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   42-block  5
+call   25 never executed
+    $$$$$:   42-block  6
+    $$$$$:   42-block  7
+call   26 never executed
+    $$$$$:   42-block  8
+    $$$$$:   42-block  9
+call   27 never executed
+    $$$$$:   42-block 10
+    $$$$$:   42-block 11
+call   28 never executed
+    $$$$$:   42-block 12
+    $$$$$:   42-block 13
+call   29 never executed
+    $$$$$:   42-block 14
+    $$$$$:   42-block 15
+call   30 never executed
+    $$$$$:   42-block 16
+    $$$$$:   42-block 17
+call   31 never executed
+    $$$$$:   42-block 18
+call   32 never executed
+        1:   43:    this->admin_repo.add_movie(Movie("Due Date", "Comedy", 2011, 1234445, "https://www.youtube.com/watch?v=1p3NnJ_oiE0"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   43-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   43-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   43-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   43-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   43-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   43-block  5
+call   25 never executed
+    $$$$$:   43-block  6
+    $$$$$:   43-block  7
+call   26 never executed
+    $$$$$:   43-block  8
+    $$$$$:   43-block  9
+call   27 never executed
+    $$$$$:   43-block 10
+    $$$$$:   43-block 11
+call   28 never executed
+    $$$$$:   43-block 12
+    $$$$$:   43-block 13
+call   29 never executed
+    $$$$$:   43-block 14
+    $$$$$:   43-block 15
+call   30 never executed
+    $$$$$:   43-block 16
+    $$$$$:   43-block 17
+call   31 never executed
+        1:   44:}

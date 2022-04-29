@@ -1,0 +1,10 @@
+"D:\Apps Setup\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a1-iuliagroza"
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Apps Setup/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a1-iuliagroza/cmake-build-debug

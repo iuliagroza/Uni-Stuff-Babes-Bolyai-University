@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/controller/Controller.cpp
+Controller.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/controller/Controller.h
+iostream
+-
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/controller/Controller.h
+../repository/Repository.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/repository/Repository.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/domain/Bill.h
+string
+-
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/repository/Repository.h
+../utils/DynamicArray.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/utils/DynamicArray.h
+../domain/Bill.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/domain/Bill.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t1-iuliagroza/utils/DynamicArray.h
+
