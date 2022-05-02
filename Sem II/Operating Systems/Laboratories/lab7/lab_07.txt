@@ -1,0 +1,8 @@
+mkfifo myfifo
+mkfifo /tmp/f1 !! in tmp everybody has wright and execution rights (asked in exams)
+rm = delete a fifo in unix
+int unlink(const char *path) = delete a fifo in C
+rm -f f* = remove al fifos
+!! try to use only O_RDONLY and O_WRONLY in open() because O_RDWR might be unsupported in other than POSIX
+!! C calls are usually on the 2nd page of the man
+atomic = either sends all the info or nothing at all

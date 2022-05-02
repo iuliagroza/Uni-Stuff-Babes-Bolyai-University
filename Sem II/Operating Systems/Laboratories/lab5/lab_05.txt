@@ -1,0 +1,10 @@
+1. Find all C files - having the extension .c is not a sufficient condition to check if a file is a C source (there are C files without the extension C).
+	In findC.sh
+	find . -type f | while read f; do if [ file "$f" | grep -q "C source"///(or "c program text")/// ]; then echo "$f is a c source"; fi; done
+
+	sh findC.sh . ..
+2. !!IMPORTANT: c=0 not the same with c = 0 in SHELL
+3. echo "1\n2\n"|wc -l |cut -d" " -f1
+ls -la |cut -d"" -f1
+ls -la |cut -b1-10
+cut = extracts chars or words, b(binary) provides an interval for the extraction

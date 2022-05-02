@@ -1,0 +1,11 @@
+ssh d2
+ssh -N cvsdev
+exit
+scp = secure copy (copy a file on another server)
+man kill
+ps = print processes
+kill -SIGHUP 39324 = kill signal hang up
+kill -SIGTERM 39324
+kill -SIGINT 39324
+kill -SIGSTOP 39324
+ps aux|awk '{print $1}'|grep "^r"|sort|uniq|sed 's/\([aeiou]\)/\1\1/ig'

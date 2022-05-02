@@ -1,0 +1,70 @@
+mkdir lab2 lab2/a lab2/b lab2/c - we can use one single line to create all folders
+touch lab2/a/1.txt lab2/b/2.txt lab2/c/3.txt - we can use one single line to create all files
+ls -lR lab2 - list long and recursive the lab2 directory; -R stands for recursively
+clear - used to clear the screen
+CTRL + Z - suspends the current command
+ps - reports a snapshot of the current processes
+
+ PID TTY          TIME CMD
+43044 pts/25   00:00:00 bash
+53621 pts/25   00:00:00 ps
+
+ps T - T/t selects all processes associated with this terminal
+
+ PID TTY      STAT   TIME COMMAND
+43044 pts/25   Ss     0:00 -bash
+53673 pts/25   R+     0:00 ps T
+
+PID = process identifier
+TTY = controlling terminal associated with the process
+STAT = process state code
+TIME = total time of CPU Usage
+COMMAND = command executed by the process
+
+PROCESS STATE CODES
+
+D    uninterruptible sleep (usually IO)
+I    Idle kernel thread
+R    running or runnable (on run queue)
+S    interruptible sleep (waiting for an event to complete)
+T    stopped by job control signal
+t    stopped by debugger during the tracing
+W    paging (not valid since the 2.6.xx kernel)
+X    dead (should never be seen)
+Z    defunct ("zombie") process, terminated but not reaped by its parent
+s - session leader
+l - multi-threaded
++ - foreground process group
+
+finger iulia - show info about the user
+jobs - shows all the jobs that are waiting in the background
+fg [jobspec] - resume [jobspec] in the foreground
+/ (in man) - search something in the manual
+n - jump to the next occurrence in the search
+SPACE - next page in man
+b - previous page in man
+vi main.c - open the vi editor on the main.c file (and it also creates it if it doesn't exist)
+history - see the history on vi
+| - pipe
+history|tail - tail only shows the last 10 lines
+file [$PATH] - determine file type of [$PATH]
+cp [$PATH1] [$PATH2] - copies [$PATH1] to [$PATH2] (always file)
+mv [$PATH1] [$PATH2] - moves [$PATH1] to [$PATH2]
+ESC+w - save in vim
+gcc -o lab2 lab2.c -Wall -compile with all warnings
+man scanf - manual works on C instructions too
+man pipe - shows pipe manual for cmd
+man -a pipe - shows ALL pipe manuals (including for C)
+apropos [word] - displays all the manual pages where the word [word] is found (quitting with q)
+man [n] [cmd] - opens manual for [cmd] at page [n] (ex. [n] = 2)
+ulimit -a - displays all the limits that the user has in the system
+ulimit [p] [cap] - changes storage rights (capacity) at [cap] (ex. [cap] = unlimited) for the parameter [p] (ex. [p] = -c)
+* In order to get rid of segmentation fault, we should set: "alimit -c unlimited"
+gdb-add-index - add index files to speed up GDB
+frame 2
+quit
+whatis [cmd] - shows you the definitions of [cmd] from all man pages
+shift [n] - shift with n positions; with [n] missing, it shifts with one position by default
+for A in a b c d do
+	echo $A
+done

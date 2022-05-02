@@ -1,0 +1,21 @@
+file $PATH - check the type of a file $PATH
+man test
+[ expression ] == test expression
+. = current directory
+.. = parent directory
+/ = root directory
+ls -1 . | wc = prints number of files - lines - bytes
+ls -1 . | wc -w = prints number of files
+ls -1 . | wc -l = prints number of lines
+find . -depth n = find files that have depth of at least n
+find . -type f = find files that have type f
+man find
+find -perm = permission
+find -size
+find -size +100k = find files whose size is up to 100k
+find -size -100k = find files whose size is at least 100k
+\< = start of the word (sed)
+\> = end of the word (sed)
+./ = execute when we have execution rights
+sh -x = execute when we don't have execution rights
+

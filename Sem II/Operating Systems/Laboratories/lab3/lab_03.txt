@@ -1,0 +1,21 @@
+ulimit -c unlimited = for segmentation fault
+gdb 
+b = breakpoint
+b n = add a breakpoint at line n
+r = run
+bt = back trace
+c = continue
+p/print var = details about var
+list
+q/quit
+valgrind ./m
+valgrind --leak-check=full ./m
+ls -al = see core files
+gdb ./m core.23257
+
+grep -c "^#" main.c
+grep -cv "^#" main.c
+$1 = first argument
+$* = all arguments 
+" "  
+' ' = some expressions, such as $ are not evaluated

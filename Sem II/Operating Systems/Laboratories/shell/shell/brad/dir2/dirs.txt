@@ -1,0 +1,3 @@
+/home/root
+/var/log
+dasdada

@@ -1,0 +1,19 @@
+touch solution.sh
+chmod +x solution.sh
+bash solution.sh
+./solution.sh
+vim ~/.vimrc
+set number
+wget [link]
+unzip dir
+
+if [ . ]; then
+else
+fi
+
+[ . ] - test
+
+(...) | while IFS= read -r line
+do
+	echo $line
+done
