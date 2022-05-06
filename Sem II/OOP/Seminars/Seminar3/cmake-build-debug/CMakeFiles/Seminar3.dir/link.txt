@@ -1,3 +1,0 @@
-"D:\Apps Setup\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Seminar3.dir/objects.a
-"D:\Apps Setup\mingw64\bin\ar.exe" cr CMakeFiles\Seminar3.dir/objects.a @CMakeFiles\Seminar3.dir\objects1.rsp
-"D:\Apps Setup\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Seminar3.dir/objects.a -Wl,--no-whole-archive -o Seminar3.exe -Wl,--out-implib,libSeminar3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Seminar3.dir\linklibs.rsp

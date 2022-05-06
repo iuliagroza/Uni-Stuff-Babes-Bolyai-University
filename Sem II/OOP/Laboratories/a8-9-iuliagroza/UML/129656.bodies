@@ -1,7 +1,0 @@
-class FileError
-!!!136824.cpp!!!	FileError(in message : char)
-
-    this->message = message;
-!!!136952.cpp!!!	what() : char
-
-    return this->message;

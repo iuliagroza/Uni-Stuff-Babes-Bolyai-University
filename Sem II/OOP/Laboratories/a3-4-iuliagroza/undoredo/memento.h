@@ -1,4 +1,0 @@
-#ifndef A3_4_IULIAGROZA_MEMENTO_H
-#define A3_4_IULIAGROZA_MEMENTO_H
-
-#endif

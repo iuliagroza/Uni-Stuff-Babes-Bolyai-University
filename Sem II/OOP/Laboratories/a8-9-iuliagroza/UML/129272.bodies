@@ -1,7 +1,0 @@
-class OperationError
-!!!136312.cpp!!!	OperationError(in message : char)
-
-    this->message = message;
-!!!136440.cpp!!!	what() : char
-
-    return this->message;

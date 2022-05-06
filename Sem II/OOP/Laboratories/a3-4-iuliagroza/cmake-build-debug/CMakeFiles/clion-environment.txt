@@ -1,3 +1,0 @@
-ToolSet: Ubuntu 20.04.4 LTS (local)Options: 
-
-Options:-DCMAKE_CXX_COMPILER=/usr/bin/cpp
