@@ -1,0 +1,36 @@
+format 224
+"3.20.2" // a8-9-iuliagroza::cmake-build-debug-coverage::CMakeFiles::3.20.2
+  revision 1
+  modified_by 120 "groza"
+  // class settings
+  
+  classdiagramsettings member_max_width 0 end
+  
+  classcompositediagramsettings end
+  
+  usecasediagramsettings end
+  
+  sequencediagramsettings end
+  
+  collaborationdiagramsettings end
+  
+  objectdiagramsettings end
+  
+  objectcompositediagramsettings end
+  
+  componentdiagramsettings
+   end
+  
+  deploymentdiagramsettings
+   end
+  
+  statediagramsettings
+   end
+  
+  activitydiagramsettings
+   end
+  
+  cpp_h_dir "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/CMakeFiles/3.20.2/"
+  cpp_src_dir "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/CMakeFiles/3.20.2/"
+  package_ref 130040 // CompilerIdCXX
+end

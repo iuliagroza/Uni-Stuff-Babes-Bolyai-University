@@ -1,0 +1,19 @@
+window_sizes 1800 892 450 1344 710 128
+
+diagrams
+  active  classdiagram_ref 128120 // adfs
+    1332 663 100 A4 0 0
+end
+show_stereotypes
+selected classrelation_ref 128888 // controller (<directional composition>)
+open
+  class_ref 128120 // Controller
+  classview_ref 128248 // repository
+  classview_ref 128376 // domain
+  
+  package_ref 128760 // tests
+  class_ref 129016 // UI
+  classview_ref 128760 // validators
+  deploymentview_ref 128888 // a8-9-iuliagroza
+end
+end

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a8_9_iuliagroza"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a8_9_iuliagroza">
+				<Option output="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/a8_9_iuliagroza.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 a8_9_iuliagroza"/>
+					<CompileFile command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a8_9_iuliagroza/fast">
+				<Option output="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/a8_9_iuliagroza.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Apps Setup/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 a8_9_iuliagroza/fast"/>
+					<CompileFile command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Apps Setup/mingw64/bin/mingw32-make.exe -f &quot;D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/controller/Controller.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/controller/Controller.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/domain/Movie.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/domain/Movie.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/main.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/AdminRepository.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/AdminRepository.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/CSVUserRepository.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/CSVUserRepository.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/HTMLUserRepository.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/HTMLUserRepository.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/UserRepository.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/repository/UserRepository.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/tests/Tests.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/tests/Tests.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/ui/UI.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/ui/UI.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/validators/Exceptions.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/validators/Exceptions.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/validators/Validators.cpp">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/validators/Validators.h">
+			<Option target="a8_9_iuliagroza"/>
+		</Unit>
+		<Unit filename="D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,123 @@
+        -:    0:Source:D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a5-6-iuliagroza/repository/AdminRepository.cpp
+        -:    0:Graph:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\repository\AdminRepository.cpp.gcno
+        -:    0:Data:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\repository\AdminRepository.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "AdminRepository.h"
+        -:    2:
+function _ZN15AdminRepository8get_sizeEv called 29 returned 100% blocks executed 100%
+       29:    3:int AdminRepository::get_size() {
+       29:    4:    return this->movies.get_size();
+       29:    4-block  0
+call    0 returned 29
+        -:    5:}
+        -:    6:
+function _ZN15AdminRepository10get_moviesEv called 42 returned 100% blocks executed 100%
+       42:    7:DynamicArray<Movie> AdminRepository::get_movies() {
+       42:    8:    return this->movies;
+       42:    8-block  0
+call    0 returned 42
+        -:    9:}
+        -:   10:
+function _ZN15AdminRepository9add_movieE5Movie called 14 returned 100% blocks executed 82%
+       14:   11:bool AdminRepository::add_movie(Movie movie) {
+       14:   12:    if (find_movie(movie) != -1) {
+       14:   12-block  0
+call    0 returned 14
+call    1 returned 14
+branch  2 taken 14 (fallthrough)
+branch  3 taken 0 (throw)
+       14:   12-block  1
+call    4 returned 14
+branch  5 taken 1 (fallthrough)
+branch  6 taken 13
+    $$$$$:   12-block  2
+call    7 never executed
+        1:   13:        return false;
+        1:   13-block  0
+        -:   14:    }
+       13:   15:    this->movies.add(movie);
+       13:   15-block  0
+call    0 returned 13
+       13:   16:    return true;
+        -:   17:}
+        -:   18:
+function _ZN15AdminRepository12remove_movieE5Movie called 2 returned 100% blocks executed 82%
+        2:   19:bool AdminRepository::remove_movie(Movie movie) {
+        2:   20:    int position = find_movie(movie);
+        2:   20-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   20-block  1
+call    4 returned 2
+    $$$$$:   20-block  2
+call    5 never executed
+        2:   21:    if (position == -1) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 1
+        1:   22:        return false;
+        1:   22-block  0
+        -:   23:    }
+        -:   24:
+        1:   25:    this->movies.remove(position);
+        1:   25-block  0
+call    0 returned 1
+        1:   26:    return true;
+        -:   27:}
+        -:   28:
+function _ZN15AdminRepository12update_movieE5MovieS0_ called 4 returned 100% blocks executed 82%
+        4:   29:bool AdminRepository::update_movie(Movie movie, Movie new_movie) {
+        4:   30:    int position = find_movie(movie);
+        4:   30-block  0
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0 (throw)
+        4:   30-block  1
+call    4 returned 4
+    $$$$$:   30-block  2
+call    5 never executed
+        4:   31:    if (position == -1) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 3
+        1:   32:        return false;
+        1:   32-block  0
+        -:   33:    }
+        -:   34:
+        3:   35:    this->movies.update(position, new_movie);
+        3:   35-block  0
+call    0 returned 3
+        3:   36:    return true;
+        -:   37:}
+        -:   38:
+function _ZN15AdminRepository10find_movieE5Movie called 22 returned 100% blocks executed 86%
+       22:   39:int AdminRepository::find_movie(Movie movie) {
+       82:   40:    for (int i = 0; i < this->movies.get_size(); i++) {
+       22:   40-block  0
+       82:   40-block  1
+call    0 returned 82
+branch  1 taken 67 (fallthrough)
+branch  2 taken 15
+       60:   40-block  2
+       67:   41:        if (this->movies.get_element(i) == movie) {
+       67:   41-block  0
+call    0 returned 67
+call    1 returned 67
+branch  2 taken 67 (fallthrough)
+branch  3 taken 0 (throw)
+       67:   41-block  1
+call    4 returned 67
+branch  5 taken 7 (fallthrough)
+branch  6 taken 60
+    $$$$$:   41-block  2
+call    7 never executed
+        7:   42:            return i;
+        7:   42-block  0
+        -:   43:        }
+        -:   44:    }
+       15:   45:    return -1;
+       15:   45-block  0
+        -:   46:}
+        -:   47:

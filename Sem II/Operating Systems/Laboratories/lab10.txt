@@ -1,0 +1,1 @@
+gcc -Wall lab10.c -o m -lpthread

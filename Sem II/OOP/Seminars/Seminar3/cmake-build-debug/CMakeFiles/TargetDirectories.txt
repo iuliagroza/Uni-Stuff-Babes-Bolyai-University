@@ -1,0 +1,3 @@
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Seminars/Seminar3/cmake-build-debug/CMakeFiles/Seminar3.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Seminars/Seminar3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Seminars/Seminar3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

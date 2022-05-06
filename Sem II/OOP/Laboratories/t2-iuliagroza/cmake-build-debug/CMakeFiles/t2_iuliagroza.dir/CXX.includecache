@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Client.h
+string
+-
+sstream
+-
+vector
+-
+Dwelling.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Dwelling.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Company.h
+Client.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Client.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Dwelling.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Person.h
+Client.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Client.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/service/Service.cpp
+Service.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/service/Service.h
+../domain/Person.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Person.h
+../domain/Company.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Company.h
+
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/service/Service.h
+vector
+-
+../domain/Client.h
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/t2-iuliagroza/domain/Client.h
+algorithm
+-
+

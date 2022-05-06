@@ -1,0 +1,74 @@
+#ifndef A5_6_IULIAGROZA_CONTROLLER_H
+#define A5_6_IULIAGROZA_CONTROLLER_H
+
+#include "../domain/Movie.h"
+#include "../repository/AdminRepository.h"
+#include "../repository/UserRepository.h"
+
+class Controller {
+private:
+    AdminRepository admin_repo;
+    UserRepository user_repo;
+public:
+    /*
+     * Getter for the admin_repo filed.
+     */
+    AdminRepository get_admin_repo();
+
+    /*
+     * Getter for the user_repo field.
+     */
+    UserRepository get_user_repo();
+
+    /*
+     * Function that adds a movie in the database. If the movie already exists in the database,
+     * the function will return 0. Otherwise, it will perform the addition using the .add_movie() function
+     * from the AdminRepository class and then return 1.
+     * :movie: Movie object
+     * return: bool
+     */
+    bool add_admin(const Movie &movie);
+
+    /*
+     * Function that removes a movie from the database. If the movie does not exist in the database,
+     * the function will return 0. Otherwise, it will perform the removal using the .remove_movie() function
+     * from the AdminRepository class and then return 1.
+     * :movie: Movie object
+     * return: bool
+     */
+    bool remove_admin(Movie movie);
+
+    /*
+     * Function that updates a movie from the database. If the movie does not exist in the database,
+     * the function will return 0. Otherwise, it will perform the update_admin using the .update_movie() function
+     * from the AdminRepository class and then return 1.
+     * :movie: Movie object
+     * return: bool
+     */
+    bool update_admin(Movie movie, Movie new_movie);
+
+    /*
+     * Function that adds a movie to the watchlist of the user. No validation is required as the user will be presented
+     * only films that are not in the watchlist already.
+     * :movie: Movie object
+     */
+    void add_user(Movie movie);
+
+    /*
+     * Function that removes a movie from the watchlist. If the movie does not exist in the watchlist,
+     * the function will return 0. Otherwise, it will perform the removal using the .remove_movie() function
+     * from the UserRepository class and then return 1.
+     * :movie: Movie object
+     * return: bool
+     */
+    bool remove_user(Movie movie);
+
+    /*
+     * Function that programmatically generates 10 instances at the startup, using the .add_movie() function
+     * from the AdminRepository class.
+     */
+    void generate();
+};
+
+
+#endif

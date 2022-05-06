@@ -1,0 +1,2069 @@
+        -:    0:Source:D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a5-6-iuliagroza/tests/Tests.cpp
+        -:    0:Graph:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\tests\Tests.cpp.gcno
+        -:    0:Data:D:\Moveable-Personal\CS Work\College\Facultate\Sem II\OOP\Laboratories\a5-6-iuliagroza\cmake-build-debug-coverage\CMakeFiles\a5_6_iuliagroza.dir\tests\Tests.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <cassert>
+        -:    2:#include <iostream>
+        -:    3:#include "Tests.h"
+        -:    4:#include "../controller/Controller.h"
+        -:    5:
+        -:    6:using namespace std;
+        -:    7:
+function _ZN5Tests8test_addEv called 1 returned 100% blocks executed 44%
+        1:    8:void Tests::test_add() {
+        2:    9:    Controller ctrl;
+        1:    9-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:    9-block  1
+call    3 returned 1
+    $$$$$:    9-block  2
+call    4 never executed
+        1:   10:    ctrl.add_admin(Movie("ad", "asd", 2020, 1232, "dsfd"));
+        1:   10-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   10-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   10-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   10-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   10-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   10-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   10-block  6
+call   25 never executed
+    $$$$$:   10-block  7
+    $$$$$:   10-block  8
+call   26 never executed
+    $$$$$:   10-block  9
+    $$$$$:   10-block 10
+call   27 never executed
+    $$$$$:   10-block 11
+    $$$$$:   10-block 12
+call   28 never executed
+    $$$$$:   10-block 13
+    $$$$$:   10-block 14
+call   29 never executed
+    $$$$$:   10-block 15
+    $$$$$:   10-block 16
+call   30 never executed
+    $$$$$:   10-block 17
+    $$$$$:   10-block 18
+call   31 never executed
+    $$$$$:   10-block 19
+        1:   11:    ctrl.add_user(Movie("ad", "asd", 2020, 1232, "dsfd"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   11-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   11-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   11-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   11-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   11-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   11-block  5
+call   25 never executed
+    $$$$$:   11-block  6
+    $$$$$:   11-block  7
+call   26 never executed
+    $$$$$:   11-block  8
+    $$$$$:   11-block  9
+call   27 never executed
+    $$$$$:   11-block 10
+    $$$$$:   11-block 11
+call   28 never executed
+    $$$$$:   11-block 12
+    $$$$$:   11-block 13
+call   29 never executed
+    $$$$$:   11-block 14
+    $$$$$:   11-block 15
+call   30 never executed
+    $$$$$:   11-block 16
+    $$$$$:   11-block 17
+call   31 never executed
+    $$$$$:   11-block 18
+       1*:   12:    assert(ctrl.get_admin_repo().get_size() == 1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   12-block  1
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    %%%%%:   12-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+        1:   12-block  3
+    %%%%%:   12-block  4
+        1:   12-block  5
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0
+        1:   12-block  6
+call   13 returned 1
+    $$$$$:   12-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   12-block  8
+call   16 never executed
+    $$$$$:   12-block  9
+       1*:   13:    assert(ctrl.get_user_repo().get_size() == 1);
+        1:   13-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   13-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    %%%%%:   13-block  3
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+        1:   13-block  4
+    %%%%%:   13-block  5
+        1:   13-block  6
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0
+        1:   13-block  7
+call   13 returned 1
+    $$$$$:   13-block  8
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   13-block  9
+call   16 never executed
+    $$$$$:   13-block 10
+       1*:   14:    assert(ctrl.get_admin_repo().find_movie(Movie("ad", "asd", 2020, 1232, "dsfd")) == 0);
+        1:   14-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   14-block  1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   14-block  2
+call    7 returned 1
+call    8 returned 1
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0 (throw)
+        1:   14-block  3
+call   11 returned 1
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   14-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   14-block  5
+call   18 returned 1
+branch 19 taken 1 (fallthrough)
+branch 20 taken 0 (throw)
+        1:   14-block  6
+branch 21 taken 0 (fallthrough)
+branch 22 taken 1
+    %%%%%:   14-block  7
+call   23 never executed
+branch 24 never executed
+branch 25 never executed
+        1:   14-block  8
+    %%%%%:   14-block  9
+        1:   14-block 10
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0
+        1:   14-block 11
+call   28 returned 1
+        1:   14-block 12
+branch 29 taken 1 (fallthrough)
+branch 30 taken 0
+        1:   14-block 13
+call   31 returned 1
+        1:   14-block 14
+branch 32 taken 1 (fallthrough)
+branch 33 taken 0
+        1:   14-block 15
+call   34 returned 1
+        1:   14-block 16
+branch 35 taken 1 (fallthrough)
+branch 36 taken 0
+        1:   14-block 17
+call   37 returned 1
+        1:   14-block 18
+branch 38 taken 1 (fallthrough)
+branch 39 taken 0
+        1:   14-block 19
+call   40 returned 1
+        1:   14-block 20
+branch 41 taken 1 (fallthrough)
+branch 42 taken 0
+        1:   14-block 21
+call   43 returned 1
+        1:   14-block 22
+branch 44 taken 1 (fallthrough)
+branch 45 taken 0
+        1:   14-block 23
+call   46 returned 1
+        1:   14-block 24
+branch 47 taken 1 (fallthrough)
+branch 48 taken 0
+        1:   14-block 25
+call   49 returned 1
+    $$$$$:   14-block 26
+branch 50 never executed
+branch 51 never executed
+    $$$$$:   14-block 27
+call   52 never executed
+    $$$$$:   14-block 28
+    $$$$$:   14-block 29
+branch 53 never executed
+branch 54 never executed
+    $$$$$:   14-block 30
+call   55 never executed
+    $$$$$:   14-block 31
+    $$$$$:   14-block 32
+branch 56 never executed
+branch 57 never executed
+    $$$$$:   14-block 33
+call   58 never executed
+    $$$$$:   14-block 34
+    $$$$$:   14-block 35
+branch 59 never executed
+branch 60 never executed
+    $$$$$:   14-block 36
+call   61 never executed
+    $$$$$:   14-block 37
+    $$$$$:   14-block 38
+branch 62 never executed
+branch 63 never executed
+    $$$$$:   14-block 39
+call   64 never executed
+    $$$$$:   14-block 40
+    $$$$$:   14-block 41
+branch 65 never executed
+branch 66 never executed
+    $$$$$:   14-block 42
+call   67 never executed
+    $$$$$:   14-block 43
+    $$$$$:   14-block 44
+branch 68 never executed
+branch 69 never executed
+    $$$$$:   14-block 45
+call   70 never executed
+    $$$$$:   14-block 46
+    $$$$$:   14-block 47
+branch 71 never executed
+branch 72 never executed
+    $$$$$:   14-block 48
+call   73 never executed
+    $$$$$:   14-block 49
+        1:   15:    bool result = ctrl.add_admin(Movie("ad", "asd", 2020, 1232, "dsfd"));
+        1:   15-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   15-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   15-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   15-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   15-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   15-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   15-block  6
+call   25 never executed
+    $$$$$:   15-block  7
+    $$$$$:   15-block  8
+call   26 never executed
+    $$$$$:   15-block  9
+    $$$$$:   15-block 10
+call   27 never executed
+    $$$$$:   15-block 11
+    $$$$$:   15-block 12
+call   28 never executed
+    $$$$$:   15-block 13
+    $$$$$:   15-block 14
+call   29 never executed
+    $$$$$:   15-block 15
+    $$$$$:   15-block 16
+call   30 never executed
+    $$$$$:   15-block 17
+    $$$$$:   15-block 18
+call   31 never executed
+    $$$$$:   15-block 19
+       1*:   16:    assert(result == 0);
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    %%%%%:   16-block  0
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+        1:   16-block  1
+    %%%%%:   16-block  2
+        1:   17:    cout << ".test_add() passed!\n";
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   18:}
+        -:   19:
+function _ZN5Tests11test_removeEv called 1 returned 100% blocks executed 43%
+        1:   20:void Tests::test_remove() {
+        2:   21:    Controller ctrl;
+        1:   21-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   21-block  1
+call    3 returned 1
+    $$$$$:   21-block  2
+call    4 never executed
+        1:   22:    ctrl.add_admin(Movie("ad", "asd", 2020, 1232, "dsfd"));
+        1:   22-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   22-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   22-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   22-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   22-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   22-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   22-block  6
+call   25 never executed
+    $$$$$:   22-block  7
+    $$$$$:   22-block  8
+call   26 never executed
+    $$$$$:   22-block  9
+    $$$$$:   22-block 10
+call   27 never executed
+    $$$$$:   22-block 11
+    $$$$$:   22-block 12
+call   28 never executed
+    $$$$$:   22-block 13
+    $$$$$:   22-block 14
+call   29 never executed
+    $$$$$:   22-block 15
+    $$$$$:   22-block 16
+call   30 never executed
+    $$$$$:   22-block 17
+    $$$$$:   22-block 18
+call   31 never executed
+    $$$$$:   22-block 19
+        1:   23:    ctrl.add_user(Movie("ad", "asd", 2020, 1232, "dsfd"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   23-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   23-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   23-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   23-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   23-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   23-block  5
+call   25 never executed
+    $$$$$:   23-block  6
+    $$$$$:   23-block  7
+call   26 never executed
+    $$$$$:   23-block  8
+    $$$$$:   23-block  9
+call   27 never executed
+    $$$$$:   23-block 10
+    $$$$$:   23-block 11
+call   28 never executed
+    $$$$$:   23-block 12
+    $$$$$:   23-block 13
+call   29 never executed
+    $$$$$:   23-block 14
+    $$$$$:   23-block 15
+call   30 never executed
+    $$$$$:   23-block 16
+    $$$$$:   23-block 17
+call   31 never executed
+    $$$$$:   23-block 18
+        1:   24:    ctrl.remove_user(Movie("ad", "asd", 2020, 1232, "dsfd"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   24-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   24-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   24-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   24-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   24-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   24-block  5
+call   25 never executed
+    $$$$$:   24-block  6
+    $$$$$:   24-block  7
+call   26 never executed
+    $$$$$:   24-block  8
+    $$$$$:   24-block  9
+call   27 never executed
+    $$$$$:   24-block 10
+    $$$$$:   24-block 11
+call   28 never executed
+    $$$$$:   24-block 12
+    $$$$$:   24-block 13
+call   29 never executed
+    $$$$$:   24-block 14
+    $$$$$:   24-block 15
+call   30 never executed
+    $$$$$:   24-block 16
+    $$$$$:   24-block 17
+call   31 never executed
+    $$$$$:   24-block 18
+        1:   25:    ctrl.remove_admin(Movie("a", "a", 0, 0, "dsfd"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   25-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   25-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   25-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   25-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   25-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   25-block  5
+call   25 never executed
+    $$$$$:   25-block  6
+    $$$$$:   25-block  7
+call   26 never executed
+    $$$$$:   25-block  8
+    $$$$$:   25-block  9
+call   27 never executed
+    $$$$$:   25-block 10
+    $$$$$:   25-block 11
+call   28 never executed
+    $$$$$:   25-block 12
+    $$$$$:   25-block 13
+call   29 never executed
+    $$$$$:   25-block 14
+    $$$$$:   25-block 15
+call   30 never executed
+    $$$$$:   25-block 16
+    $$$$$:   25-block 17
+call   31 never executed
+    $$$$$:   25-block 18
+       1*:   26:    assert(ctrl.get_admin_repo().get_size() == 0);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   26-block  1
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    %%%%%:   26-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+        1:   26-block  3
+    %%%%%:   26-block  4
+        1:   26-block  5
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0
+        1:   26-block  6
+call   13 returned 1
+    $$$$$:   26-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   26-block  8
+call   16 never executed
+    $$$$$:   26-block  9
+       1*:   27:    assert(ctrl.get_user_repo().get_size() == 0);
+        1:   27-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   27-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   27-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    %%%%%:   27-block  3
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+        1:   27-block  4
+    %%%%%:   27-block  5
+        1:   27-block  6
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0
+        1:   27-block  7
+call   13 returned 1
+    $$$$$:   27-block  8
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   27-block  9
+call   16 never executed
+    $$$$$:   27-block 10
+        1:   28:    bool result = ctrl.remove_admin(Movie("a", "a", 0, 0, "dsfd"));
+        1:   28-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   28-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   28-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   28-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   28-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   28-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   28-block  6
+call   25 never executed
+    $$$$$:   28-block  7
+    $$$$$:   28-block  8
+call   26 never executed
+    $$$$$:   28-block  9
+    $$$$$:   28-block 10
+call   27 never executed
+    $$$$$:   28-block 11
+    $$$$$:   28-block 12
+call   28 never executed
+    $$$$$:   28-block 13
+    $$$$$:   28-block 14
+call   29 never executed
+    $$$$$:   28-block 15
+    $$$$$:   28-block 16
+call   30 never executed
+    $$$$$:   28-block 17
+    $$$$$:   28-block 18
+call   31 never executed
+    $$$$$:   28-block 19
+       1*:   29:    assert(ctrl.get_admin_repo().get_size() == 0);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   29-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   29-block  1
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    %%%%%:   29-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+        1:   29-block  3
+    %%%%%:   29-block  4
+        1:   29-block  5
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0
+        1:   29-block  6
+call   13 returned 1
+    $$$$$:   29-block  7
+branch 14 never executed
+branch 15 never executed
+    $$$$$:   29-block  8
+call   16 never executed
+    $$$$$:   29-block  9
+       1*:   30:    assert(result == 0);
+        1:   30-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    %%%%%:   30-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+        1:   30-block  2
+    %%%%%:   30-block  3
+        1:   31:    cout << ".test_remove() passed!\n";
+        1:   31-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   32:}
+        -:   33:
+function _ZN5Tests11test_updateEv called 1 returned 100% blocks executed 43%
+        1:   34:void Tests::test_update() {
+        2:   35:    Controller ctrl;
+        1:   35-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   35-block  1
+call    3 returned 1
+    $$$$$:   35-block  2
+call    4 never executed
+        1:   36:    ctrl.add_admin(Movie("ad", "asd", 2020, 1232, "dsfd"));
+        1:   36-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   36-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   36-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   36-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   36-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   36-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   36-block  6
+call   25 never executed
+    $$$$$:   36-block  7
+    $$$$$:   36-block  8
+call   26 never executed
+    $$$$$:   36-block  9
+    $$$$$:   36-block 10
+call   27 never executed
+    $$$$$:   36-block 11
+    $$$$$:   36-block 12
+call   28 never executed
+    $$$$$:   36-block 13
+    $$$$$:   36-block 14
+call   29 never executed
+    $$$$$:   36-block 15
+    $$$$$:   36-block 16
+call   30 never executed
+    $$$$$:   36-block 17
+    $$$$$:   36-block 18
+call   31 never executed
+    $$$$$:   36-block 19
+        1:   37:    ctrl.update_admin(Movie("a", "a", 0, 0, "dsfd"), Movie("a", "a", 0, 0, "dsfd"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   37-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   37-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   37-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   37-block  3
+call   15 returned 1
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   37-block  4
+call   19 returned 1
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   37-block  5
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   37-block  6
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   37-block  7
+call   30 returned 1
+branch 31 taken 1 (fallthrough)
+branch 32 taken 0 (throw)
+        1:   37-block  8
+call   33 returned 1
+call   34 returned 1
+call   35 returned 1
+call   36 returned 1
+call   37 returned 1
+call   38 returned 1
+call   39 returned 1
+call   40 returned 1
+call   41 returned 1
+call   42 returned 1
+call   43 returned 1
+call   44 returned 1
+call   45 returned 1
+call   46 returned 1
+    $$$$$:   37-block  9
+call   47 never executed
+    $$$$$:   37-block 10
+    $$$$$:   37-block 11
+call   48 never executed
+    $$$$$:   37-block 12
+    $$$$$:   37-block 13
+call   49 never executed
+    $$$$$:   37-block 14
+    $$$$$:   37-block 15
+call   50 never executed
+    $$$$$:   37-block 16
+    $$$$$:   37-block 17
+call   51 never executed
+    $$$$$:   37-block 18
+    $$$$$:   37-block 19
+call   52 never executed
+    $$$$$:   37-block 20
+    $$$$$:   37-block 21
+call   53 never executed
+    $$$$$:   37-block 22
+    $$$$$:   37-block 23
+call   54 never executed
+    $$$$$:   37-block 24
+    $$$$$:   37-block 25
+call   55 never executed
+    $$$$$:   37-block 26
+    $$$$$:   37-block 27
+call   56 never executed
+    $$$$$:   37-block 28
+    $$$$$:   37-block 29
+call   57 never executed
+    $$$$$:   37-block 30
+    $$$$$:   37-block 31
+call   58 never executed
+    $$$$$:   37-block 32
+    $$$$$:   37-block 33
+call   59 never executed
+    $$$$$:   37-block 34
+    $$$$$:   37-block 35
+call   60 never executed
+    $$$$$:   37-block 36
+       1*:   38:    assert(ctrl.get_admin_repo().get_movies().get_element(0).get_title() == "a");
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   38-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   38-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   38-block  2
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   38-block  3
+call   12 returned 1
+branch 13 taken 0 (fallthrough)
+branch 14 taken 1
+    %%%%%:   38-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+        1:   38-block  5
+    %%%%%:   38-block  6
+        1:   38-block  7
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0
+        1:   38-block  8
+call   20 returned 1
+        1:   38-block  9
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0
+        1:   38-block 10
+call   23 returned 1
+        1:   38-block 11
+branch 24 taken 1 (fallthrough)
+branch 25 taken 0
+        1:   38-block 12
+call   26 returned 1
+        1:   38-block 13
+branch 27 taken 1 (fallthrough)
+branch 28 taken 0
+        1:   38-block 14
+call   29 returned 1
+    $$$$$:   38-block 15
+branch 30 never executed
+branch 31 never executed
+    $$$$$:   38-block 16
+call   32 never executed
+    $$$$$:   38-block 17
+    $$$$$:   38-block 18
+branch 33 never executed
+branch 34 never executed
+    $$$$$:   38-block 19
+call   35 never executed
+    $$$$$:   38-block 20
+    $$$$$:   38-block 21
+branch 36 never executed
+branch 37 never executed
+    $$$$$:   38-block 22
+call   38 never executed
+    $$$$$:   38-block 23
+    $$$$$:   38-block 24
+branch 39 never executed
+branch 40 never executed
+    $$$$$:   38-block 25
+call   41 never executed
+    $$$$$:   38-block 26
+       1*:   39:    assert(ctrl.get_admin_repo().get_movies().get_element(0).get_genre() == "a");
+        1:   39-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   39-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   39-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   39-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   39-block  4
+call   12 returned 1
+branch 13 taken 0 (fallthrough)
+branch 14 taken 1
+    %%%%%:   39-block  5
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+        1:   39-block  6
+    %%%%%:   39-block  7
+        1:   39-block  8
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0
+        1:   39-block  9
+call   20 returned 1
+        1:   39-block 10
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0
+        1:   39-block 11
+call   23 returned 1
+        1:   39-block 12
+branch 24 taken 1 (fallthrough)
+branch 25 taken 0
+        1:   39-block 13
+call   26 returned 1
+        1:   39-block 14
+branch 27 taken 1 (fallthrough)
+branch 28 taken 0
+        1:   39-block 15
+call   29 returned 1
+    $$$$$:   39-block 16
+branch 30 never executed
+branch 31 never executed
+    $$$$$:   39-block 17
+call   32 never executed
+    $$$$$:   39-block 18
+    $$$$$:   39-block 19
+branch 33 never executed
+branch 34 never executed
+    $$$$$:   39-block 20
+call   35 never executed
+    $$$$$:   39-block 21
+    $$$$$:   39-block 22
+branch 36 never executed
+branch 37 never executed
+    $$$$$:   39-block 23
+call   38 never executed
+    $$$$$:   39-block 24
+    $$$$$:   39-block 25
+branch 39 never executed
+branch 40 never executed
+    $$$$$:   39-block 26
+call   41 never executed
+    $$$$$:   39-block 27
+       1*:   40:    assert(ctrl.get_admin_repo().get_movies().get_element(0).get_year_of_release() == 0);
+        1:   40-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   40-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   40-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   40-block  4
+branch 12 taken 0 (fallthrough)
+branch 13 taken 1
+    %%%%%:   40-block  5
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+        1:   40-block  6
+    %%%%%:   40-block  7
+        1:   40-block  8
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0
+        1:   40-block  9
+call   19 returned 1
+        1:   40-block 10
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   40-block 11
+call   22 returned 1
+        1:   40-block 12
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   40-block 13
+call   25 returned 1
+    $$$$$:   40-block 14
+branch 26 never executed
+branch 27 never executed
+    $$$$$:   40-block 15
+call   28 never executed
+    $$$$$:   40-block 16
+    $$$$$:   40-block 17
+branch 29 never executed
+branch 30 never executed
+    $$$$$:   40-block 18
+call   31 never executed
+    $$$$$:   40-block 19
+    $$$$$:   40-block 20
+branch 32 never executed
+branch 33 never executed
+    $$$$$:   40-block 21
+call   34 never executed
+    $$$$$:   40-block 22
+       1*:   41:    assert(ctrl.get_admin_repo().get_movies().get_element(0).get_number_of_likes() == 0);
+        1:   41-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   41-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   41-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   41-block  4
+branch 12 taken 0 (fallthrough)
+branch 13 taken 1
+    %%%%%:   41-block  5
+call   14 never executed
+branch 15 never executed
+branch 16 never executed
+        1:   41-block  6
+    %%%%%:   41-block  7
+        1:   41-block  8
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0
+        1:   41-block  9
+call   19 returned 1
+        1:   41-block 10
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   41-block 11
+call   22 returned 1
+        1:   41-block 12
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0
+        1:   41-block 13
+call   25 returned 1
+    $$$$$:   41-block 14
+branch 26 never executed
+branch 27 never executed
+    $$$$$:   41-block 15
+call   28 never executed
+    $$$$$:   41-block 16
+    $$$$$:   41-block 17
+branch 29 never executed
+branch 30 never executed
+    $$$$$:   41-block 18
+call   31 never executed
+    $$$$$:   41-block 19
+    $$$$$:   41-block 20
+branch 32 never executed
+branch 33 never executed
+    $$$$$:   41-block 21
+call   34 never executed
+    $$$$$:   41-block 22
+        1:   42:    bool result = ctrl.update_admin(Movie("a", "a", 0, 0, "a"), Movie("a", "a", 0, 0, "a"));
+        1:   42-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   42-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   42-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   42-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   42-block  4
+call   15 returned 1
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   42-block  5
+call   19 returned 1
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   42-block  6
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   42-block  7
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   42-block  8
+call   30 returned 1
+branch 31 taken 1 (fallthrough)
+branch 32 taken 0 (throw)
+        1:   42-block  9
+call   33 returned 1
+call   34 returned 1
+call   35 returned 1
+call   36 returned 1
+call   37 returned 1
+call   38 returned 1
+call   39 returned 1
+call   40 returned 1
+call   41 returned 1
+call   42 returned 1
+call   43 returned 1
+call   44 returned 1
+call   45 returned 1
+call   46 returned 1
+    $$$$$:   42-block 10
+call   47 never executed
+    $$$$$:   42-block 11
+    $$$$$:   42-block 12
+call   48 never executed
+    $$$$$:   42-block 13
+    $$$$$:   42-block 14
+call   49 never executed
+    $$$$$:   42-block 15
+    $$$$$:   42-block 16
+call   50 never executed
+    $$$$$:   42-block 17
+    $$$$$:   42-block 18
+call   51 never executed
+    $$$$$:   42-block 19
+    $$$$$:   42-block 20
+call   52 never executed
+    $$$$$:   42-block 21
+    $$$$$:   42-block 22
+call   53 never executed
+    $$$$$:   42-block 23
+    $$$$$:   42-block 24
+call   54 never executed
+    $$$$$:   42-block 25
+    $$$$$:   42-block 26
+call   55 never executed
+    $$$$$:   42-block 27
+    $$$$$:   42-block 28
+call   56 never executed
+    $$$$$:   42-block 29
+    $$$$$:   42-block 30
+call   57 never executed
+    $$$$$:   42-block 31
+    $$$$$:   42-block 32
+call   58 never executed
+    $$$$$:   42-block 33
+    $$$$$:   42-block 34
+call   59 never executed
+    $$$$$:   42-block 35
+    $$$$$:   42-block 36
+call   60 never executed
+    $$$$$:   42-block 37
+       1*:   43:    assert(result == 0);
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    %%%%%:   43-block  0
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+        1:   43-block  1
+    %%%%%:   43-block  2
+        1:   44:    cout << ".test_update() passed!\n";
+        1:   44-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   45:}
+        -:   46:
+function _ZN5Tests11test_to_strEv called 1 returned 100% blocks executed 46%
+        1:   47:void Tests::test_to_str() {
+        3:   48:    Movie movie = Movie("a", "b", 2000, 10, "sad");
+        1:   48-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   48-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   48-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   48-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+call   15 returned 1
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+call   19 returned 1
+        1:   48-block  4
+call   20 returned 1
+    $$$$$:   48-block  5
+    $$$$$:   48-block  6
+    $$$$$:   48-block  7
+    $$$$$:   48-block  8
+    $$$$$:   48-block  9
+    $$$$$:   48-block 10
+    $$$$$:   48-block 11
+call   21 never executed
+       1*:   49:    assert(movie.to_str() == "Title: a; Genre: b; Year of release: 2000; Number of likes: 10; Trailer link: sad\n");
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   49-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    %%%%%:   49-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        1:   49-block  2
+    %%%%%:   49-block  3
+        1:   49-block  4
+branch  9 taken 1 (fallthrough)
+branch 10 taken 0
+        1:   49-block  5
+call   11 returned 1
+    $$$$$:   49-block  6
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   49-block  7
+call   14 never executed
+    $$$$$:   49-block  8
+        1:   50:    cout << ".test_to_str() passed!\n";
+        1:   50-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   51:}
+        -:   52:
+function _ZN5Tests19test_movie_operatorEv called 1 returned 100% blocks executed 48%
+        1:   53:void Tests::test_movie_operator() {
+        3:   54:    Movie movie1 = Movie("a", "b", 2000, 10, "sad");
+        1:   54-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   54-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   54-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   54-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+call   15 returned 1
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+call   19 returned 1
+        1:   54-block  4
+call   20 returned 1
+    $$$$$:   54-block  5
+    $$$$$:   54-block  6
+    $$$$$:   54-block  7
+    $$$$$:   54-block  8
+    $$$$$:   54-block  9
+    $$$$$:   54-block 10
+    $$$$$:   54-block 11
+call   21 never executed
+        1:   55:    movie1 = movie1;
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   56:    assert(movie1 == movie1);
+        1:   56-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   56-block  1
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   56-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   56-block  3
+    %%%%%:   56-block  4
+        1:   57:    cout << ".test_movie_operator() passed!\n";
+        1:   57-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   58:}
+        -:   59:
+function _ZN5Tests18test_dynamic_arrayEv called 1 returned 100% blocks executed 46%
+        1:   60:void Tests::test_dynamic_array() {
+        2:   61:    DynamicArray<Movie> arr = DynamicArray<Movie>(2);
+        1:   61-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   61-block  1
+call    4 never executed
+        1:   62:    arr.add(Movie("a", "b", 2000, 10, "c"));
+        1:   62-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   62-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   62-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   62-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   62-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   62-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   62-block  6
+call   25 never executed
+    $$$$$:   62-block  7
+    $$$$$:   62-block  8
+call   26 never executed
+    $$$$$:   62-block  9
+    $$$$$:   62-block 10
+call   27 never executed
+    $$$$$:   62-block 11
+    $$$$$:   62-block 12
+call   28 never executed
+    $$$$$:   62-block 13
+    $$$$$:   62-block 14
+call   29 never executed
+    $$$$$:   62-block 15
+    $$$$$:   62-block 16
+call   30 never executed
+    $$$$$:   62-block 17
+    $$$$$:   62-block 18
+call   31 never executed
+    $$$$$:   62-block 19
+        1:   63:    arr.add(Movie("d", "e", 2001, 11, "f"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   63-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   63-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   63-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   63-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   63-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   63-block  5
+call   25 never executed
+    $$$$$:   63-block  6
+    $$$$$:   63-block  7
+call   26 never executed
+    $$$$$:   63-block  8
+    $$$$$:   63-block  9
+call   27 never executed
+    $$$$$:   63-block 10
+    $$$$$:   63-block 11
+call   28 never executed
+    $$$$$:   63-block 12
+    $$$$$:   63-block 13
+call   29 never executed
+    $$$$$:   63-block 14
+    $$$$$:   63-block 15
+call   30 never executed
+    $$$$$:   63-block 16
+    $$$$$:   63-block 17
+call   31 never executed
+    $$$$$:   63-block 18
+        1:   64:    arr.add(Movie("g", "h", 2002, 12, "i"));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   64-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   64-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   64-block  2
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   64-block  3
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   64-block  4
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   64-block  5
+call   25 never executed
+    $$$$$:   64-block  6
+    $$$$$:   64-block  7
+call   26 never executed
+    $$$$$:   64-block  8
+    $$$$$:   64-block  9
+call   27 never executed
+    $$$$$:   64-block 10
+    $$$$$:   64-block 11
+call   28 never executed
+    $$$$$:   64-block 12
+    $$$$$:   64-block 13
+call   29 never executed
+    $$$$$:   64-block 14
+    $$$$$:   64-block 15
+call   30 never executed
+    $$$$$:   64-block 16
+    $$$$$:   64-block 17
+call   31 never executed
+    $$$$$:   64-block 18
+        -:   65:
+        2:   66:    DynamicArray<Movie> new_arr = DynamicArray<Movie>(arr);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   66-block  0
+call    3 returned 1
+    $$$$$:   66-block  1
+call    4 never executed
+        1:   67:    new_arr = arr;
+        1:   67-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   68:    arr = arr;
+        1:   68-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   69:    assert(arr.get_size() == 3);
+        1:   69-block  0
+call    0 returned 1
+branch  1 taken 0 (fallthrough)
+branch  2 taken 1
+    %%%%%:   69-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        1:   69-block  2
+    %%%%%:   69-block  3
+       1*:   70:    assert(new_arr.get_size() == 3);
+        1:   70-block  0
+call    0 returned 1
+branch  1 taken 0 (fallthrough)
+branch  2 taken 1
+    %%%%%:   70-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        1:   70-block  2
+    %%%%%:   70-block  3
+        -:   71:
+        1:   72:    arr.remove(0);
+        1:   72-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   73:    assert(arr.get_size() == 2);
+        1:   73-block  0
+call    0 returned 1
+branch  1 taken 0 (fallthrough)
+branch  2 taken 1
+    %%%%%:   73-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        1:   73-block  2
+    %%%%%:   73-block  3
+        -:   74:
+        1:   75:    cout << ".test_dynamic_array() passed!\n";
+        1:   75-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   76:}
+        -:   77:
+function _ZN5Tests14test_user_repoEv called 1 returned 100% blocks executed 44%
+        1:   78:void Tests::test_user_repo() {
+        2:   79:    UserRepository user_repo;
+        1:   79-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+    $$$$$:   79-block  1
+call    4 never executed
+        1:   80:    user_repo.add_movie(Movie("a", "b", 1999, 2132, "c"));
+        1:   80-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   80-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   80-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   80-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   80-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   80-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   80-block  6
+call   25 never executed
+    $$$$$:   80-block  7
+    $$$$$:   80-block  8
+call   26 never executed
+    $$$$$:   80-block  9
+    $$$$$:   80-block 10
+call   27 never executed
+    $$$$$:   80-block 11
+    $$$$$:   80-block 12
+call   28 never executed
+    $$$$$:   80-block 13
+    $$$$$:   80-block 14
+call   29 never executed
+    $$$$$:   80-block 15
+    $$$$$:   80-block 16
+call   30 never executed
+    $$$$$:   80-block 17
+    $$$$$:   80-block 18
+call   31 never executed
+    $$$$$:   80-block 19
+       1*:   81:    assert(user_repo.get_size() == 1);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   81-block  0
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   81-block  1
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   81-block  2
+    %%%%%:   81-block  3
+        2:   82:    DynamicArray<Movie> da;
+        1:   82-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   82-block  1
+call    3 returned 1
+    $$$$$:   82-block  2
+call    4 never executed
+        1:   83:    da.add(Movie("a", "b", 1999, 2132, "c"));
+        1:   83-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   83-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   83-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   83-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   83-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   83-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   83-block  6
+call   25 never executed
+    $$$$$:   83-block  7
+    $$$$$:   83-block  8
+call   26 never executed
+    $$$$$:   83-block  9
+    $$$$$:   83-block 10
+call   27 never executed
+    $$$$$:   83-block 11
+    $$$$$:   83-block 12
+call   28 never executed
+    $$$$$:   83-block 13
+    $$$$$:   83-block 14
+call   29 never executed
+    $$$$$:   83-block 15
+    $$$$$:   83-block 16
+call   30 never executed
+    $$$$$:   83-block 17
+    $$$$$:   83-block 18
+call   31 never executed
+    $$$$$:   83-block 19
+       1*:   84:    assert(user_repo.get_watchlist().get_size() == da.get_size());
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   84-block  0
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 0 (fallthrough)
+branch  6 taken 1
+    %%%%%:   84-block  1
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+        1:   84-block  2
+    %%%%%:   84-block  3
+        1:   84-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:   84-block  5
+call   12 returned 1
+    $$$$$:   84-block  6
+branch 13 never executed
+branch 14 never executed
+    $$$$$:   84-block  7
+call   15 never executed
+    $$$$$:   84-block  8
+        1:   85:    user_repo.update_movie(Movie("a", "b", 1999, 2132, "c"), Movie("s", "b", 1999, 2132, "c"));
+        1:   85-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   85-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   85-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   85-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   85-block  4
+call   15 returned 1
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   85-block  5
+call   19 returned 1
+call   20 returned 1
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0 (throw)
+        1:   85-block  6
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   85-block  7
+call   27 returned 1
+branch 28 taken 1 (fallthrough)
+branch 29 taken 0 (throw)
+        1:   85-block  8
+call   30 returned 1
+branch 31 taken 1 (fallthrough)
+branch 32 taken 0 (throw)
+        1:   85-block  9
+call   33 returned 1
+call   34 returned 1
+call   35 returned 1
+call   36 returned 1
+call   37 returned 1
+call   38 returned 1
+call   39 returned 1
+call   40 returned 1
+call   41 returned 1
+call   42 returned 1
+call   43 returned 1
+call   44 returned 1
+call   45 returned 1
+call   46 returned 1
+    $$$$$:   85-block 10
+call   47 never executed
+    $$$$$:   85-block 11
+    $$$$$:   85-block 12
+call   48 never executed
+    $$$$$:   85-block 13
+    $$$$$:   85-block 14
+call   49 never executed
+    $$$$$:   85-block 15
+    $$$$$:   85-block 16
+call   50 never executed
+    $$$$$:   85-block 17
+    $$$$$:   85-block 18
+call   51 never executed
+    $$$$$:   85-block 19
+    $$$$$:   85-block 20
+call   52 never executed
+    $$$$$:   85-block 21
+    $$$$$:   85-block 22
+call   53 never executed
+    $$$$$:   85-block 23
+    $$$$$:   85-block 24
+call   54 never executed
+    $$$$$:   85-block 25
+    $$$$$:   85-block 26
+call   55 never executed
+    $$$$$:   85-block 27
+    $$$$$:   85-block 28
+call   56 never executed
+    $$$$$:   85-block 29
+    $$$$$:   85-block 30
+call   57 never executed
+    $$$$$:   85-block 31
+    $$$$$:   85-block 32
+call   58 never executed
+    $$$$$:   85-block 33
+    $$$$$:   85-block 34
+call   59 never executed
+    $$$$$:   85-block 35
+    $$$$$:   85-block 36
+call   60 never executed
+    $$$$$:   85-block 37
+       1*:   86:    assert(user_repo.get_watchlist().get_element(0).get_title() == "s");
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   86-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   86-block  1
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   86-block  2
+call    9 returned 1
+branch 10 taken 0 (fallthrough)
+branch 11 taken 1
+    %%%%%:   86-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+        1:   86-block  4
+    %%%%%:   86-block  5
+        1:   86-block  6
+branch 15 taken 1 (fallthrough)
+branch 16 taken 0
+        1:   86-block  7
+call   17 returned 1
+        1:   86-block  8
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0
+        1:   86-block  9
+call   20 returned 1
+        1:   86-block 10
+branch 21 taken 1 (fallthrough)
+branch 22 taken 0
+        1:   86-block 11
+call   23 returned 1
+    $$$$$:   86-block 12
+branch 24 never executed
+branch 25 never executed
+    $$$$$:   86-block 13
+call   26 never executed
+    $$$$$:   86-block 14
+    $$$$$:   86-block 15
+branch 27 never executed
+branch 28 never executed
+    $$$$$:   86-block 16
+call   29 never executed
+    $$$$$:   86-block 17
+    $$$$$:   86-block 18
+branch 30 never executed
+branch 31 never executed
+    $$$$$:   86-block 19
+call   32 never executed
+    $$$$$:   86-block 20
+        1:   87:    user_repo.remove_movie(Movie("a", "b", 1999, 2132, "c"));
+        1:   87-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   87-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   87-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   87-block  3
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   87-block  4
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   87-block  5
+call   18 returned 1
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+    $$$$$:   87-block  6
+call   25 never executed
+    $$$$$:   87-block  7
+    $$$$$:   87-block  8
+call   26 never executed
+    $$$$$:   87-block  9
+    $$$$$:   87-block 10
+call   27 never executed
+    $$$$$:   87-block 11
+    $$$$$:   87-block 12
+call   28 never executed
+    $$$$$:   87-block 13
+    $$$$$:   87-block 14
+call   29 never executed
+    $$$$$:   87-block 15
+    $$$$$:   87-block 16
+call   30 never executed
+    $$$$$:   87-block 17
+    $$$$$:   87-block 18
+call   31 never executed
+    $$$$$:   87-block 19
+       1*:   88:    assert(user_repo.get_size() == 0);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   88-block  0
+branch  3 taken 0 (fallthrough)
+branch  4 taken 1
+    %%%%%:   88-block  1
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+        1:   88-block  2
+    %%%%%:   88-block  3
+        1:   89:    cout << ".test_user_repo() passed!\n";
+        1:   89-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   90:}
+        -:   91:
+function _ZN5Tests8test_allEv called 1 returned 100% blocks executed 100%
+        1:   92:void Tests::test_all() {
+        1:   93:    test_add();
+        1:   93-block  0
+call    0 returned 1
+        1:   94:    test_remove();
+call    0 returned 1
+        1:   95:    test_update();
+call    0 returned 1
+        1:   96:    test_to_str();
+call    0 returned 1
+        1:   97:    test_movie_operator();
+call    0 returned 1
+        1:   98:    test_dynamic_array();
+call    0 returned 1
+        1:   99:    test_user_repo();
+call    0 returned 1
+        -:  100:
+        1:  101:    cout << "All tests passed!\n";
+call    0 returned 1
+        1:  102:}
