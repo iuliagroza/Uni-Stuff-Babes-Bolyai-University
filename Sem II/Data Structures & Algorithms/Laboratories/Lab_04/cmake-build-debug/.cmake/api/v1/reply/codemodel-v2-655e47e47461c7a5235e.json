@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lab-04",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab-04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab-04-Debug-0f7e7f3c8bc2ee17b8d4.json",
+					"name" : "Lab-04",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_04/cmake-build-debug",
+		"source" : "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Data Structures & Algorithms/Laboratories/Lab_04"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
