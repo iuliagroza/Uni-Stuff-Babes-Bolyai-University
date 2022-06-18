@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture9_demo", "Lecture9_demo\Lecture9_demo.vcxproj", "{47FFBB1D-79EF-41F9-B590-06C73AB71A64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture9_demo_widgets", "Lecture9_demo_widgets\Lecture9_demo_widgets.vcxproj", "{F98103CC-B19C-46C5-AFC8-4A6A0F7D8BD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47FFBB1D-79EF-41F9-B590-06C73AB71A64}.Debug|x64.ActiveCfg = Debug|x64
+		{47FFBB1D-79EF-41F9-B590-06C73AB71A64}.Debug|x64.Build.0 = Debug|x64
+		{47FFBB1D-79EF-41F9-B590-06C73AB71A64}.Release|x64.ActiveCfg = Release|x64
+		{47FFBB1D-79EF-41F9-B590-06C73AB71A64}.Release|x64.Build.0 = Release|x64
+		{F98103CC-B19C-46C5-AFC8-4A6A0F7D8BD9}.Debug|x64.ActiveCfg = Debug|x64
+		{F98103CC-B19C-46C5-AFC8-4A6A0F7D8BD9}.Debug|x64.Build.0 = Debug|x64
+		{F98103CC-B19C-46C5-AFC8-4A6A0F7D8BD9}.Release|x64.ActiveCfg = Release|x64
+		{F98103CC-B19C-46C5-AFC8-4A6A0F7D8BD9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DD91173-0E8B-4C75-AC71-82A2D34EBF17}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+Human|ABO|Determinant of blood type (ABO)
+Human|ALB|The most abundant protein in human blood plasma	
+Ecoli|accD|enzyme; Fatty acid and phosphatidic acid biosynthesis
+Human|BCL2|The prototype anti-apoptotic protein
+Human|CCR5|Has an important role in resistance to infection
+Human|CD4|The prototype marker for T helper cells
+Ecoli|dapE|enzyme; Amino acid biosynthesis: Lysine
+Ecoli|era|factor; Global regulatory functions
+Ecoli|frr|factor; Proteins - translation and modification
+Human|CD8|The prototype marker for cytotoxic T cells
+Human|IL2|Strong pro-inflammatory cytokine
+Human|IL10|anti-inflammatory cytokine
+Human|IL10|anti-inflammatory cytokine
+Ecoli|ftsL|phenotype; Cell division
+Ecoli|infA|factor; Proteins - translation and modification
+Human|NPTN|A study found that teenagers who had a highly functioning NPTN gene performed better in intelligence tests
+Human|ZBTB7A|Associated with cancer. Originally called POKemon, the gene was renamed after legal threats from Pokemon USA
+Ecoli|hflB|enzyme; Degradation of proteins, peptides, glyco
+Ecoli|lgt|enzyme; Macromolecule synthesis
+Ecoli|map|enzyme; Proteins - translation and modification
+Human|CRH|Corticotropin releasing hormone
+Human|HFE|Hereditary hemochromatosis protein precursor
+Ecoli|mopB|factor; Chaperones
+Human|NPPB|Associated with cardiovascular disease
+Ecoli|yfiL|Unknown
+Ecoli|ftsI|enzyme; Cell division
+Ecoli|ftsI|enzyme; Cell division
+Ecoli|ftsI|enzyme; Cell division
+Mouse|abcdef|None
+Virus|bbbb|None
+Virus|new_gene|some description

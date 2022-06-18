@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture12_demo_observer", "Lecture12_demo_observer\Lecture12_demo_observer.vcxproj", "{267CF904-0D66-4D6B-8248-A82D4A641411}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lecture12_demo_adapter", "Lecture12_demo_adapter\Lecture12_demo_adapter.vcxproj", "{BCE46DD6-A55B-4E31-B62C-85EE4B41355A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267CF904-0D66-4D6B-8248-A82D4A641411}.Debug|x64.ActiveCfg = Debug|x64
+		{267CF904-0D66-4D6B-8248-A82D4A641411}.Debug|x64.Build.0 = Debug|x64
+		{267CF904-0D66-4D6B-8248-A82D4A641411}.Release|x64.ActiveCfg = Release|x64
+		{267CF904-0D66-4D6B-8248-A82D4A641411}.Release|x64.Build.0 = Release|x64
+		{BCE46DD6-A55B-4E31-B62C-85EE4B41355A}.Debug|x64.ActiveCfg = Debug|x64
+		{BCE46DD6-A55B-4E31-B62C-85EE4B41355A}.Debug|x64.Build.0 = Debug|x64
+		{BCE46DD6-A55B-4E31-B62C-85EE4B41355A}.Release|x64.ActiveCfg = Release|x64
+		{BCE46DD6-A55B-4E31-B62C-85EE4B41355A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBE0819-9D2A-497B-8DA5-04F3B4F147F4}
+	EndGlobalSection
+EndGlobal
