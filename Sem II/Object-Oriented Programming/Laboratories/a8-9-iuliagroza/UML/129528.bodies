@@ -1,7 +1,0 @@
-class InputError
-!!!136568.cpp!!!	InputError(in message : char)
-
-    this->message = message;
-!!!136696.cpp!!!	what() : char
-
-    return this->message;
