@@ -1,0 +1,5 @@
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/CMakeFiles/Seminar7.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/CMakeFiles/Seminar7_autogen_timestamp_deps.dir
+D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/CMakeFiles/Seminar7_autogen.dir

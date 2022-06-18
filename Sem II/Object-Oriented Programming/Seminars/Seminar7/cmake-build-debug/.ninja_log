@@ -1,0 +1,27 @@
+# ninja log v5
+6	885	6758831483547115	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+6	885	6758831483547115	Seminar7_autogen/timestamp	ba83747ad737829e
+2313	4838	6758819982542330	CMakeFiles/Seminar7.dir/main.cpp.obj	1d859b6f26d0f775
+6	885	6758831483547115	Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+6	885	6758831483547115	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/timestamp	ba83747ad737829e
+885	2943	6758831506478485	CMakeFiles/Seminar7.dir/Seminar7_autogen/mocs_compilation.cpp.obj	8cfae43518566f88
+2943	3786	6758831508550707	Seminar7.exe	e3342717c9591478
+969	1073	6758830700007321	CMakeFiles/Seminar7.dir/Observer.cpp.obj	857011615b584f90
+975	1464	6758830703918083	CMakeFiles/Seminar7.dir/Subject.cpp.obj	7e8d7b49d68fb0fc
+892	2669	6758831503746443	CMakeFiles/Seminar7.dir/chatwindow.cpp.obj	be5107d9113f0a6b
+7	878	6758854069686376	Seminar7_autogen/timestamp	ba83747ad737829e
+7	878	6758854069686376	Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+7	878	6758854069686376	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/timestamp	ba83747ad737829e
+7	878	6758854069686376	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+894	1019	6758854073186638	CMakeFiles/Seminar7.dir/Observer.cpp.obj	857011615b584f90
+909	1408	6758854077174965	CMakeFiles/Seminar7.dir/Subject.cpp.obj	7e8d7b49d68fb0fc
+918	1447	6758854077604770	CMakeFiles/Seminar7.dir/ChatSession.cpp.obj	dde46cda2715644f
+878	2822	6758854091322376	CMakeFiles/Seminar7.dir/Seminar7_autogen/mocs_compilation.cpp.obj	8cfae43518566f88
+886	2938	6758854092514081	CMakeFiles/Seminar7.dir/main.cpp.obj	1d859b6f26d0f775
+901	3323	6758854096344830	CMakeFiles/Seminar7.dir/chatwindow.cpp.obj	be5107d9113f0a6b
+21	556	6761322232509122	Seminar7_autogen/timestamp	ba83747ad737829e
+21	556	6761322232509122	Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+21	556	6761322232509122	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/timestamp	ba83747ad737829e
+21	556	6761322232509122	D:/Moveable-Personal/CS Work/College/Facultate/Sem II/Object-Oriented Programming/Seminars/Seminar7/cmake-build-debug/Seminar7_autogen/mocs_compilation.cpp	ba83747ad737829e
+568	5520	6761322282150815	CMakeFiles/Seminar7.dir/main.cpp.obj	1d859b6f26d0f775
+668	6398	6761322290918328	CMakeFiles/Seminar7.dir/chatwindow.cpp.obj	be5107d9113f0a6b
