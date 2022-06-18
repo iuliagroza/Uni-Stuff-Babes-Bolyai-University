@@ -1,0 +1,20 @@
+
+Exercitii propuse
+-------------------------------------------------------------------------------------
+1. Cititi 1000 de numere intregi dintr-un fisier binar care contine numere aleatoare.
+Utilizand 10 thread-uri:
+- determinati cel mai mare numar intreg din fiecare interval de 100 numere consecutive ([0,99], [100,199], ..., [900,999])
+- determinati si afisati apoi, in fiecare thread, cea mai mare diferenta dintre valorile obtinute in celelalte thread-uri
+si cea obtinuta in thread-ul curent. 
+
+
+2. Se dau un fisier binar care contine 100.000 de numere aleatoare si o variabila buffer care poate stoca doar 100 de numere.
+Sa se determine suma primelor 1000 de numere intregi din acest fisier folosind 10 thread-uri (consumers threads).
+Citirea celor 1000 de numere intregi se va face, pe rand, in variabila buffer folosind alte 10 thread-uri (producers threads).
+
+
+
+------------------------------------------------------------------------------------------
+Comanda necesara pentru generarea unui fisier binar care contine 100.000 numere aleatoare:
+
+dd if=/dev/urandom of=random-file bs=2 count=100000

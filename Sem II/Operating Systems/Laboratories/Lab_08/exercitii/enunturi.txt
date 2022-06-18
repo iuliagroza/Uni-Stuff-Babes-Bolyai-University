@@ -1,0 +1,54 @@
+﻿
+IPC - Pipe
+--------------------------------------------------------------------------------------------------
+1. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un număr natural şi îl trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează dacă acest număr este par sau impar.
+
+2. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un număr natural şi îl trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează dacă acest număr este prim.
+
+3. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un caracter c şi un şir s şi le trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează numărul de apariţii ale caracterului c în şirul s.
+
+4. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură două numere întregi pe care le trimite prin pipe procesului copil,
+iar procesul copil returnează prin pipe suma lor.
+
+5. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte dintr-un fişier de tip text două numere întregi pe care le trimite prin pipe procesului copil,
+iar procesul copil returnează prin pipe suma lor.
+
+
+
+IPC - FIFO (Named pipe)
+-----------------------------------------------------------------------------------------------------------------------
+Rezolvaţi exerciţiile propuse pentru comunicarea prin pipe, folosind 2 programe (reader/writer) care comunică prin FIFO. 
+
+
+
+IPC - Coada de mesaje (Message queue)
+-----------------------------------------------------------------------------------------------------------------------
+Să se scrie două programe client/server care comunică printr-o coadă de mesaje.
+
+Serverul va crea coada de mesaje la pornire şi va trata într-un ciclu infinit mesajele de la clienţi.
+La primirea semnalului SIGINT (Ctrl-C) serverul va distruge coada de mesage şi îşi va încheia execuţia.
+
+Clientul va trimite serverului un întreg, iar serverul îl va trimite înapoi dublat.
+
+Cum ar putea să comunice mai mulţi clienţi deodată cu serverul fără să încurce între ei mesajele de răspuns ale serverului ?
+
+
+
+IPC - Memorie partajată (Shared memory)
+-----------------------------------------------------------------------------------------------------------------------
+Să se scrie două programe client/server care comunică printr-un segment de memorie partajată care conţine trei numere întregi: a, b, şi sum.
+
+Serverul va crea segmentul de memorie partajată şi va executa continuu (fără sleep) operaţia de adunare sum = a + b.
+La primirea semnalului SIGINT (Ctrl-C) serverul va distruge segmentul de memorie partajată şi îşi va încheia execuţia.
+
+Clientul se va conecta la zona de memorie partajată, va da variabilelor a si b valori aleatoare între 0 si 9 şi va afişa pe ecran valorile a, b si sum.
+
+Explicaţi de ce valorile afişate de client nu respectă întotdeauna egalitatea a + b = sum.

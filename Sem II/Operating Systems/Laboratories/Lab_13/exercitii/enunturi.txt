@@ -1,0 +1,13 @@
+
+Exerciții propuse
+-------------------------------------------------------------------------------------
+1. Scrieți un program C care primește în linia de comandă oricâte perechi de argumente formate dintr-un nume de fișier și o cifră, astfel:
+
+./ex1 a.txt 3 b.txt 3 ...
+
+Programul va utiliza un vector cu 10 numere întregi ca variabilă globală și pentru fiecare pereche de argumente furnizată în linia de comandă, programul va crea câte un thread. Fiecare thread va determina și va adăuga numărul de litere mari din fișierul dat la numărul întreg a cărui poziție este egală cu cifra primită ca argument.
+
+
+2. Să se scrie un program C care:
+- va citi 200000 numere întregi (pe 1 OCTET) dintr-un fișierul binar și le va stoca într-o variabilă globală;
+- va crea, apoi, un număr potrivit de thread-uri care vor procesa numerele întregi citite anterior din fișier și care vor determina și vor afișa numărul mediu de apariții al unui număr prim din intervalul [1, 100].

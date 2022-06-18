@@ -1,0 +1,96 @@
+Problema
+--------
+Sa se scrie un program C care aloca o matrice 4-dimensionala ale carei
+dimensiuni sunt citite de la tastatura. Matricea se va popula cu valoarea
+1 peste tot si apoi se va calcula suma tuturor elementelor. La sfarsit,
+memoria alocata se va dealoca.
+
+Focus
+-----
+1. Pointeri multipli
+2. Alocare si dealocare corecta a memoriei
+3. Gasirea problemelor de memorie cu valgrind
+4. Gasirea header-ului necesar (stdlib.h) in manuale (man 2 free)
+5. Indentarea consistenta a codului obligatorie
+
+Solutie
+-------
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int i1, i2, i3, i4;
+    int d1, d2, d3, d4;
+    int**** m;
+    int sum;
+
+    printf("d1 = ");
+    scanf("%d", &d1);
+
+    printf("d2 = ");
+    scanf("%d", &d2);
+
+    printf("d3 = ");
+    scanf("%d", &d3);
+
+    printf("d4 = ");
+    scanf("%d", &d4);
+
+    sum = 0;
+    m = (int****)malloc(d1*sizeof(int***));
+    for(i1=0; i1<d1; i1++) {
+        m[i1] = (int***)malloc(d2*sizeof(int**));
+        for(i2=0; i2<d2; i2++) {
+            m[i1][i2] = (int**)malloc(d3*sizeof(int*));
+            for(i3=0; i3<d3; i3++) {
+                m[i1][i2][i3] = (int*)malloc(d4*sizeof(int));
+                for(i4=0; i4<d4; i4++) {
+                    m[i1][i2][i3][i4] = 1;
+                    sum += m[i1][i2][i3][i4];
+                }
+            }
+        }
+    }
+
+
+    for(i1=0; i1<d1; i1++) {
+        for(i2=0; i2<d2; i2++) {
+            for(i3=0; i3<d3; i3++) {
+                free(m[i1][i2][i3]);
+            }
+            free(m[i1][i2]);
+        }
+        free(m[i1]);
+    }
+    free(m);
+
+    printf("sum = %d\n", sum);
+    return 0;
+}
+
+Rulare cu valgrind
+------------------
+[21:47:30] rares@linux  ~
+> gcc -Wall -pedantic  m4d.c -o m4d
+
+[21:51:24] rares@linux  ~
+> valgrind ./m4d
+==30792== Memcheck, a memory error detector
+==30792== Copyright (C) 2002-2010, and GNU GPL'd, by Julian Seward et al.
+==30792== Using Valgrind-3.6.0 and LibVEX; rerun with -h for copyright info
+==30792== Command: ./m4d
+==30792==
+d1 = 1
+d2 = 2
+d3 = 3
+d4 = 4
+sum = 24
+==30792==
+==30792== HEAP SUMMARY:
+==30792==     in use at exit: 0 bytes in 0 blocks
+==30792==   total heap usage: 10 allocs, 10 frees, 168 bytes allocated
+==30792==
+==30792== All heap blocks were freed -- no leaks are possible
+==30792==
+==30792== For counts of detected and suppressed errors, rerun with: -v
+==30792== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)

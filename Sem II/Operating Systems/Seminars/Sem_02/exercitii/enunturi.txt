@@ -1,0 +1,37 @@
+
+Exerciţii propuse
+-----------------------------------------------------------------------------------------------------
+1. Calculați numărul mediu de linii ale fișierelor de tip text dintr-un director dat ca parametru.
+(comenzi: find, file, wc)
+
+2. Afișați numele fișierelor dintr-un director dat ca parametru care conțin numere de peste 5 cifre.
+
+3. Afișați primele 5 linii și ultimele 5 linii ale fișierelor de tip text din directorul curent.
+Dacă un fișier are mai puțin de 10 linii, afișați fișierul complet.
+(comenzi: head, tail, find, file, wc)
+
+4. Sa se scrie un fisier de comenzi care va afisa toate fisierele dintr-un director si din subdirectoarele
+acestuia asupra carora au drepturi de scriere toate cele trei categorii de utilizatori.
+Aceste fisiere vor fi apoi redenumite, adaugandu-se sufixul .all.
+(comenzi: find -perm, mv)
+
+5. Pentru fiecare parametru din linia de comandă: dacă e fișier, se vor afișa numele, numărul de caractere
+și de linii din el (în această ordine), iar dacă e director, numele și câte fișiere conține (inclusiv în subdirectoare).
+(comenzi: test, wc, awk, find)
+
+6. Sa se scrie un fisier de comenzi care are ca parametri triplete formate dintr-un nume de fisier, un cuvant si un numar k.
+Pentru fiecare astfel de triplet, se vor afisa toate liniile fisierului care contin cuvantul respectiv exact de k ori.
+(comenzi: shift, awk)
+
+7. Sa se afiseze pentru fiecare fisier din linia de comanda linia care apare de cele mai multe ori,
+afisarea facandu-se in ordinea decsrescatoare a numarului de aparitii.
+(comenzi: sort, uniq, head)
+
+8. Sa se scrie un fisier de comenzi care va afisa toate numele de fisiere dintr-un director dat ca parametru
+si din subdirectoarele sale, care au numele mai scurte de 8 caractere.
+Pentru acestea, daca sunt fisiere text, li se vor afisa primele 10 linii.
+
+9. Sa se scrie un program shell care pentru fiecare fisier cu drepturile 755 dintr-un director (si subdirectoarele sale)
+dat ca parametru ii schimba drepturile de acces in 744.
+Inainte de a schimba drepturile de acces, pogramul cere confirmare din partea utilizatorului (pentru fiecare fisier in parte).
+(comenzi: find, chmod, read)

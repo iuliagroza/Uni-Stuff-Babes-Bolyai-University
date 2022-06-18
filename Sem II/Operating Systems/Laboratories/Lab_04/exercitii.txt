@@ -1,0 +1,18 @@
+
+Exerciții propuse
+-----------------------------------------------------------------------------------------------------
+1. Să se determine numărul total de procese care rulează în acest moment.
+
+2. Să se determine numărul total de procese care sunt executate în acest moment de către un anumit utilizator.
+
+3. Să se afișeze lista tuturor proceselor care sunt executate în acest moment de către un anumit utilizator.
+
+4. Să se determine numărul total de fișiere dintr-un director dat.
+
+5. Să se determine numărul total de subdirectoare dintr-un director dat.
+
+6. Să se determine numărul total de fișiere executabile dintr-un director dat.
+
+7. Să se determine numărul total de conturi UNICE care s-au conectat la server în data de 08.03.2022.
+
+8. Să se afișeze lista studenților secției Informatică Română care s-au conectat la server în data de 08.03.2022.

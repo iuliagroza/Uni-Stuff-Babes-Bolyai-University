@@ -1,0 +1,18 @@
+
+Exerciții propuse
+---------------------------------------------------------------------------------------------------
+1. Se dă un tablou care conține 100.000 de numere întregi. Folosind un număr potrivit de thread-uri
+și cele mai potrivite mecanisme de sincronizare, să se determine cel mai mic număr întreg din acest tablou.
+
+2. Se dă un tablou care conține 100.000 de numere întregi. Folosind un număr potrivit de thread-uri
+și cele mai potrivite mecanisme de sincronizare, să se calculeze diferența absolută dintre valoarea minimă
+determinată în fiecare interval de 2000 de numere consecutive și media aritmetică a tuturor valorilor minime.
+
+3. Se dau un fișier binar care conține 100.000 de numere aleatoare și un tablou care poate stoca doar 100 de numere.
+Să se determine suma primelor 1000 de numere întregi din acest fișier folosind 10 thread-uri (consumers threads).
+Citirea celor 1000 de numere intregi se va face, pe rând, în variabila buffer folosind alte 10 thread-uri (producers threads).
+
+--------------------------------------------------------------------------------------------------------
+Comanda necesară pentru generarea unui fișier binar "random-file" care conține 100.000 numere aleatoare:
+
+dd if=/dev/urandom of=random-file bs=2 count=100000

@@ -1,0 +1,53 @@
+
+Exercitii (fisier de date: angajati.txt)
+-----------------------------------------------------------------------------------------------------
+
+1. Afisati continutul intregului fisier.
+
+2. Afisati liniile de la 5 pana la 10.
+
+3. Afisati liniile de la 8 pana la ultima.
+
+4. Afisati liniile care contin sirul 'Tudor'.
+
+5. Afisati liniile care contin cuvantul 'Tudor'.
+
+6. Stergeti liniile de la 1 pana la 3.
+
+7. Stergeti liniile care contin cuvantul Popescu.
+
+8. Stergeti liniile de la Ion la Tudor.
+
+9. Stergeti ultima linie din fisier.
+
+10. Stergeti toate liniile care sunt goale.
+
+11. Inlocuiti cuvantul Olga cu **Olga**.
+
+12. Inlocuiti toate aparitiile numarului 19 cu numarul 18.
+
+13. Creati o copie de rezerva a fisierului de date (angajati.bak).
+
+14. Adaugati o linie noua dupa a 3-a linie din fisier.
+
+15. Adaugati o linie noua dupa numele Adrian.
+
+16. Adaugati textul 'TERMINAT' la sfarsitul fisierului.
+
+17. Inlocuiti textul de pe linia 2 cu textul 'SALARIAT PENSIONAT'.
+
+18. Inserati la inceputul fisierului textul 'DATE DESPRE PERSONAL'.
+
+19. Inlocuiti spatiile cu tab-uri si afisati rezultatul cu sed.
+
+20. Opriti executia programului dupa afisarea celei de a 5-a linii.
+
+21. Inserati dupa a 3-a linie un text citit dintr-un fisier.
+
+22. Inserati pe a 5-a linie data si ora curenta.
+
+23. Scrieti un script care:
+	a. Insereaza deasupra primei linii textul 'DATE DESPRE PERSONAL'
+	b. Sterge salariile care se termina cu 49
+	c. Tipareste continutul fisierului cu numele angajatului pe prima pozitie si prenumele pe a doua pozitie
+	d. Adauga la sfarsitul fisierului textul 'TERMINAT'

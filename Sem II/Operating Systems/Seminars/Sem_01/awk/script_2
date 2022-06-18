@@ -1,0 +1,14 @@
+#!/bin/awk
+
+# afisam headerul tabelului
+BEGIN {
+printf "Nume\t\t\tPrenume\t\tData nasterii\tTelefon\t\tSalariu\n";
+printf "-------------------------------------------------------------------------------\n";}
+
+# prelucram fisierul de date
+{printf "%s   \t\t%s    \t%s\t%s\t%s\n", $2, $1, $3, $4, $5}
+
+# afisam numarul total de angajati
+END {
+printf "-------------------------------------------------------------------------------\n";
+printf "Numarul total de angajati: %d\n", NR}

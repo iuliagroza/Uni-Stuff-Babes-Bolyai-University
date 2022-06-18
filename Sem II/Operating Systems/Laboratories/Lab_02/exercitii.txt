@@ -1,0 +1,17 @@
+
+Lab 2 - Exerciții
+---------------------------------------------------------------------------
+1. Sa se scrie un program C care:
+- citeste un sir de numere intregi de la tastatura;
+- determina si afiseaza pe ecran minimul, maximul si media lor aritmetica.
+
+
+2. Sa se scrie un program C care:
+- citeste un numar N de la tastatura;
+- citeste N cuvinte care contin maximum 10 litere;
+- sorteaza cuvintele in ordine alfabetica si le afiseaza pe ecran.
+
+
+3. Sa se scrie un program C care:
+- citeste o matrice cu 3 randuri si 4 coloane dintr-un fisier de tip text;
+- afiseaza pe ecran matricea citita din fisier.

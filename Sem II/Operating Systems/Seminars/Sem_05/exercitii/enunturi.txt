@@ -1,0 +1,19 @@
+
+Exerciții propuse
+-------------------------------------------------------------------------------------
+
+1. Generați 100.000 de numere aleatoare și calculați suma lor utilizând 100 thread-uri.
+
+2. Citiți 100.000 de numere dintr-un fișier binar cu numere aleatoare și determinați
+mai apoi, utilizând 100 thread-uri, câte numere sunt divizibile cu 5.
+
+
+Rezolvați exercițiile de mai sus:
+- mai întâi, fără sincronizarea thread-urilor
+- utilizând, pe rând, diferite obiecte pentru sincronizarea thread-urilor
+(mutex, RW lock, variabile de condiție, semafoare)
+
+------------------------------------------------------------------------------------------
+Comanda necesara pentru generarea unui fisier binar care contine 100.000 numere aleatoare:
+
+dd if=/dev/urandom of=random-file.bin bs=2 count=100000

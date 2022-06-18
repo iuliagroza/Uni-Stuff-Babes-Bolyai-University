@@ -1,0 +1,35 @@
+https://www.cs.ubbcluj.ro/~rares/course/os/res/practice/gsa/index.html
+
+ 1. cat last.fake | awk '{if($3 ~ /^economica/ && $4 == "Sun"){print $1}}' | sort | uniq
+ 2. cat last.fake | awk '{print $1, $7}' | sed 's/:/ /' | awk '{if($2 >= 23){print $1}}' | sort | uniq | head -n -1
+ 3. cat passwd.fake | awk -F ':' '{if($0 ~ /^m/ && $3 % 7 == 0){print $5}}'
+ 4. cat ps.fake | awk '{if($0 ~ /^root/){print $6}}' | sort | uniq
+ 5. cat passwd.fake | awk -F ':' '{if($1 ~ /88$/){print $5}}'
+ 6. cat passwd.fake | awk -F ':' '{if($1 ~ /023[0-9]$/){print $5}}'
+ 7. cat last.fake | awk '{if($1 ~ /^t/ && $2 == "pts/9"){print $1}}' | sort | uniq
+ 8. cat ps.fake | awk '{if($1 ~ /^r/){print $1}}' | sort | uniq | sed -E 's/([aeiou])/\1\1/'
+ 9. cat passwd.fake | sed -E 's/[ 0-9A-Za-z]//g' | sort | uniq
+10. cat passwd.fake | sed -E 's/[^r]//g' | sort | uniq
+11. cat ps.fake | awk '{print $2}' | awk '{sum+=$1}END{print sum/NR}
+
+G1. grep -E --colour "^(...){1,}$" g1.txt
+G2. grep -E -v --color "[13579]" g2.txt | grep -E --color "^(.*[AEIOU]){3,}.*$"
+G3. 
+
+
+GREP
+grep -E --colour "^(...){1,}$" names.txt  - rows that have a number of characters
+divisible by 3
+grep -E -v --colour '[0-9].' f | grep -E --colour '[AEIOU].*[AEIOU].*[AEIOU].*'  - rows that do not
+contain digits and contain at least 3 big case vowels
+grep -E --colour '^([13579][13579])+' f | grep -E '[02468]([02468][02468])*'$  - rows that start with an even number of odd digits and end with an odd number of even digits
+grep -E -v '([AEIOU].*){4,}' f | grep -E -v '[13579].*'  - rows that contain maximum 3 big case vowels and have no odd digits
+grep -E -o --colour '\|.*\^' f  - characters between the first | and the last ^
+grep -E -x '(([A-Z]+) ([A-Z]))+' names.txt  - display all lines containing only big letters and spaces
+grep -E -c -x '(([A-Z]+) ([A-Z]))+' names.txt  - only the number of lines corresponding to the previous exercise
+grep -E -n '^[0-9]{2,}.*[0-9]{2,}$' f - display the lines and  index of those lines that start and end with 2 digits
+grep -E -o '\$[^\$]*$' f  - display all the characters after the last aparition of $ including $
+grep -E -x '[^A-Za-z0-9]*' f   - display all lines that do not contain any letters or digits
+SED
+sed -E -e 'y/aeiou/AEIOU/' f  - replace all small vowels with their uppercase
+sed -E -e 's/(^.{2})//' names.txt | sed -E -e 's/(.{3}$)//'  - delete the first 2 and the last 3 characters from every line
