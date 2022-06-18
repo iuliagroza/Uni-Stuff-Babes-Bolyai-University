@@ -1,0 +1,282 @@
+format 224
+"controller" // a8-9-iuliagroza::controller
+  revision 2
+  modified_by 120 "groza"
+  // class settings
+  
+  classdiagramsettings member_max_width 0 end
+  
+  classcompositediagramsettings end
+  
+  usecasediagramsettings end
+  
+  sequencediagramsettings end
+  
+  collaborationdiagramsettings end
+  
+  objectdiagramsettings end
+  
+  objectcompositediagramsettings end
+  
+  componentdiagramsettings
+   end
+  
+  deploymentdiagramsettings
+   end
+  
+  statediagramsettings
+   end
+  
+  activitydiagramsettings
+   end
+  
+  cpp_h_dir "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/controller/"
+  cpp_src_dir "D:/Moveable-Personal/CS Work/College/Facultate/Sem II/OOP/Laboratories/a8-9-iuliagroza/controller/"
+  classview 128120 "controller"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    class 128120 "Controller"
+      visibility package 
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 128120 // admin_repo (<directional composition>)
+	relation 128120 *-->
+	  a role_name "admin_repo" private
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} ${name}${value};
+"
+	    classrelation_ref 128120 // admin_repo (<directional composition>)
+	  b parent class_ref 128248 // AdminRepository
+      end
+
+      classrelation 128248 // user_repo (<unidirectional association>)
+	relation 128248 --->
+	  a role_name "user_repo" private
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 128248 // user_repo (<unidirectional association>)
+	  b parent class_ref 128376 // UserRepository
+      end
+
+      operation 128120 "Controller"
+	preserve_cpp_body_indent public explicit_return_type ""
+	nparams 2
+	  param in name "admin_filename" explicit_type "std::string"
+	  param inout name "r" type class_ref 128376 // UserRepository
+	cpp_decl "    ${comment}${inline}${name}${(}${t0} ${p0}${v0}, ${t1} * ${p1}${v1}${)}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${class}::${name}${(}${t0} ${p0}, ${t1} * ${p1}${)} : admin_repo{AdminRepository(admin_filename)},
+                                                                        user_repo{r} ${throw}{
+${body}}
+"
+	
+	
+	
+	
+	comment "
+CONSTRUCTOR
+"
+      end
+
+      operation 128248 "get_admin_repo"
+	preserve_cpp_body_indent public return_type class_ref 128248 // AdminRepository
+	nparams 0
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Getter for the admin_repo filed.
+"
+      end
+
+      operation 128376 "get_user_repo"
+	preserve_cpp_body_indent public return_type class_ref 128376 // UserRepository
+	nparams 0
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} * ${name}${(}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Getter for the user_repo field.
+"
+      end
+
+      operation 128504 "add_admin"
+	preserve_cpp_body_indent public explicit_return_type "void"
+	nparams 1
+	  param in name "movie" type class_ref 128504 // Movie
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}const ${t0} & ${p0}${v0}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Function that adds a movie in the database. If the movie already exists in the database,
+the function will return 0. Otherwise, it will perform the addition using the .add_movie() function
+from the AdminRepository class and then return 1.
+:movie: Movie object
+return: bool
+"
+      end
+
+      operation 128632 "remove_admin"
+	preserve_cpp_body_indent public explicit_return_type "void"
+	nparams 1
+	  param in name "movie" type class_ref 128504 // Movie
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}${t0} ${p0}${v0}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Function that removes a movie from the database. If the movie does not exist in the database,
+the function will return 0. Otherwise, it will perform the removal using the .remove_movie() function
+from the AdminRepository class and then return 1.
+:movie: Movie object
+return: bool
+"
+      end
+
+      operation 128760 "update_admin"
+	preserve_cpp_body_indent public explicit_return_type "void"
+	nparams 2
+	  param in name "movie" type class_ref 128504 // Movie
+	  param in name "new_movie" type class_ref 128504 // Movie
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}${t0} ${p0}${v0}, ${t1} ${p1}${v1}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Function that updates a movie from the database. If the movie does not exist in the database,
+the function will return 0. Otherwise, it will perform the update_admin using the .update_movie() function
+from the AdminRepository class and then return 1.
+:movie: Movie object
+return: bool
+"
+      end
+
+      operation 128888 "add_user"
+	preserve_cpp_body_indent public explicit_return_type "void"
+	nparams 1
+	  param in name "movie" type class_ref 128504 // Movie
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}${t0} ${p0}${v0}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Function that adds a movie to the watchlist of the user. No validation is required as the user will be presented
+only films that are not in the watchlist already.
+:movie: Movie object
+"
+      end
+
+      operation 129016 "remove_user"
+	preserve_cpp_body_indent public explicit_return_type "void"
+	nparams 1
+	  param in name "movie" type class_ref 128504 // Movie
+	cpp_decl "    ${comment}${friend}${static}${inline}${virtual}${typeprefix}${type} ${name}${(}${t0} ${p0}${v0}${)}${const}${volatile}${throw}${abstract};
+"
+	cpp_def "${comment}${inline}${typeprefix}${type} ${class}::${name}${(}${)}${const}${volatile}${throw}${staticnl}{
+  ${body}}
+"
+	
+	
+	
+	
+	comment "
+Function that removes a movie from the watchlist. If the movie does not exist in the watchlist,
+the function will return 0. Otherwise, it will perform the removal using the .remove_movie() function
+from the UserRepository class and then return 1.
+:movie: Movie object
+return: bool
+"
+      end
+    end
+
+    classdiagram 128120 "adfs"
+      classdiagramsettings member_max_width 0 end
+      size A4
+    end
+  end
+
+  deploymentview 128120 "controller"
+    //deployment diagram settings
+    deploymentdiagramsettings
+     end
+    artifact 128120 "Controller"
+      stereotype "source"
+      cpp_h "#ifndef ${NAMESPACE}_${NAME}_H
+#define ${NAMESPACE}_${NAME}_H
+
+${comment}
+${includes}
+${declarations}
+${namespace_start}
+${definition}
+${namespace_end}
+#endif
+"
+      cpp_src "${comment}
+${includes}
+${namespace_start}
+${members}
+${namespace_end}"
+      associated_elems
+      end
+    end
+  end
+end

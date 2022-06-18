@@ -1,0 +1,10 @@
+aa,closed,gigel,empty
+aaa,closed,Catri,Aaa
+ceau,closed,Ionel,Bula
+examen,closed,Eu,Tu
+foame,closed,Catri,Catri
+somn,closed,Iulia,Catri
+aaaa,open,iulia,empty
+abc,closed,iulia,maria
+dsdksd,open,Bye,Bye
+meh,open,Bla,BlaBla

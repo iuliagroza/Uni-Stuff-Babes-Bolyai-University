@@ -1,0 +1,10 @@
+a,closed,John,Noah
+b,closed,Mary,Doris
+c,open,Mary,Doris
+d,closed,Jane,Doris
+e,open,John,Noah
+f,open,John,Noah
+g,closed,Mary,Noah
+h,open,Jane,Doris
+i,open,John,Doris
+j,open,Mary,Noah

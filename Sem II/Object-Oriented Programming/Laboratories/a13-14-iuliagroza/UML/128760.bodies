@@ -1,0 +1,68 @@
+class HTMLUserRepository
+!!!131832.cpp!!!	HTMLUserRepository(in filename : std::string)
+
+    this->filename = filename;
+!!!131960.cpp!!!	read_from_file() : std::vector<Movie>
+
+    std::ifstream file(this->filename);
+
+    if (!file.is_open()) {
+        throw FileError("The file could not be opened!");
+    }
+
+    std::vector<Movie> new_watchlist;
+    std::string line;
+    for (int i = 1; i <= 7; i++) {
+        std::getline(file, line);
+    }
+
+    do {
+        std::getline(file, line);
+        strip(line);
+        if (line != "<tr>")
+            break;
+
+        std::string title, genre, year_of_release, number_of_likes, trailer;
+
+        std::getline(file, title);
+        html_strip(title);
+
+        std::getline(file, genre);
+        html_strip(genre);
+
+        std::getline(file, year_of_release);
+        html_strip(year_of_release);
+
+        std::getline(file, number_of_likes);
+        html_strip(number_of_likes);
+
+        std::getline(file, trailer);
+        html_strip(trailer);
+        link_strip(trailer);
+
+        std::getline(file, line);
+        new_watchlist.push_back(Movie(title, genre, stoi(year_of_release), stoi(number_of_likes), trailer));
+    } while (true);
+
+    file.close();
+    return new_watchlist;
+!!!132088.cpp!!!	write_to_file() : void
+
+    std::ofstream file(this->filename);
+
+    if (!file.is_open()) {
+        throw FileError("The file could not be opened!");
+    }
+
+    file << "<!DOCTYPE html>\n<html>\n<head>\n<title>Watchlist</title>\n</head>\n<body>\n<table border=1>\n";
+    for (auto movie: this->watchlist) {
+        file << "<tr>\n" << "<td>" << movie.get_title() << "</td>\n" << "<td>" << movie.get_genre() << "</td>\n"
+             << "<td>" << movie.get_year_of_release() << "</td>\n" << "<td>" << movie.get_number_of_likes() << "</td>\n"
+             << "<td><a href=\"" << movie.get_trailer() << "\">" << movie.get_trailer() << "</a></td>\n" << "</tr>\n";
+    }
+    file << "</table>\n</body>\n</html>";
+    file.close();
+!!!132216.cpp!!!	display() : void
+
+    std::string aux = "start \"\" \"" + this->filename + "\"";
+    system(aux.c_str());

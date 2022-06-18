@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>UserWidget</class>
+    <widget class="QWidget" name="UserWidget">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>300</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>UserWidget</string>
+        </property>
+        <widget class="QListWidget" name="listWidget">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>40</y>
+                    <width>256</width>
+                    <height>192</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QWidget" name="">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>240</y>
+                    <width>313</width>
+                    <height>26</height>
+                </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                    <widget class="QLabel" name="label">
+                        <property name="text">
+                            <string>Issue description:</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QLineEdit" name="issueDescLineEdit"/>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="addIssueButton">
+                        <property name="text">
+                            <string>add issue</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QWidget" name="">
+            <property name="geometry">
+                <rect>
+                    <x>40</x>
+                    <y>270</y>
+                    <width>160</width>
+                    <height>26</height>
+                </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                    <widget class="QPushButton" name="removeIssueButton">
+                        <property name="text">
+                            <string>remove issue</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="resolveButton">
+                        <property name="text">
+                            <string>resolve</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <layoutdefault spacing="6" margin="11"/>
+    <resources/>
+    <connections/>
+</ui>

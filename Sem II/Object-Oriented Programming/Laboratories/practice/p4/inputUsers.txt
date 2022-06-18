@@ -1,0 +1,7 @@
+gigel,tester
+maria,programmer
+ioan,tester
+gigica,programmer
+cojocar,programmer
+catri,programmer
+iulia,tester
