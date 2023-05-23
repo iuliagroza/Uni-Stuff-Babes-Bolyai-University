@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#py {
+    width: 100%;
+}
+
+#headerM {
+    width: 100%;
+    background: #21213a;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+#menu {
+    width: 96%;
+    float: right;
+    text-align: center;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    float: left;
+
+}
+
+.blue {
+    border-top: 4px solid #6587ff;
+}
+
+.grey {
+    border-top: 4px solid grey;
+}
+
+.yellow {
+    border-top: 4px solid #fff839;
+}
+
+.green {
+    border-top: 4px solid #58dd51;
+}
+
+.purple {
+    border-top: 4px solid #be0cff;
+}
+
+.red {
+    border-top: 4px solid #9e4b4a;
+}
+
+#menu a {
+    font: bold 15px/40px arial, helvetica, sans-serif;
+    display: block;
+    border-left: 1px solid #4d4f80;
+    border-right: 1px solid #000000;
+    margin: 0;
+    padding: 2px 3px;
+    color: #a7a7ba;
+    background: #21213a;
+    text-decoration: none;
+}
+
+.body {
+    width: 100%;
+    height: 555px;
+    background: -webkit-linear-gradient(top, #12394b, #2b5b84);
+    background: -moz-linear-gradient(top, rgba(18, 57, 75, 0.85), rgba(67, 104, 183, 0.85));
+    padding-top: 50px;
+
+}
+
+.mainContent {
+    width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainHeadContent {
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pyImg {
+    padding-top: 50px;
+    width: 35%;
+    display: inline;
+}
+
+#searchBarContainer {
+    margin-top: 20px;
+    width: 60%;
+    height: 60px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.donateButtonDiv {
+    margin-left: 250px;
+}
+
+.donateButtonDiv button {
+    width: 100%;
+    margin-top: 7px;
+    margin-right: 15px;
+    float: right;
+    background: -webkit-linear-gradient(top, #ffd866, #847c2b);
+    background: -moz-linear-gradient(top, rgba(255, 216, 102, 0.85), rgba(132, 124, 43, 0.85));
+    border: none;
+    color: #182828;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0 10px;
+    font: bold 15px/40px arial, helvetica, sans-serif;
+}
+
+#searchBar {
+    width: 450px;
+    background: #21213a;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-radius: 6px;
+    flex-direction: row;
+    display: flex;
+}
+
+.lupadiv {
+    width: 12%;
+    height: 100%;
+
+}
+
+.search {
+    padding-left: 4px;
+    width: 50%;
+    height: 100%;
+}
+
+.buttonDiv {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+.button {
+    width: 90%;
+    background: -webkit-linear-gradient(top, #1f5091, #2b5b84);
+    background: -moz-linear-gradient(top, rgba(60, 101, 145, 0.85), rgba(67, 104, 183, 0.85));
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 8px;
+    font: bold 15px/40px arial, helvetica, sans-serif;
+}
+
+.separation {
+    width: 1px;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(229, 229, 255, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.searchTextDiv {
+    text-align: center;
+    font: bold 15px/60px arial, helvetica, sans-serif;
+    color: gainsboro;
+    width: 22%;
+    height: 100%;
+
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.pyLupa {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60%;
+    height: 60%;
+    float: left;
+    background-image: url("media/magglass.png");
+    background-size: 100% 100%;
+}
+
+#navSquare {
+    width: 100%;
+    background-color: #629ccd;
+    background-image: linear-gradient(#3776ab 30%, #2d618c 95%);
+    height: 60px;
+    border-radius: 9px;
+    margin-top: -20px;
+}
+
+#menuBar {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#menuBar ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    display: inline-block;
+}
+
+#menuBar a {
+    font: bold 15px/60px arial, helvetica, sans-serif;
+    display: block;
+    border-right: 1px solid #12394b;
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #e5e5ff;
+    text-decoration: none;
+}
+
+.sections {
+    display: flex;
+    height: 45%;
+    width: 85%;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.leftSection {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background: #182828;
+}
+
+.leftSection button {
+    width: 9%;
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    background: -webkit-linear-gradient(top, #ffd866, #847c2b);
+    background: -moz-linear-gradient(top, rgba(255, 216, 102, 0.85), rgba(132, 124, 43, 0.85));
+    border: none;
+    color: #182828;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 8px;
+    font: bold 15px/40px arial, helvetica, sans-serif;
+}
+
+.leftSection b {
+    color: #ded7ff;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.leftSection p {
+    color: darkgreen;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: Consolas, 'Lucida Console', monospace, sans-serif;
+    padding-top: 15px;
+}
+
+.leftSection fond {
+    color: #7e7882;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+}
+
+.rightSection {
+    width: 50%;
+    height: 100%;
+    background: #1c3b56;
+}
+
+.rightSectionTextBox {
+    width: 100%;
+    height: 68%;
+    margin-top: 20px;
+}
+
+.rightSectionTextBox b {
+    color: #ffd866;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.rightSectionTextBox p {
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+.rightSectionTextBox a {
+    color: #ffd866;
+    font-size: 16px;
+}
+
+.rightSectionButtonDiv {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.rightSectionButtonDiv button {
+    width: 9%;
+    margin: 3px;
+    background: -webkit-linear-gradient(top, #1f5091, #2b5b84);
+    background: -moz-linear-gradient(top, rgba(60, 101, 145, 0.85), rgba(67, 104, 183, 0.85));
+    border: none;
+    color: #ded7ff;
+    text-align: center;
+    border-radius: 8px;
+    font: bold 15px/40px arial, helvetica, sans-serif;
+}
+
+.textBox {
+    width: 100%;
+    height: 16%;
+    text-align: center;
+    font: 22px/25px arial, helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.textBox a {
+    color: yellow;
+    font: 22px/25px arial, helvetica, sans-serif;
+
+}
+
+#footerBar {
+    margin-top: 40px;
+    width: 85%;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.footerBarBody {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerBarBodySeparation {
+    width: 2%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(246, 247, 255), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgb(229, 229, 255), rgba(0, 0, 0, 0));
+}
+
+.footerBarBodyItem {
+    width: 24%;
+    height: 100%;
+    text-align: left;
+    border-top: 5px solid cornflowerblue;
+}
+
+.footerBarBodyItem h2 {
+    padding-left: 30px;
+    width: 80%;
+    height: 15%;
+    font: 20px/40px arial, helvetica, sans-serif;
+}
+
+.footerBarBodyItem p {
+    text-align: left;
+    padding-left: 30px;
+    font: 13px/20px arial, helvetica, sans-serif;
+    height: 80%;
+}
+
+.footerBarBodyItem a {
+    color: royalblue;
+    font: 13px/25px arial;
+    text-decoration: none;
+}
