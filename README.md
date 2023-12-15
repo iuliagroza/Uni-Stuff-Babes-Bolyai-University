@@ -78,5 +78,8 @@
   </tr>
 </table>
 
+<p>
+  <br><br>‼️<b>Important remark:</b> The contents of lectures and seminaries (except for personal notes) are not my property. They belong to the BBU teachers of each discipline.
+</p>
 <p><br><br>‼️ For more details regarding exam resources, check https://drive.google.com/drive/u/0/folders/1TW0SZJbsb5aMYfgKjhyJ4a7z1yArVJE8?fbclid=IwAR1eokzROA8toGSJcGf0e5i0xJGaF1nYO3FouOcfH47zxI_AIAlFF67FAEw</p>
 
