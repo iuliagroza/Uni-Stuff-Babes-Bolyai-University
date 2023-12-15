@@ -1,0 +1,31 @@
+BNF:
+    <program> ::= <statement>|<statement><program>
+    <statement> ::= <var_statement>;|<arr_statement>;|<assign_statement>;|<if_statement>;|<while_statement>;|
+                |<return_statement>;|<function_call_statement>;
+
+    <var_statement> ::= var <identifier_list>
+    <arr_statement> ::= arr[<positive_number>] <pure_identifier_list>
+    <assign_statement> ::= <identifier> = <expression>
+    <if_statement> ::= if(<condition>) { <program> }|if(condition) { <program> } else { <program> }
+    <while_statement> ::= while(<condition>) { <program> }
+    <return_statement> ::= return <expression>
+    <function_call_statement> ::= <function_name>(<expression_list>)
+
+    <pure_identifier_list> ::= <identifier>|<identifier>, <pure_identifier_list>
+    <identifier_list> ::= <composed_identifier>|<composed_identifier>, <identifier_list>
+    <composed_identifier> ::= <identifier>|<identifier> = <expression>
+
+    <positive_number> ::= +<abs_val>|<abs_val>
+
+    <expression_list> ::= <expression>|<expression>, <expression_list>
+    <expression> ::= <int_expression>|<string_expression>
+    <int_expression> ::= <int_constant>|<identifier>|<operation>|(<operation>)
+    <operation> ::= <int_expression> + <int_expression> | <int_expression> - <int_expression> |
+                    | <int_expression> * <int_expression> | <int_expression> / <int_expression>
+            
+    <string_expression> ::= <string_constant>|<identifier>|<string_expression> + <string_expression>
+
+    <condition> ::= <expression> == <expression>|<expression> < <expression>|<expression> > <expression>|
+                    |<expression> <= <expression>|<expression> >= <expression>
+
+    <function_name> ::= readInt|readString|print|getPos|setPos

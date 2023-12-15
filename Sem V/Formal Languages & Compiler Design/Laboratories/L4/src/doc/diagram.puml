@@ -1,0 +1,28 @@
+@startuml Alpakas
+
+class LexicalScanner {
+    - symbol_table: HashTable
+    - tokens: HashMap<String, String>
+    + new(token_file: &str) -> Self
+    + tokenize(file_path: &str) -> Result<(Vec<(String, isize)>, String), String>
+    + extract_tokens(line: &str) -> Vec<String>
+    + is_identifier(s: &str) -> bool
+    + is_constant(s: &str) -> bool
+}
+
+class HashTable {
+    - table: Vec<Option<Vec<Entry>>>
+    + new() -> Self
+    + hash(key: &str) -> usize
+    + insert(key: String, value: String) -> usize
+}
+
+class Entry {
+    - key: String
+    - value: String
+}
+
+LexicalScanner "1" -- "1" HashTable : uses >
+HashTable "1" -- "0..*" Entry : contains >
+
+@enduml

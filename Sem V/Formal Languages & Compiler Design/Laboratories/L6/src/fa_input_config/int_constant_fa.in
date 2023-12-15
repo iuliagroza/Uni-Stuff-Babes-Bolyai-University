@@ -1,0 +1,5 @@
+states: S,SIGN,NZ,INT,ZERO
+alphabet: 0,1,2,3,4,5,6,7,8,9,+,-
+initial state: S
+final state: NZ,INT,ZERO
+transitions: (S,SIGN,+);(S,SIGN,-);(S,NZ,1);(S,NZ,2);(S,NZ,3);(S,NZ,4);(S,NZ,5);(S,NZ,6);(S,NZ,7);(S,NZ,8);(S,NZ,9);(S,ZERO,0);(SIGN,NZ,1);(SIGN,NZ,2);(SIGN,NZ,3);(SIGN,NZ,4);(SIGN,NZ,5);(SIGN,NZ,6);(SIGN,NZ,7);(SIGN,NZ,8);(SIGN,NZ,9);(NZ,INT,0);(NZ,INT,1);(NZ,INT,2);(NZ,INT,3);(NZ,INT,4);(NZ,INT,5);(NZ,INT,6);(NZ,INT,7);(NZ,INT,8);(NZ,INT,9);(INT,INT,0);(INT,INT,1);(INT,INT,2);(INT,INT,3);(INT,INT,4);(INT,INT,5);(INT,INT,6);(INT,INT,7);(INT,INT,8);(INT,INT,9)

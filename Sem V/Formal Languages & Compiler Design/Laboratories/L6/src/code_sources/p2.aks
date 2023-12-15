@@ -1,0 +1,14 @@
+// Compute the maximum of 3 numbers.
+
+var x, y, z;
+x = readInt();
+y = readInt();
+z = readInt();
+var Max = x;
+if (y > Max) {
+	Max = y;
+};
+if (z > Max) {
+	Max = z;
+};
+print(Max);

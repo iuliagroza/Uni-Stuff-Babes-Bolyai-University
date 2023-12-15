@@ -1,0 +1,12 @@
+// Compute the sum of n numbers.
+
+var n = readInt();
+var sum = 0;
+var i = 1;
+while (i <= n) {
+	var x;
+	x = readInt();
+	sum = sum + x;	
+	i = i+1;
+};
+print(sum);

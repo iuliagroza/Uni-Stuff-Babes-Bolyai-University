@@ -1,0 +1,29 @@
+Alphabet
+a. Lowercase letters of the English alphabet: a-z;
+b. Uppercase letters of the English alphabet: A-Z;
+c. Decimal digits: 0-9;
+d. Underscore character: _.
+
+Lexic
+a. Special symbols, representing:
+    - operators: +, -, *, /, ==, <, >, <=, >=, =;
+    - separators: {, }, (, ), ;, comma, ", space, newline;
+    - reserved words: var, readInt, readString, print, if, else, while, getPos, setPos.
+b. Identifiers:
+    BNF:
+        <identifier> ::= <letter_or_underline>|<letter_or_underline><char_without_space_seq>
+        <char_without_space__seq> ::= <char_without_space>|<char_without_space><char_without_space_seq>
+        <char_without_space> ::= <letter_or_underline>|<digit>
+        <letter_or_underline> ::= a|b|...|z|A|B|...|Z|_
+        <digit> ::= 0|1|...|9
+c. Constants:
+    BNF:
+        <int_constant> ::= 0|<abs_val>|<sign><abs_val>
+        <sign> ::= +|-
+        <abs_val> ::= <non_zero_digit>|<non_zero_digit><digit_seq>
+        <digit_seq> ::= <digit>|<digit><digit_seq>
+        <non_zero_digit> ::= 1|2|...|9
+
+        <string_constant> ::= "<char_seq>"
+        <char_seq> ::= <char>|<char><char_seq>
+        <char> ::= <letter_or_underline>| |<digit>

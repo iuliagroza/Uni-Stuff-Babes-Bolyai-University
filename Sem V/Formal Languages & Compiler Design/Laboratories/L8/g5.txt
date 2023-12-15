@@ -1,0 +1,9 @@
+List Elem
+, [ ] a b c
+List
+List -> [ ElemList ]
+ElemList -> Elem
+ElemList -> Elem , ElemList
+Elem -> a
+Elem -> b
+Elem -> c

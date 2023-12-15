@@ -1,0 +1,6 @@
+S L R
+a b
+S
+S -> L R
+L -> a
+R -> b

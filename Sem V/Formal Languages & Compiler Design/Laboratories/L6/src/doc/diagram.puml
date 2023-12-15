@@ -1,0 +1,50 @@
+@startuml Alpakas
+
+class LexicalScanner {
+    - symbol_table: HashTable
+    - tokens: HashMap<String, String>
+    - identifier_fa: FiniteAutomata
+    - int_constant_fa: FiniteAutomata
+    + new(token_file: &str) -> Self
+    + tokenize(file_path: &str) -> Result<(Vec<(String, isize)>, String), String>
+    + extract_tokens(line: &str) -> Vec<String>
+    + is_identifier(s: &str) -> bool
+    + is_constant(s: &str) -> bool
+}
+
+class HashTable {
+    - table: Vec<Option<Vec<Entry>>>
+    + new() -> Self
+    + hash(key: &str) -> usize
+    + insert(key: String, value: String) -> usize
+}
+
+class Entry {
+    - key: String
+    - value: String
+}
+
+class FiniteAutomata {
+    - states: Vec<String>
+    - alphabet: Vec<char>
+    - transitions: Vec<Transition>  // Simplified for UML clarity
+    - initial_state: String
+    - final_states: Vec<String>
+    + new() -> Self
+    + read_from_file(filename: &str) -> io::Result<()>
+    + is_sequence_accepted(sequence: &str) -> bool
+    + show_transitions()
+}
+
+class Transition {
+    - from_state: String
+    - to_state: String
+    - symbol: char
+}
+
+LexicalScanner "1" -- "1" HashTable : uses >
+LexicalScanner "1" -- "2" FiniteAutomata : uses >
+HashTable "1" -- "0..*" Entry : contains >
+FiniteAutomata "1" -- "0..*" Transition : contains >
+
+@enduml
