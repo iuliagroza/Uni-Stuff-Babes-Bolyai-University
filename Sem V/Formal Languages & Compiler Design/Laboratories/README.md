@@ -120,9 +120,76 @@ After processing, the scanner generates two output files:
 * **PIF.out**: Contains the Program Internal Form, listing all tokens and their ST indices.
 * **ST.out**: Details the Symbol Table with all unique identifiers and constants indexed.
 
+### Finite Automata
+The FA system is designed to read the definition of a finite automaton from a file, display its components, and verify if a given sequence of symbols is accepted by the automaton.
 
+#### Format File of FA.in. BNF Representation.
+The `FA.in` file contains the definition of the finite automaton. The format is as follows:
+* **States:** Defined in a comma-separated list after `states:`.
+* **Alphabet:** A list of symbols used in the automaton, specified after `alphabet:`.
+* **Initial State:** The starting state of the automaton, given after initial `state:`.
+* **Final State:** The accepting state(s) of the automaton, listed after final `state:`.
+* **Transitions:** Defined as tuples in the form `(current state, next state,
+symbol)`, separated by semicolons.
 
+Here is the **BNF format** of the `FA.in` input file:
+```rust
+<FA> ::= <states> <alphabet> <initial_state> <final_states>
+<transitions>
+<states> ::= "states: " <state_list>
+<alphabet> ::= "alphabet: " <symbol_list>
+<initial_state> ::= "initial state: " <state>
+<final_states> ::= "final state: " <state_list>
+<transitions> ::= "transitions: " <transition_list>
+<state_list> ::= <state> | <state> "," <state_list>
+<symbol_list> ::= <symbol> | <symbol> "," <symbol_list>
+<transition_list> ::= <transition> | <transition> ";"
+<transition_list>
+<state> ::= <identifier>
+<symbol> ::= <character>
+<transition> ::= "(" <state> "," <state> "," <symbol> ")"
+<identifier> ::= <letter> | <identifier> <letter_or_digit>
+<letter_or_digit> ::= <letter> | <digit>
+<letter> ::= "a" | "b" | "c" | ... | "z" | "A" | "B" | "C" | ... |
+"Z"
+<digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" |
+"9"
+<character> ::= <letter> | <digit>
+```
 
+File Example:
+```rust
+states: p,q,r
+alphabet: 0,1
+initial state: p
+final state: r
+transitions: (p,q,1);(q,q,0);(q,r,1);(r,r,0);
+```
 
+#### Structure
+The Rust implementation consists of structs and functions to represent and manipulate the finite automaton. Key components include:
+* `FiniteAutomata`: Holds the states, alphabet, transitions, initial state, and final states.
+* Functions for reading the automaton from a file, displaying its components, and checking if a sequence is accepted by the automaton.
+  
+#### Integration of the FA in the Lexical Scanner
+The lexical scanner program makes use of two instances of the `FiniteAutomata` class:
+* For **identifiers**:
+**States:** `S` (start), `ID` (identifier)
+**Alphabet:** `a-z`, `A-Z`, `_`, `0-9`
+**Initial State:** `S`
+**Final States:** `ID`
+**Transitions:**
+    * From `S` to `ID` on `a-z`, `A-Z`, `_`
+    * From `ID` to `ID` on `a-z`, `A-Z`, `_`, `0-9`
 
-
+* For **integer constants**:
+**States:** `S` (start), `NZ` (non-zero digit), `INT` (integer constant), `SIGN` (signed integer)
+**Alphabet:** `0-9`, `+`, `-`
+**Initial State:** `S`
+**Final States:** `NZ`, `INT`
+**Transitions:**
+    * From `S` to `SIGN` on `+` and `-`
+    * From `S` to `NZ` on `1-9`
+    * From `SIGN` to `NZ` on `1-9`
+    * From `NZ` to `INT` on `0-9`
+    * Self-loop on `INT` for `0-9`
