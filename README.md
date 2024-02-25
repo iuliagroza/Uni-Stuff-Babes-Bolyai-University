@@ -76,6 +76,21 @@
     <td> Fundamentals of Entrepreneurship </td>
     <td> MVP, business plan, pitching skills, economics, regulations of launching </td>
   </tr>
+  <tr align="center">
+    <td colspan="3">3<sup>rd</sup> Semester</td>
+  </tr>
+  <tr align="center">
+    <td colspan="3">4<sup>th</sup> Semester</td>
+  </tr>
+  <tr align="center">
+    <td colspan="3">5<sup>th</sup> Semester</td>
+  </tr>
+  <tr align="center">
+    <td colspan="3">6<sup>th</sup> Semester</td>
+  </tr>
+  <tr align="center">
+    <td colspan="3">Bachelor's Thesis</td>
+  </tr>
 </table>
 
 <p>
