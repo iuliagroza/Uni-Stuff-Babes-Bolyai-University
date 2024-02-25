@@ -1,7 +1,7 @@
 <h1>University Contents & Assignments from Babes-Bolyai University (BBU)</h1>
 
 <h2>About</h2>
-<p>This repo centralizes contents & assignments from the Faculty of Mathematics and Informatics (in English) of Babes-Bolyai University from Cluj-Napoca, Romania.<br><br></p>
+<p>This repository centralizes contents & assignments from the Faculty of Mathematics and Informatics (in English) of Babes-Bolyai University from Cluj-Napoca, Romania.<br><br></p>
 
 <h2>Index</h2>
 <table>
