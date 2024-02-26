@@ -80,16 +80,126 @@
     <td colspan="3">3<sup>rd</sup> Semester</td>
   </tr>
   <tr align="center">
+    <td> 13. </td>
+    <td> Functional & Logic Programming </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 14. </td>
+    <td> Databases </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 15. </td>
+    <td> Advanced Programming Methods </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 16. </td>
+    <td> Computer Networks </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 17. </td>
+    <td> Probability Theory & Statistics </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
     <td colspan="3">4<sup>th</sup> Semester</td>
+  </tr>
+  <tr align="center">
+    <td> 18. </td>
+    <td> Systems for Design & Implementation </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 19. </td>
+    <td> Artificial Intelligence </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 20. </td>
+    <td> Software Engineering </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 21. </td>
+    <td> Database Management Systems </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 22. </td>
+    <td> Web Programming </td>
+    <td>  </td>
   </tr>
   <tr align="center">
     <td colspan="3">5<sup>th</sup> Semester</td>
   </tr>
   <tr align="center">
+    <td> 23. </td>
+    <td> Parallel & Distributed Programming </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 24. </td>
+    <td> Mobile Application Programming </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 25. </td>
+    <td> Formal Languages & Compiler Design </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 26. </td>
+    <td> Intelligent Methods for Solving Real-World Problems </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 27. </td>
+    <td> Cloud Application Architecture </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 28. </td>
+    <td> Designing Innovative Products </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
     <td colspan="3">6<sup>th</sup> Semester</td>
   </tr>
   <tr align="center">
+    <td> 29. </td>
+    <td> Software Systems Verification & Validation </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 30. </td>
+    <td> Numerical Calculus </td>
+    <td> MATLAB, Octave, Epicycloids, Taylor Polynomials </td>
+  </tr>
+  <tr align="center">
+    <td> 31. </td>
+    <td> Quantum Computing with Applications in Cryptography & AI </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 32. </td>
+    <td> Introduction to Natural Language Processing </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
+    <td> 33. </td>
+    <td> Academic Ethics & Integrity </td>
+    <td>  </td>
+  </tr>
+  <tr align="center">
     <td colspan="3">Bachelor's Thesis</td>
+  </tr>
+  <tr align="center">
+    <td> 34. </td>
+    <td> Detecting Spoofing & Layering in Algorithmic Trading Using Reinforcement Learning Methods </td>
+    <td>  </td>
   </tr>
 </table>
 
