@@ -115,7 +115,7 @@
   <tr align="center">
     <td> 19. </td>
     <td> Artificial Intelligence </td>
-    <td>  </td>
+    <td> PyTorch, Decision Trees, ANNs, Convolutions, K-Means Clustering, Hill Climbing, Genetic Algorithms, Evolutionary Computation </td>
   </tr>
   <tr align="center">
     <td> 20. </td>
