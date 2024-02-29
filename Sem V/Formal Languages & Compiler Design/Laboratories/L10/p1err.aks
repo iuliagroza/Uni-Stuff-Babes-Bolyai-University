@@ -1,0 +1,17 @@
+// Verify if a number is prime.
+
+var 2n; // 2n does not follow the rules of an identifier and cannot it be classified as anything else.
+n = readInt();
+var prime = 1~43565; // "~" is not among the allowed tokens.
+var d = 2;
+while (d * d <= n && prime == 1) {
+	if (n % d == 0) {
+		prime = 0;
+	};
+	d = d + 1;
+};
+if (prime >= 1) {
+	print("prime");
+} else {
+	print("not prime");
+};

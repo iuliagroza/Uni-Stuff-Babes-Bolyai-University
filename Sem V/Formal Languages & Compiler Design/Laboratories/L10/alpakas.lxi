@@ -1,0 +1,50 @@
+%{
+#include <stdio.h>
+%}
+
+%%
+\/\/[^\n]*              { /* Ignore single line comments */ }
+
+"var"                   { printf("VAR "); }
+"while"                 { printf("WHILE "); }
+"if"                    { printf("IF "); }
+"else"                  { printf("ELSE "); }
+"print"                 { printf("PRINT "); }
+"readInt()"             { printf("READINT "); }
+
+[0-9]+                  { printf("NUMBER(%s) ", yytext); }
+[a-zA-Z_][a-zA-Z0-9_]*  { printf("IDENTIFIER(%s) ", yytext); }
+
+"=="                    { printf("EQ "); }
+"!="                    { printf("NEQ "); }
+">="                    { printf("GEQ "); }
+"<="                    { printf("LEQ "); }
+">"                     { printf("GT "); }
+"<"                     { printf("LT "); }
+"="                     { printf("ASSIGN "); }
+"+"                     { printf("PLUS "); }
+"-"                     { printf("MINUS "); }
+"*"                     { printf("MULT "); }
+"/"                     { printf("DIV "); }
+"%"                     { printf("MOD "); }
+
+";"                     { printf("SEMICOLON "); }
+"{"                     { printf("LBRACE "); }
+"}"                     { printf("RBRACE "); }
+"("                     { printf("LPAREN "); }
+")"                     { printf("RPAREN "); }
+
+\n                      { /* Ignore newlines */ }
+[ \t]+                  { /* Ignore whitespace */ }
+
+.                       { printf("UNKNOWN(%c) ", *yytext); }
+%%
+
+int yywrap() {
+    return 1;
+}
+
+int main() {
+    yylex();
+    return 0;
+}
