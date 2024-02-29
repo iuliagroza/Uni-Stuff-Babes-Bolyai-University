@@ -1,0 +1,43 @@
+@startuml
+'Actor is the leftmost column, next up is the boundary object
+actor       LeagueOwner as LO
+boundary    "AnnounceTournament\nForm" as Form
+LO -> Form: createTournament(League)
+
+'During the form's activity, the control object is created (third column)
+activate Form
+create control  "Announce\nTournamentControl" as Control
+Form --> Control : << create >>
+deactivate Form
+
+activate Control
+entity League
+Control -> League : checkMaxTournament()
+activate League
+deactivate League
+deactivate Control
+
+LO -> Form : setName(name)
+activate Form
+deactivate Form
+
+LO -> Form : setApplicationStartDate(startDate)
+activate Form
+deactivate Form
+
+LO -> Form : setApplicationEndDate(startDate)
+activate Form
+deactivate Form
+
+LO -> Form : setMaxPlayers(maxp)
+activate Form
+deactivate Form
+
+LO -> Form : submit()
+activate Form
+Form -> Control : createNewTournament(...)
+activate Control
+deactivate Form
+create entity Tournament
+Control --> Tournament : << create >>
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+[*] --> SENDING : User presses send button
+
+SENDING -right-> SENT : Message is successfully sent
+
+SENDING -down-> FAILED : Sending failed
+
+FAILED -up-> SENDING : Retry sending the message
+
+SENT -right-> DELIVERED : Target user activates \ninternet connection
+
+DELIVERED -right-> SEEN : Target user accesses the \nchat and sees the message
+
+SEEN --> [*]
+
+@enduml

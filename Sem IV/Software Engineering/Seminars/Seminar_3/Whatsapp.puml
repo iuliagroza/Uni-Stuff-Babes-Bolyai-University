@@ -1,0 +1,46 @@
+@startuml
+
+component WhatsappClient
+node WhatsappServer {
+    component ChatManagement {
+        rectangle Message
+        rectangle Chat
+    }
+    component UserManagement {
+        rectangle User
+        rectangle Group
+    }
+    component MediaManagement {
+        rectangle Media
+        rectangle MediaType
+    }
+    component NotificationService {
+        rectangle Notification
+    }
+}
+database WhatsappDB
+database MediaDB
+queue NotificationQueue
+
+WhatsappClient -right(0- WhatsappServer :  RMI/HTTP
+ChatManagement -down[dashed]-> UserManagement
+ChatManagement --[dashed]-> MediaManagement
+ChatManagement --[dashed]-> NotificationService
+UserManagement --[dashed]-> NotificationService
+MediaManagement --[dashed]-> NotificationService
+
+MediaManagement -left(0- MediaDB
+note top of MediaDB
+Separate database
+(usually non-relational)
+for blob storage
+end note
+WhatsappDB -0)- WhatsappServer
+note right of WhatsappDB
+Relational database
+for persisting entity objects
+end note
+
+NotificationService --left[dashed]-> NotificationQueue : Publishes message
+WhatsappClient --[dashed]> NotificationQueue : Consumes message
+@enduml
