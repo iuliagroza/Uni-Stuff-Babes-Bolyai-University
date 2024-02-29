@@ -1,0 +1,11 @@
+<h1>Random Recipe Recommendation</h1>
+
+<h2>Recommended Recipe:</h2>
+<h3>Name: {{ recipe.name }}</h3>
+<p>Author: {{ recipe.author }}</p>
+<p>Type: {{ recipe.type }}</p>
+<p>Recipe:</p>
+<pre>{{ recipe.recipe }}</pre>
+
+<button (click)="getRandomRecipe()">Get Another Random Recipe</button>
+<button (click)="goBack()">Back</button>

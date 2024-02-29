@@ -1,0 +1,42 @@
+<h1>Food Recipes</h1>
+
+<div>
+    <button><a routerLink="/add" style="text-decoration: none; color: #000000;">Add Recipe</a></button>
+</div>
+<br>
+<button (click)="getRandomRecipe()" style="text-decoration: none; color: #000000;">I'm feeling lucky</button>
+
+<h2>Filter: <span>{{ filter }}</span></h2>
+
+<div id="recipeTypes">
+    <button [class.active]="filter === 'All'" (click)="getRecipesByType('All')">All</button>
+    <button [class.active]="filter === 'Supe'" (click)="getRecipesByType('Supe')">Supe</button>
+    <button [class.active]="filter === 'Paste'" (click)="getRecipesByType('Paste')">Paste</button>
+    <button [class.active]="filter === 'Desert'" (click)="getRecipesByType('Desert')">Desert</button>
+</div>
+
+<div id="recipeList">
+    <div *ngIf="isLoading; else recipeListContent">
+        <p>Loading recipes...</p>
+    </div>
+    <ng-template #recipeListContent>
+        <div *ngIf="recipes.length > 0; else noRecipesContent">
+            <div *ngFor="let recipe of recipes">
+                <h3>{{ recipe.Name }}</h3>
+                <p>Author: {{ recipe.Author }}</p>
+                <p>Recipe: {{ recipe.Recipe }}</p>
+                <button (click)="deleteRecipe(recipe.Rid)">Delete</button>
+                <button (click)="editRecipe(recipe.Rid)">Edit</button>
+                <hr>
+            </div>
+        </div>
+        <ng-template #noRecipesContent>
+            <p>No recipes found.</p>
+        </ng-template>
+    </ng-template>
+</div>
+
+<form (submit)="logout()" id="logout-form">
+    <br>
+    <button type="submit">Logout</button>
+</form>

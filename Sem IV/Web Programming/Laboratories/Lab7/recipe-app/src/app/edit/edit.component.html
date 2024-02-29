@@ -1,0 +1,22 @@
+<h1>Update Recipe</h1>
+
+<p *ngIf="message" [class.error]="isError">{{ message }}</p>
+
+<form (ngSubmit)="submitForm()" #editForm="ngForm">
+    <input type="hidden" name="id" [(ngModel)]="recipe.id">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" [(ngModel)]="recipe.name" required><br>
+
+    <label for="author">Author:</label><br>
+    <input type="text" id="author" name="author" [(ngModel)]="recipe.author" required><br>
+
+    <label for="type">Type:</label><br>
+    <input type="text" id="type" name="type" [(ngModel)]="recipe.type" required><br>
+
+    <label for="recipe">Recipe:</label><br>
+    <textarea id="recipe" name="recipe" [(ngModel)]="recipe.recipe" required></textarea><br>
+
+    <button type="submit">Update</button>
+    <button type="button" (click)="goBack()">Back</button>
+</form>
