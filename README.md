@@ -143,7 +143,7 @@
   <tr align="center">
     <td> 24. </td>
     <td> Mobile Application Programming </td>
-    <td>  </td>
+    <td> Swift, SwiftUI, Flutter, Dart, Django REST Framework, SQLite, WebSockets, Cross-Platform Development </td>
   </tr>
   <tr align="center">
     <td> 25. </td>
