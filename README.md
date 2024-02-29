@@ -125,7 +125,7 @@
   <tr align="center">
     <td> 21. </td>
     <td> Database Management Systems </td>
-    <td>  </td>
+    <td> C#, ADO.NET, SQL Server Profiler, Concurrency Control, ACID, Locking Protocols, SQL Injections </td>
   </tr>
   <tr align="center">
     <td> 22. </td>
