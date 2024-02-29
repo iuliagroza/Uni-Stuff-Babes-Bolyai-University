@@ -130,7 +130,7 @@
   <tr align="center">
     <td> 22. </td>
     <td> Web Programming </td>
-    <td>  </td>
+    <td> HTML, CSS, XML, jQuery, Angular, PHP, WebGL, Apache, AJAX, JSP, ASP.NET, CGI, Node.js, CORS, CSRF </td>
   </tr>
   <tr align="center">
     <td colspan="3">5<sup>th</sup> Semester</td>
