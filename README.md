@@ -138,7 +138,7 @@
   <tr align="center">
     <td> 23. </td>
     <td> Parallel & Distributed Programming </td>
-    <td>  </td>
+    <td> C++, MPI, OpenCL, CUDA, Distributed Protocols, Flynn, Thread Pools, Futures, Recursive Decomposition </td>
   </tr>
   <tr align="center">
     <td> 24. </td>
