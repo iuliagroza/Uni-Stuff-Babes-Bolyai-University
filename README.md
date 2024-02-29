@@ -186,7 +186,7 @@
   <tr align="center">
     <td> 32. </td>
     <td> Introduction to Natural Language Processing </td>
-    <td>  </td>
+    <td> POS-tagging, NER, TF-IDF, spaCy, CoreNLP, NLP-Cube, CoRoLa, WordNet, RoBERT</td>
   </tr>
   <tr align="center">
     <td> 33. </td>
