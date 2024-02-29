@@ -16,27 +16,27 @@
   <tr align="center">
     <td> 1. </td>
     <td> Fundamentals of Programming </td>
-    <td> Python, PyTables, Pygame Pickle, CSV, JSON, SQL, layered architecture </td>
+    <td> Python, PyTables, Pygame Pickle, CSV, JSON, SQL, Layered Architecture </td>
   </tr>
   <tr align="center">
     <td> 2. </td>
     <td>Computer Systems Architecture</td>
-    <td> x86 Assembly, C, low-level multi-module programming </td>
+    <td> x86 Assembly, C, Low-Level Multi-Module Programming </td>
   </tr>
   <tr align="center">
     <td> 3. </td>
     <td> Computational Logic </td>
-    <td> CNF, DNF, propositional calculus, predicate calculus, Boolean algebra, logic circuits </td>
+    <td> CNF, DNF, Propositional Calculus, Predicate Calculus, Boolean Algebra, Logic Circuits </td>
   </tr>
   <tr align="center">
     <td> 4. </td>
     <td> Mathematical Analysis </td>
-    <td> differential calculus, integral calculus, Least Squares, planar curves </td>
+    <td> Differential Calculus, Integral Calculus, Least Squares, Planar Curves </td>
   </tr>
   <tr align="center">
     <td> 5. </td>
     <td> Algebra </td>
-    <td> linear Algebra,  page ranking, cryptography, relational database </td>
+    <td> Linear Algebra, Page Ranking, Cryptography, Relational Database </td>
   </tr>
   <tr align="center">
     <td colspan="3">2<sup>nd</sup> Semester</td>
@@ -44,37 +44,37 @@
   <tr align="center">
     <td> 6. </td>
     <td> Object-Oriented Programming </td>
-    <td> C, C++, Qt, Observer design pattern, Model-View-Controller design pattern </td>
+    <td> C, C++, Qt, Observer Design Pattern, Model-View-Controller Design Pattern </td>
   </tr>
   <tr align="center">
     <td> 7. </td>
     <td> Data Structures & Algorithms </td>
-    <td> C++, Test-Driven Development, sparse matrices, AVL Trees, Huffman codes, Red-Black Trees </td>
+    <td> C++, Test-Driven Development, Sparse Matrices, AVL Trees, Huffman Codes, Red-Black Trees </td>
   </tr>
   <tr align="center">
     <td> 8. </td>
     <td> Graph Algorithms </td>
-    <td>  Python, PyTables, Topological Sorting, flows, NP-complete problems, graph coloring </td>
+    <td> Python, PyTables, Topological Sorting, Maximum Flows, Prüfer Coding / Decoding, Graph Coloring </td>
   </tr>
   <tr align="center">
     <td> 9. </td>
     <td> Operating Systems </td>
-    <td> bash, C, processes, threads, bat file, Solaris, Linux, BSD </td>
+    <td> bash, C, Processes, Threads, bat File, Solaris, Linux, BSD </td>
   </tr>
   <tr align="center">
     <td> 10. </td>
     <td> Dynamical Systems </td>
-    <td> Maple, Sage, Taylor expansion, Newton's second law of movement </td>
+    <td> Maple, Sage, Taylor Expansion, Newton's Second Law of Movement </td>
   </tr>
   <tr align="center">
     <td> 11. </td>
     <td> Geometry </td>
-    <td> analytic geometry, quadratic curves & surfaces, affine geometry </td>
+    <td> Analytic Geometry, Quadratic Curves & Surfaces, Affine Geometry </td>
   </tr>
   <tr align="center">
     <td> 12. </td>
     <td> Fundamentals of Entrepreneurship </td>
-    <td> MVP, business plan, pitching skills, economics, regulations of launching </td>
+    <td> MVP, Business Plan, Pitching Skills, Economics, Regulations of Launching </td>
   </tr>
   <tr align="center">
     <td colspan="3">3<sup>rd</sup> Semester</td>
@@ -110,12 +110,12 @@
   <tr align="center">
     <td> 18. </td>
     <td> Systems for Design & Implementation </td>
-    <td>  </td>
+    <td> Django REST Framework, React.js, TypeScript, PostgreSQL, GCP, Nginx, Gunicorn, Credit Risk Modeling, Kubernetes, Docker </td>
   </tr>
   <tr align="center">
     <td> 19. </td>
     <td> Artificial Intelligence </td>
-    <td>  </td>
+    <td> PyTorch, Decision Trees, ANNs, Convolutions, K-Means Clustering, Hill Climbing, Genetic Algorithms, Evolutionary Computation </td>
   </tr>
   <tr align="center">
     <td> 20. </td>
