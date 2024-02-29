@@ -120,7 +120,7 @@
   <tr align="center">
     <td> 20. </td>
     <td> Software Engineering </td>
-    <td>  </td>
+    <td> System Design, Object Design, OCL, UML, Agile, Unit Testing, System Testing, Sequence Diagrams, DOM</td>
   </tr>
   <tr align="center">
     <td> 21. </td>
