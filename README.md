@@ -148,7 +148,7 @@
   <tr align="center">
     <td> 25. </td>
     <td> Formal Languages & Compiler Design </td>
-    <td>  </td>
+    <td> Rust, Python, FLEX, Yacc, Recursive Descendent, LR(0), LL(1), Finite Automata, BNF, EBNF </td>
   </tr>
   <tr align="center">
     <td> 26. </td>
