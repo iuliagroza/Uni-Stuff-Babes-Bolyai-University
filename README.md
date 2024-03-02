@@ -198,7 +198,7 @@
   </tr>
   <tr align="center">
     <td> 34. </td>
-    <td> Detecting Spoofing & Layering in Algorithmic Trading Using Reinforcement Learning Methods </td>
+    <td> Advancing Market Integrity: A Reinforcement Learning Approach to Detect Spoofing and Layering in Algorithmic Trading </td>
     <td>  </td>
   </tr>
 </table>
