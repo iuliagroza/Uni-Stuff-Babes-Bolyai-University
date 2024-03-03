@@ -171,7 +171,7 @@
   <tr align="center">
     <td> 29. </td>
     <td> Software Systems Verification & Validation </td>
-    <td>  </td>
+    <td> Maven, BBT, WBT, Agile, Model Checking </td>
   </tr>
   <tr align="center">
     <td> 30. </td>
