@@ -158,7 +158,7 @@
   <tr align="center">
     <td> 27. </td>
     <td> Cloud Application Architecture </td>
-    <td>  </td>
+    <td> AWS, EC2, S3, Lambda, Load Balancers, Security Groups, CDNs, Dockers & Containers, FaaS, DBaaS, GraphQL </td>
   </tr>
   <tr align="center">
     <td> 28. </td>
@@ -176,7 +176,7 @@
   <tr align="center">
     <td> 30. </td>
     <td> Numerical Calculus </td>
-    <td> MATLAB, Octave, Epicycloids, Taylor Polynomials </td>
+    <td> MATLAB, Octave, Epicycloids, Taylor Polynomials, MacLaurin's Formula, Gaussian Elimination </td>
   </tr>
   <tr align="center">
     <td> 31. </td>
