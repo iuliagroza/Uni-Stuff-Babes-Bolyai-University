@@ -153,7 +153,7 @@
   <tr align="center">
     <td> 26. </td>
     <td> Intelligent Methods for Solving Real-World Problems </td>
-    <td>  </td>
+    <td> NLP, TF-IDF, NER, Non-negative Matrix Factorization, Graph-Based Learning, Text Mining, Machine Translation </td>
   </tr>
   <tr align="center">
     <td> 27. </td>
@@ -191,7 +191,7 @@
   <tr align="center">
     <td> 33. </td>
     <td> Academic Ethics & Integrity </td>
-    <td>  </td>
+    <td> Whistle-Blowing, Data Economy, Corporate Fraud, Market Manipulation, Monopoly Lawsuits, RTBF, Intellectual Property </td>
   </tr>
   <tr align="center">
     <td colspan="3">Bachelor's Thesis</td>
