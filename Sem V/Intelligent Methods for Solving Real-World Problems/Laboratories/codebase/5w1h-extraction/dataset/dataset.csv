@@ -1,0 +1,82 @@
+SessionID,TurnID,Speaker,Timestamp,Text,What,Who,When,Where,Why,How
+1,1,Therapist,00:00:01,"How have you been feeling this week, Sam?",Anxiety about work,Sam,This week,At work,Fear of public speaking,Manifesting as anxiety
+1,2,Sam,00:00:15,"I've been quite anxious about work lately.",Anxiety about work,Sam,This week,At work,Fear of public speaking,Manifesting as anxiety
+1,3,Therapist,00:00:30,"What specifically at work is making you anxious?",Anxiety about work,Sam,This week,At work,Fear of public speaking,Manifesting as anxiety
+1,4,Sam,00:00:45,"It's mainly the upcoming presentation. I'm worried about speaking in front of my colleagues.",Anxiety about work,Sam,This week,At work,Fear of public speaking,Manifesting as anxiety
+2,1,Therapist,00:00:01,"Emily, you mentioned feeling low last session. How are you now?",Struggling with sleep,Emily,Since the last session,At home,potential stress,Attempting meditation
+2,2,Emily,00:00:20,"It's been better, but I'm still struggling with my sleep.",Struggling with sleep,Emily,Since the last session,At home,potential stress,Attempting meditation
+2,3,Therapist,00:00:35,"What have you tried to improve your sleep?",Struggling with sleep,Emily,Since the last session,At home,potential stress,Attempting meditation
+2,4,Emily,00:00:50,"I've tried meditation before bed, but it's not always effective.",Struggling with sleep,Emily,Since the last session,At home,potential stress,Attempting meditation
+3,1,Therapist,00:00:01,"Mark, have there been any improvements in your relationship with your brother?",Conflict in a family relationship,Mark,Over the weekend,Location unspecified,Lack of respect for Mark's choices,Through arguments
+3,2,Mark,00:00:15,"Not really. We had another argument over the weekend.",Conflict in a family relationship,Mark,Over the weekend,Location unspecified,Lack of respect for Mark's choices,Through arguments
+3,3,Therapist,00:00:30,"What was the argument about?",Conflict in a family relationship,Mark,Over the weekend,Location unspecified,Lack of respect for Mark's choices,Through arguments
+3,4,Mark,00:00:45,"It's always about how he doesn't respect my choices.",Conflict in a family relationship,Mark,Over the weekend,Location unspecified,Lack of respect for Mark's choices,Through arguments
+4,1,Therapist,00:00:01,"Linda, last time you were concerned about your son's school performance. Any updates?",Concern about son's school performance,Linda,Since the last meeting,Son's school,To improve school performance,Tutoring and counseling
+4,2,Linda,00:00:20,"Yes, he's doing a bit better. We met with his teachers to discuss a plan.",Concern about son's school performance,Linda,Since the last meeting,Son's school,To improve school performance,Tutoring and counseling
+4,3,Therapist,00:00:35,"What does the plan involve?",Concern about son's school performance,Linda,Since the last meeting,Son's school,To improve school performance,Tutoring and counseling
+4,4,Linda,00:00:50,"Additional tutoring and some counseling at school.",Concern about son's school performance,Linda,Since the last meeting,Son's school,To improve school performance,Tutoring and counseling
+5,1,Therapist,00:00:01,"How are you coping with the loss of your job, David?",Coping with job loss,David,Recent, after job loss,Loss of employment,Beginning to look for new job opportunities
+5,2,David,00:00:15,"It's tough. I feel a bit lost and unsure about the future.",Coping with job loss,David,Recent, after job loss,Loss of employment,Beginning to look for new job opportunities
+5,3,Therapist,00:00:30,"What steps have you taken to address this situation?",Coping with job loss,David,Recent, after job loss,Loss of employment,Beginning to look for new job opportunities
+5,4,David,00:00:45,"I've started looking at job listings, but it's overwhelming.",Coping with job loss,David,Recent, after job loss,Loss of employment,Beginning to look for new job opportunities
+6,1,Therapist,00:00:01,"Hello Jordan, how have you been managing your stress since our last session?",Managing stress,Jordan,Since last session,Unspecified,Work and personal life,Balancing activities
+6,2,Jordan,00:00:20,"It's been tough. Work has been hectic, and there's a lot going on at home too.",Managing stress,Jordan,Since last session,Work and home,Work and personal life,Balancing activities
+6,3,Therapist,00:00:40,"Can you elaborate on what's happening at work?",Work stress,Jordan,Recently,At work,High workload and deadlines,Struggling to cope
+6,4,Jordan,00:01:00,"There are multiple projects with tight deadlines. I'm feeling the pressure.",Work stress,Jordan,Recently,At work,High workload and deadlines,Struggling to cope
+6,5,Therapist,00:01:20,"And what about at home? What's adding to your stress there?",Home stress,Jordan,Recently,At home,Family responsibilities,Overwhelmed by responsibilities
+6,6,Jordan,00:01:40,"My partner has been unwell, so I've been handling more household chores and taking care of our kids.",Home stress,Jordan,Recently,At home,Family responsibilities,Overwhelmed by responsibilities
+6,7,Therapist,00:02:00,"Have you found any time for yourself amidst all this?",Self-care,Jordan,Recently,Unspecified,Lack of personal time,Neglecting self-care
+6,8,Jordan,00:02:20,"Honestly, not much. I'm either working late or busy at home.",Self-care,Jordan,Recently,Unspecified,Lack of personal time,Neglecting self-care
+6,9,Therapist,00:02:40,"It's important to find a balance. Let's explore some strategies for self-care and stress management.",Stress management strategies,Jordan,Upcoming,Unspecified,High stress,Discussion and planning
+7,1,Therapist,00:00:01,"So, Alice, you were going to start a new job. How has that been?",Starting new job,Alice,Recently,New job,Change of environment,Adjusting to new role
+7,2,Alice,00:00:15,"I did start, but it's been overwhelming. I feel like I'm not fitting in.",Workplace adjustment,Alice,Recently,New job,Workplace dynamics,Feeling out of place
+7,3,Therapist,00:00:30,"What aspects of the job are you finding most challenging?",Work challenges,Alice,Recently,At work,Adapting to new tasks,Struggling with tasks
+7,4,Alice,00:00:45,"Understanding the new systems and the team dynamics is tough.",Work challenges,Alice,Recently,At work,Adapting to new tasks,Struggling with tasks
+7,5,Therapist,00:01:00,"Let's discuss some strategies to help you adapt to your new workplace.",Adaptation strategies,Alice,Upcoming,At work,Workplace adjustment,Discussion and planning
+7,6,Alice,00:01:15,"That would be helpful. I really want to make this work.",Adaptation strategies,Alice,Upcoming,At work,Workplace adjustment,Discussion and planning
+7,7,Therapist,00:01:30,"How about your interactions with your new colleagues?",Colleague interactions,Alice,Recently,At work,Building relationships,Understanding team dynamics
+7,8,Alice,00:01:45,"It's been polite, but I haven't really connected with anyone yet.",Colleague interactions,Alice,Recently,At work,Building relationships,Understanding team dynamics
+8,1,Therapist,00:00:01,"Good to see you, Brian. You were going to talk to your family about your decision. How did that go?",Family conversation,Brian,Recently,At home,Discussing personal decisions,Opening up to family
+8,2,Brian,00:00:20,"I did, and it was tougher than I thought. They didn't take it well.",Family disagreement,Brian,Recently,At home,Reaction to decision,Difficult conversation
+8,3,Therapist,00:00:40,"What was their main concern?",Family concerns,Brian,During conversation,At home,Concern about Brian's decision,Expressing worries
+8,4,Brian,00:01:00,"They're worried about the financial stability and think it's a risky move.",Financial concerns,Brian,During conversation,At home,Concern about stability,Worrying about finances
+8,5,Therapist,00:01:20,"How do you feel about their concerns?",Personal feelings,Brian,Current,Unspecified,Reacting to family's concerns,Reflecting on emotions
+8,6,Brian,00:01:40,"I understand them, but I'm confident in my decision. It's what I really want.",Confidence in decision,Brian,Current,Unspecified,Reacting to family's concerns,Reflecting on emotions
+9,1,Therapist,00:00:01,"Last time, Nicole, you mentioned feeling disconnected. Have there been any changes?",Feeling disconnected,Nicole,Since last session,Unspecified,Lack of social interaction,Feeling isolated
+9,2,Nicole,00:00:25,"Not really. I still feel quite alone, even around people.",Persistent disconnection,Nicole,Recently,Various locations,Lack of meaningful connections,Struggling to engage
+9,3,Therapist,00:00:50,"Have you tried reaching out to friends or engaging in social activities?",Attempting social engagement,Nicole,Recently,Various locations,To overcome disconnection,Trying to socialize
+9,4,Nicole,00:01:15,"I have, but it doesn't seem to make a difference. I still feel the same.",Unsuccessful attempts,Nicole,Recently,Various locations,Trying to overcome disconnection,Trying to socialize
+9,5,Therapist,00:01:40,"Let's explore why you might be feeling this way and consider some steps to help you reconnect.",Understanding disconnection,Nicole,Upcoming,Unspecified,To address feelings of isolation,Discussion and planning
+10,1,Therapist,00:00:01,"How are you coping with your recent move, Derek?",Coping with relocation,Derek,Since the move,New city,Relocating to a new place,Adjusting to new environment
+10,2,Derek,00:00:20,"It's been hard. I miss my old community and friends.",Missing old community,Derek,Since the move,Old city,Relocation impact,Feeling homesick
+10,3,Therapist,00:00:40,"What do you miss the most about your previous home?",Missing elements,Derek,Reflecting on past,Old city,Relocation impact,Feeling homesick
+10,4,Derek,00:01:00,"I miss the familiarity and my close-knit group of friends.",Loss of familiarity,Derek,Reflecting on past,Old city,Relocation impact,Feeling homesick
+10,5,Therapist,00:01:20,"Have you tried establishing a new routine or joining community groups here?",Building new connections,Derek,Recently,New city,To adapt to new place,Seeking social connections
+10,6,Derek,00:01:40,"I've thought about it, but I haven't really taken any steps yet.",Hesitation to adapt,Derek,Recently,New city,Adapting to new environment,Feeling hesitant
+10,7,Therapist,00:02:00,"It can be a gradual process. Let's discuss some ways to start building your new community.",Creating new community,Derek,Upcoming,New city,To establish connections,Planning and guidance
+11,1,Therapist,00:00:01,"Megan, last time we spoke about your challenges at college. How are things now?",Challenges at college,Megan,Since last session,College,Coping with academic pressure,Dealing with stress
+11,2,Megan,00:00:20,"It's still a struggle, especially with group assignments.",Group assignment challenges,Megan,Recently,College,Group dynamics,Struggling with teamwork
+11,3,Therapist,00:00:40,"What specific issues are you facing with group assignments?",Issues with group work,Megan,Current,College,Interpersonal conflicts,Difficulty in collaboration
+11,4,Megan,00:01:00,"I find it hard to get my ideas across. There's one dominant person in the group.",Communication issues,Megan,During assignments,College,Group hierarchy,Struggling to communicate
+11,5,Therapist,00:01:20,"How does that make you feel when you can't express your ideas?",Feelings about group work,Megan,During assignments,College,Feeling unheard,Frustrated and overlooked
+11,6,Megan,00:01:40,"It's frustrating and makes me feel undervalued in the group.",Feelings of undervaluation,Megan,During assignments,College,Feeling unheard,Frustrated and overlooked
+12,1,Therapist,00:00:01,"Tom, in our previous sessions, you talked about your insomnia. Have you noticed any improvements?",Insomnia issues,Tom,Since last session,At home,Difficulty sleeping,Seeking improvement
+12,2,Tom,00:00:15,"Unfortunately, no. My sleep patterns are still erratic.",Erratic sleep patterns,Tom,Recently,At home,Stress and anxiety,Experiencing disrupted sleep
+12,3,Therapist,00:00:30,"What have you been doing to try to improve your sleep?",Efforts to improve sleep,Tom,Recently,At home,Trying to regulate sleep pattern,Implementing sleep hygiene
+12,4,Tom,00:00:45,"I've tried cutting out caffeine and using relaxation techniques before bed.",Relaxation techniques,Tom,Recently,At home,Managing insomnia,Trying meditation and less caffeine
+12,5,Therapist,00:01:00,"It's good that you're taking these steps. How do you feel in the evenings?",Evening feelings,Tom,Every evening,At home,Preparing for sleep,Restless and anxious
+13,1,Therapist,00:00:01,"Rachel, we've been discussing your recent career change. How are you finding the transition?",Career change,Rachel,Since last session,New job,Seeking career satisfaction,Adapting to new role
+13,2,Rachel,00:00:20,"It's exciting but also quite overwhelming. There's so much to learn.",Overwhelmed by new job,Rachel,Recently,New job,New challenges,Learning new skills
+13,3,Therapist,00:00:40,"What aspects of your new job are you finding most challenging?",Challenges in new job,Rachel,Recently,New job,Adjusting to new environment,Adapting to new responsibilities
+13,4,Rachel,00:01:00,"I think it's the pace and the new technology I need to use.",Pace and technology challenges,Rachel,Recently,New job,Technology adaptation,Struggling with fast pace
+13,5,Therapist,00:01:20,"Let's talk about strategies to manage these challenges effectively.",Managing job challenges,Rachel,Upcoming,New job,Coping with change,Planning and strategy discussion
+14,1,Therapist,00:00:01,"Chris, how have you been feeling about your relationship with your family lately?",Family relationship issues,Chris,Recently,At home,Family conflicts,Feeling strained
+14,2,Chris,00:00:25,"Not great. We had a big argument last week, and things have been tense.",Recent family argument,Chris,Last week,At home,Disagreement,Experiencing tension
+14,3,Therapist,00:00:50,"What was the argument about, if you don't mind sharing?",Cause of argument,Chris,During argument,At home,Disagreement,Conflict over personal issues
+14,4,Chris,00:01:15,"It was about my career choices. They don't approve of my decisions.",Career choice disagreement,Chris,During argument,At home,Different views on career,Feeling unsupported
+14,5,Therapist,00:01:40,"How has that affected your relationship with them?",Impact on relationship,Chris,After argument,At home,Result of disagreement,Strained relations
+15,1,Therapist,00:00:01,"How are you coping with your recent health diagnosis, Laura?",Coping with health diagnosis,Laura,Since diagnosis,Unspecified,Health concerns,Dealing with new health challenges
+15,2,Laura,00:00:20,"It's been hard. I'm trying to stay positive, but it's overwhelming.",Emotional impact of diagnosis,Laura,Recently,Unspecified,Dealing with illness,Finding it challenging
+15,3,Therapist,00:00:40,"What steps have you taken to manage your health?",Health management steps,Laura,Recently,Unspecified,Managing health condition,Following treatment plan
+15,4,Laura,00:01:00,"I'm following the treatment plan and trying to make lifestyle changes.",Lifestyle changes for health,Laura,Recently,Unspecified,Improving health,Implementing changes
+15,5,Therapist,00:01:20,"Let's discuss ways to support you through this journey.",Support for health journey,Laura,Upcoming,Unspecified,Health support,Planning for emotional and physical support
