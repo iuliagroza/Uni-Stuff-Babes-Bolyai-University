@@ -153,7 +153,7 @@
   <tr align="center">
     <td> 26. </td>
     <td> Intelligent Methods for Solving Real-World Problems </td>
-    <td>  </td>
+    <td> NLP, TF-IDF, NER, Non-negative Matrix Factorization, Graph-Based Learning, Text Mining, Machine Translation </td>
   </tr>
   <tr align="center">
     <td> 27. </td>
