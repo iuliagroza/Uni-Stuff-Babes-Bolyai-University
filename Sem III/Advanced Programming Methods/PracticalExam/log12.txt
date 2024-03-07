@@ -1,0 +1,684 @@
+Id: 1
+Execution stack: 
+(Ref(int) a|(Ref(int) b|(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+Ref(int) a
+(Ref(int) b|(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+Ref(int) a
+(Ref(int) b|(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(Ref(int) b|(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))))
+Symbol table: 
+a -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(Ref(int) b|(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))))
+Symbol table: 
+a -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+Ref(int) b
+(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))))
+Symbol table: 
+a -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+Ref(int) b
+(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))))
+Symbol table: 
+a -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(int v|(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+int v
+(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+int v
+(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(New(a, 0)|(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+New(a, 0)
+(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+New(a, 0)
+(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))
+Symbol table: 
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Latch table:
+
+Id: 1
+Execution stack: 
+(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))
+Symbol table: 
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(New(b, 0)|(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))))
+Symbol table: 
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+New(b, 0)
+(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))
+Symbol table: 
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+New(b, 0)
+(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))
+Symbol table: 
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(WriteHeap(a, 1)|(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+WriteHeap(a, 1)
+(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+WriteHeap(a, 1)
+(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 0
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(WriteHeap(b, 2)|(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+WriteHeap(b, 2)
+(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+WriteHeap(b, 2)
+(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 0
+Latch table:
+
+Id: 1
+Execution stack: 
+(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+(v=(ReadHeap(a) < ReadHeap(b))? 100: 200|(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v=(ReadHeap(a) < ReadHeap(b))? 100: 200
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v=(ReadHeap(a) < ReadHeap(b))? 100: 200
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+if(ReadHeap(a) < ReadHeap(b)){v = 100}else{v = 200}
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+if(ReadHeap(a) < ReadHeap(b)){v = 100}else{v = 200}
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v = 100
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v = 100
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+(Print(v)|(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v)))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+Print(v)
+(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+Print(v)
+(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+(v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200|Print(v))
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v=(ReadHeap(b) - 2 > ReadHeap(a))? 100: 200
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+if(ReadHeap(b) - 2 > ReadHeap(a)){v = 100}else{v = 200}
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+if(ReadHeap(b) - 2 > ReadHeap(a)){v = 100}else{v = 200}
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v = 200
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+v = 200
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+Print(v)
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output list: 
+100
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+
+Id: 1
+Execution stack: 
+Symbol table: 
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output list: 
+100
+200
+File table:
+Heap memory:
+1 -> 1
+2 -> 2
+Latch table:
+

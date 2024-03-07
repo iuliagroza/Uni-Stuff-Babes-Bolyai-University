@@ -1,0 +1,537 @@
+------EXE_STACK------
+Ref(int) v;New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20)
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v)
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v))
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+25
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v;New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20)
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v)
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v))
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+25
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v;New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(int) v
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20);Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(v, 20)
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (0, int)
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a;New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+Ref(Ref(int)) a
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v);print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+New(a, v)
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (0, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v));print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(v))
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(HeapRead(HeapRead(a))+5)
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> (2, Ref(int))
+v -> (1, int)
+
+------OUT------
+20
+25
+
+------HEAP_TABLE------
+1 -> 20
+2 -> (1, int)
+
+------FILE_TABLE------
+
+

@@ -1,0 +1,152 @@
+------EXE_STACK------
+int a;int b;a=5;b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int a
+int b;a=5;b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int b;a=5;b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int b
+a=5;b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+a=5;b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 0
+b -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+a=5
+b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 0
+b -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+b=7;if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 5
+b -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+b=7
+if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 5
+b -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+if(a > b) then(print(a)) else(print(b))
+
+------SYM_TABLE------
+a -> 5
+b -> 7
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(b)
+
+------SYM_TABLE------
+a -> 5
+b -> 7
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> 5
+b -> 7
+
+------OUT------
+7
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+

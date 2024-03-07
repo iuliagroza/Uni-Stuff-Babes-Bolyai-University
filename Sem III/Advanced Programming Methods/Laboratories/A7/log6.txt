@@ -1,0 +1,385 @@
+------EXE_STACK------
+int v;v=4;While(v > 0) {print(v);v=v-1};print(v)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int v
+v=4;While(v > 0) {print(v);v=v-1};print(v)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=4;While(v > 0) {print(v);v=v-1};print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=4
+While(v > 0) {print(v);v=v-1};print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1};print(v)
+
+------SYM_TABLE------
+v -> 4
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 4
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v);v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 4
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 4
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 4
+
+------OUT------
+4
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 3
+
+------OUT------
+4
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v);v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 3
+
+------OUT------
+4
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 3
+
+------OUT------
+4
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 3
+
+------OUT------
+4
+3
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+4
+3
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v);v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+4
+3
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+4
+3
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+4
+3
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 1
+
+------OUT------
+4
+3
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v);v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 1
+
+------OUT------
+4
+3
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 1
+
+------OUT------
+4
+3
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=v-1
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 1
+
+------OUT------
+4
+3
+2
+1
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+While(v > 0) {print(v);v=v-1}
+print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+4
+3
+2
+1
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+4
+3
+2
+1
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+4
+3
+2
+1
+0
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+

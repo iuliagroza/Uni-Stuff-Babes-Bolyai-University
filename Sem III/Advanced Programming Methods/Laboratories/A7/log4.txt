@@ -1,0 +1,1620 @@
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf;varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+string varf
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in;OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+varf=test.in
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> 
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf);int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+OpenReadFile(varf)
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int varc;ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+int varc
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc);print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+ReadFile(varf, varc)
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 15
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc);CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+print(varc)
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+CloseReadFile(varf)
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+test.in
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+varf -> test.in
+varc -> 50
+
+------OUT------
+15
+50
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+

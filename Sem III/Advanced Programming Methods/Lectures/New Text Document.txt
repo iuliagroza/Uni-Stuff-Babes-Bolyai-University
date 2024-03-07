@@ -1,0 +1,173 @@
+
+
+
+
+class A{..}
+
+class B extends A{   int tt(B b){. b.metoda specifica lui B.} }
+
+
+A ob= new A();
+ob= new B();
+.....
+.....
+B ob1= (B) ob;
+
+
+ob1.tt( )
+
+
+ob1.tt()
+
+
+        Object
+          |
+         A
+           |
+           B
+           |
+            C
+
+
+ I arr[]
+
+
+interface I{
+
+int getW(){...}
+
+}
+
+class Apples implements I{ int getW() {...}}
+class Books implements I {...}
+
+
+
+arr[i].getW()
+
+
+
+
+
+
+                        View 
+                         |
+
+                         Controller
+			|
+                       Repository
+
+
+
+
+
+interface I{
+
+  int getw();
+
+}
+
+
+I a= new Apples();
+
+a.getW();
+
+
+
+
+String toString()
+
+Repository
+============
+
+
+interface MyRepo{
+
+void add(I ob) throws MyException
+remove
+
+Object[] findAll(int v)
+}
+
+class Repo implements MyRepo{
+
+       I arr[];
+       int crt;
+
+Repo (int dim){
+
+arr= new I[dim];
+crt=0;
+}
+
+
+
+}
+
+
+
+Controller
+===========
+
+
+
+class MyController {
+ MyRepo rep;
+
+MyController (MyRepo r){ rep=r;}
+
+...
+}
+
+
+
+
+View
+===
+
+
+class MyView{
+
+static main....{
+
+
+Myrepo r=  new Repo(10);
+MyController c= new Mycontroller (r);
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           

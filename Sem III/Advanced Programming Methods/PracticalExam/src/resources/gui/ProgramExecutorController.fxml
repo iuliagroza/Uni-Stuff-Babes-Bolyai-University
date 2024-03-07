@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ProgramExecutorController">
+   <children>
+      <VBox alignment="TOP_CENTER" style="-fx-background-color: #ededed;">
+         <children>
+            <HBox>
+               <children>
+                  <Label alignment="CENTER" lineSpacing="1.0" text="No. of program states" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="120.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="numberOfProgramStatesTextField" editable="false" maxWidth="-Infinity" prefHeight="23.0" prefWidth="150.0" promptText="0">
+                     <font>
+                        <Font name="Berlin Sans FB" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                     <children>
+                        <Label text="Output">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="outputListView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label text="Files">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;">
+                           <VBox.margin>
+                              <Insets right="5.0" />
+                           </VBox.margin></ListView>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label text="Heap">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="heapTableView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;">
+                          <columns>
+                            <TableColumn fx:id="addressColumn" editable="false" prefWidth="101.20001375675201" text="Address" />
+                            <TableColumn fx:id="valueColumn" editable="false" prefWidth="97.99999237060547" text="Value" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label text="Execution Stack">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="executionStackListView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;">
+                           <VBox.margin>
+                              <Insets right="5.0" />
+                           </VBox.margin></ListView>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label text="ProgramState IDs">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="programStateIdentifiersListView" onMouseClicked="#changeProgramState" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;" />
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label text="Symbol Table">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="symbolTableView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5px;">
+                          <columns>
+                            <TableColumn fx:id="variableNameColumn" editable="false" prefWidth="99.20001524686813" text="Variable" />
+                            <TableColumn fx:id="variableValueColumn" editable="false" prefWidth="100.0" text="Value" />
+                          </columns>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </TableView>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Label alignment="TOP_CENTER" text="Latch Table">
+                           <font>
+                              <Font name="Berlin Sans FB" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="latchTableView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 5px; -fx-background-color: #ffffff;">
+                           <columns>
+                              <TableColumn fx:id="latchLocationColumn" prefWidth="100.0" text="Location" />
+                              <TableColumn fx:id="latchValueColumn" prefWidth="100.0" text="Value" />
+                           </columns>
+                           <VBox.margin>
+                              <Insets left="45.0" />
+                           </VBox.margin>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Button fx:id="runOneStepButton" alignment="TOP_CENTER" mnemonicParsing="false" onMouseClicked="#runOneStep" style="-fx-background-color: #d4d4d4; -fx-border-color: #000000; -fx-background-radius: 15px; -fx-border-radius: 15px;" text="Step">
+               <font>
+                  <Font name="Berlin Sans FB" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
+   </children>
+</StackPane>

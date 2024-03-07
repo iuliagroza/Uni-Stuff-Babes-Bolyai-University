@@ -1,0 +1,141 @@
+------EXE_STACK------
+bool a
+int v;a=true;if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int v;a=true;if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+int v
+a=true;if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+a -> false
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+a=true;if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+a=true
+if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+a -> false
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+if(a) then(v=2) else(v=3);print(v)
+
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+if(a) then(v=2) else(v=3)
+print(v)
+
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=2
+print(v)
+
+------SYM_TABLE------
+a -> true
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+
+------SYM_TABLE------
+a -> true
+v -> 2
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+a -> true
+v -> 2
+
+------OUT------
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+

@@ -1,0 +1,66 @@
+------EXE_STACK------
+int v
+v=2;print(v)
+
+------SYM_TABLE------
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=2;print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+v=2
+print(v)
+
+------SYM_TABLE------
+v -> 0
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+print(v)
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
+------EXE_STACK------
+
+------SYM_TABLE------
+v -> 2
+
+------OUT------
+2
+
+------HEAP_TABLE------
+
+------FILE_TABLE------
+
+
