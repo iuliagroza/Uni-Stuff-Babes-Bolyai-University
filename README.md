@@ -181,7 +181,7 @@
   <tr align="center">
     <td> 31. </td>
     <td> Quantum Computing with Applications in Cryptography & AI </td>
-    <td>  </td>
+    <td> Qiskit, QASM, Hadamard Gates, Bloch Spheres, Qubits & Qudits, Hilbert Spaces, Holevo's Theorem, CNOT </td>
   </tr>
   <tr align="center">
     <td> 32. </td>
