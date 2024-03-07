@@ -87,7 +87,7 @@
   <tr align="center">
     <td> 14. </td>
     <td> Databases </td>
-    <td>  </td>
+    <td> SQL SERVER, Clustered Index, Fragmentation, Transact-SQL, Data Streams, Conceptual Modeling </td>
   </tr>
   <tr align="center">
     <td> 15. </td>
