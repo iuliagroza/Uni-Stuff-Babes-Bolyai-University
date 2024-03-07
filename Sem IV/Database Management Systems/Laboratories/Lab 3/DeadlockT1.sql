@@ -1,0 +1,11 @@
+USE CloudGaming
+GO
+
+SELECT * FROM Users
+SELECT * FROM Games
+
+BEGIN TRAN
+UPDATE Games SET NoOfDownloads=15 WHERE Gid=37
+WAITFOR DELAY '00:00:10'
+UPDATE Users SET SubscribedToNewsletter=1 WHERE Uid = 92
+COMMIT TRAN
