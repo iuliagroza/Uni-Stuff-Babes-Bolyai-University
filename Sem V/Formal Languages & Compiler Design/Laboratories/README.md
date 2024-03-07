@@ -1,7 +1,5 @@
 # Alpakas
 
-## NOTE: The development of this project is discontinued as this repository has been archived
-
 Mini-language built in Rust for the Formal Languages & Compiler Design university course.
 
 **Student: Iulia-Diana Groza, Gr. 933/1**
