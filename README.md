@@ -102,7 +102,7 @@
   <tr align="center">
     <td> 17. </td>
     <td> Probability Theory & Statistics </td>
-    <td>  </td>
+    <td> MATLAB, Octave, Random Variables, Poisson Distribution, Hypergeometric Distribution, Cauchy Distribution </td>
   </tr>
   <tr align="center">
     <td colspan="3">4<sup>th</sup> Semester</td>
