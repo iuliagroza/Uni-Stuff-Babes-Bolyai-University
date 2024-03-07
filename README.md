@@ -97,7 +97,7 @@
   <tr align="center">
     <td> 16. </td>
     <td> Computer Networks </td>
-    <td>  </td>
+    <td> Python 3, TCP, UDP, Cisco Packet Tracer, WebSockets, HTTP, DNS, FTP, Routing, Distance Vector </td>
   </tr>
   <tr align="center">
     <td> 17. </td>
@@ -199,7 +199,7 @@
   <tr align="center">
     <td> 34. </td>
     <td> Advancing Market Integrity: A Reinforcement Learning Approach to Detect Spoofing and Layering in Algorithmic Trading </td>
-    <td>  </td>
+    <td> Spoofing, Layering, Proximal Policy Optimization, Trust Region Policy Optimization, Limit Order Book </td>
   </tr>
 </table>
 
