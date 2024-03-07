@@ -82,7 +82,7 @@
   <tr align="center">
     <td> 13. </td>
     <td> Functional & Logic Programming </td>
-    <td>  </td>
+    <td> Prolog, Lisp, Collector Variable Method, MAP Functions, Composed Objects, Functors, Binary Trees </td>
   </tr>
   <tr align="center">
     <td> 14. </td>
