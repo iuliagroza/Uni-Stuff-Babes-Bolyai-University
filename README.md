@@ -153,7 +153,7 @@
   <tr align="center">
     <td> 26. </td>
     <td> Intelligent Methods for Solving Real-World Problems </td>
-    <td> NLP, TF-IDF, NER, Non-negative Matrix Factorization, Graph-Based Learning, Text Mining, Machine Translation </td>
+    <td> 5W1H Extraction, NLP, TF-IDF, NER, Non-negative Matrix Factorization, Graph-Based Learning, Text Mining, Machine Translation </td>
   </tr>
   <tr align="center">
     <td> 27. </td>
@@ -163,7 +163,7 @@
   <tr align="center">
     <td> 28. </td>
     <td> Designing Innovative Products </td>
-    <td>  </td>
+    <td> 5W1H Extraction, NLP, HoloLens 2, Django REST, Agile, Value Proposition, Market Research, User Analytics, GCP, A/B Testing </td>
   </tr>
   <tr align="center">
     <td colspan="3">6<sup>th</sup> Semester</td>
