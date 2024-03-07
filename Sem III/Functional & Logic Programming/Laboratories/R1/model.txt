@@ -1,0 +1,18 @@
+Replace(l1...ln, e, L1...Lm) = {
+                                    0, if l1...ln = 0
+                                    {l1} U Replace(l2...ln, e, L1...Lm), if l1 != e
+                                    L1...Lm U Replace(l2...ln, e, L1...Lm), otherwise
+                               }
+
+Detk(l1...ln, k) = {
+                        0, if l1...ln = 0
+                        l1, if k == 1
+                        Detk(l2...ln, k-1), otherwise
+                   }
+
+Implementation models:
+concat_lists(l1...ln, L1...Lm) = {
+                                    0, if l1...ln = 0 and L1...Lm = 0
+                                    {L1} U concat_lists(l1...ln, L2...Lm), if l1...lm = 0
+                                    {l1} U concat_lists(l2...ln, L1...Lm), otherwise
+                                 }
