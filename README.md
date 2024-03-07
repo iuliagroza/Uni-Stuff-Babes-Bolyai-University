@@ -97,7 +97,7 @@
   <tr align="center">
     <td> 16. </td>
     <td> Computer Networks </td>
-    <td>  </td>
+    <td> Python 3, TCP, UDP, Cisco Packet Tracer, WebSockets, HTTP, DNS, FTP, Routing, Distance Vector </td>
   </tr>
   <tr align="center">
     <td> 17. </td>
