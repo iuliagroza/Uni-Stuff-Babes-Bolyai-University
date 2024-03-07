@@ -92,7 +92,7 @@
   <tr align="center">
     <td> 15. </td>
     <td> Advanced Programming Methods </td>
-    <td>  </td>
+    <td> Java, C#, Scala, MVC, OOD, JavaFX, VM Interpreter, Unsafe Garbage Collector, Heap Memory Management </td>
   </tr>
   <tr align="center">
     <td> 16. </td>
