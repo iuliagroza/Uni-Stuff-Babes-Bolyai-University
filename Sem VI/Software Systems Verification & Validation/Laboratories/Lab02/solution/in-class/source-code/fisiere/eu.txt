@@ -1,0 +1,24 @@
+
+Tema: 5
+Nota: 3.5
+Predata in saptamana: 8
+Deadline: 7
+Feedback: repository
+
+Tema: 4
+Nota: 5.5
+Predata in saptamana: 6
+Deadline: 5
+Feedback: este
+
+Tema: 13
+Nota: 10.0
+Predata in saptamana: 7
+Deadline: 7
+Feedback: este ok!
+
+Tema: 14
+Nota: 7.5
+Predata in saptamana: 7
+Deadline: 6
+Feedback: ok

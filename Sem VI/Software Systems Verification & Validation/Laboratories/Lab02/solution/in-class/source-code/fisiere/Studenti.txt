@@ -1,0 +1,7 @@
+1,Marginean Diana,225,mdir2356@scs.ubbcluj.ro
+2,Militon Rares,224,mrir1356@scs.ubbcluj.ro
+3,Pop Diana,227,pdir5424@scs.ubbcluj.ro
+4,Danciu Razvan,221,drir3456@scs.ubbcluj.ro
+5,mama,222,la
+55,eu,222,eu@gmail.com
+6,la,112,la@la.com
