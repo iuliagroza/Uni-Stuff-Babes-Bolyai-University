@@ -1,0 +1,11 @@
+1,Tema numarul 1,2,1
+2,Tema numarul 2,3,2
+3,Tema numarul 3,4,34
+4,Tema numarul 4,5,10
+5,Tema numarul 5,7,6
+9,Tema cu numarul 9,8,5
+10,Tema numarul 10,12,5
+11,Tema numarul 11,8,5
+12,Tema numarul 12,8,7
+13,Tema numarul 13,7,6
+14,Nr 14,6,5
