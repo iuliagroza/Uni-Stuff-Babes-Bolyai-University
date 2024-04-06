@@ -181,7 +181,7 @@
   <tr align="center">
     <td> 31. </td>
     <td> Quantum Computing with Applications in Cryptography & AI </td>
-    <td> Qiskit, QASM, Hadamard Gates, Bloch Spheres, Qubits & Qudits, Hilbert Spaces, Holevo's Theorem, CNOT </td>
+    <td> Qiskit, QASM, Hadamard Gates, Deutsch-Josza, Grover, Qubits & Qudits, Hilbert Spaces, Holevo's Theorem </td>
   </tr>
   <tr align="center">
     <td> 32. </td>
@@ -198,8 +198,8 @@
   </tr>
   <tr align="center">
     <td> 34. </td>
-    <td> Advancing Market Integrity: A Reinforcement Learning Approach to Detect Spoofing and Layering in Algorithmic Trading </td>
-    <td> Spoofing, Layering, Proximal Policy Optimization, Trust Region Policy Optimization, Limit Order Book </td>
+    <td> Advancing Market Integrity: A Proximal Policy Optimization Approach to Detect Spoofing and Layering in Algorithmic Trading </td>
+    <td> Spoofing, Proximal Policy Optimization, Markov Decision Processes, Level 3 LOB </td>
   </tr>
 </table>
 
