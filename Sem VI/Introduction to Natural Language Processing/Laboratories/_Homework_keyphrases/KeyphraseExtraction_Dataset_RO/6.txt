@@ -1,0 +1,15 @@
+Tehnologia, sub diferite forme, i-a fascinat pe filosofi. Tehnologia ceasului mecanic sau cea a maşinilor cu abur ar putea fi luate drept exemple. Nu există totuşi etici ale acestor tehnologii, altele decât cele legate de problematica proprietăţii, de etica relaţiilor contractuale şi aşa mai departe. Doar în acest sens, colecţionarii de ceasuri au o etică a lor. 
+
+Ne putem gândi şi la tot felul de obiecte din casă. Frigiderul? Pare o ilustrare perfectă a vechii reclame „apăsaţi pe buton şi restul facem noi (producătorii)”. Este o tehnologie a apăsării-pe-buton: alimentele sunt introduse în frigider, apeşi pe butonul de pornire a aparatului, reglezi temperatura şi închizi uşa. Nu există însă o „etică a frigiderului”, cel puţin nu una aparte de cea a relaţiilor mai generale dintre producători şi cumpărători. 
+
+Cum se face atunci că, în limba engleză cel puţin, se vorbeşte despre computer ethics? Termenul de „etică în tehnologia informaţiei” nu face decât să corijeze ceea ce pare prea restrâns în computer ethics. Computerele, cele actuale în orice caz, tind să fie legate în reţele. De asemenea, prelucrarea informaţiei nu se mai face strict numai pe un computer, ci este un proces amplu, în care interacţionează o sumedenie de computere-ca-dispozitive-fizice, reţele de computere, programe de calculator. Precizarea aceasta nu schimbă însă foarte mult situaţia. Etica/eticile avute în vedere sunt focalizate pe problematica tehnologiei computerului ca sistem de prelucrare a informaţiilor. 
+
+Telefoanele sunt şi ele – de la începuturile acestei tehnologii – legate în reţele. Nu există totuşi o etică a telefonului. Chestiuni cum ar fi ascultarea de către terţi a convorbirilor sau altele ţin mai degrabă de problematica, veche, dar îmbrăcată în haine noi, a sferei private, a interacţiunii dintre indivizi, a limitelor puterii statului ş.a.m.d. 
+
+În cele ce urmează, voi construi un argument în doi paşi. În primul pas, voi încerca să arăt că există o legătură specială între cunoaştere şi tehnologia computerului. În al doilea pas, voi susţine că modurile diferite de a privi legătura dintre cunoaştere şi tehnologia computerului generează perspective diferite asupra eticii în tehnologia informaţiei. 
+
+Terminologia legată de computere nu s-a născut precum Atena din capul lui Zeus. În lucrările de pionierat, cum sunt cele ale lui Alan Turing, putem vedea cum se deplasează sensurile, cum îşi schimbă unele cuvinte înţelesul, pentru a se ajunge la ceea ce este astăzi terminologia consacrată. 
+
+Termenul cel mai interesant este chiar acela de „computer”. La Turing, în 1936, se vede încă limpede de unde se pleacă. Computerul este un om . Computerul este un om care calculează, care socoteşte. Româneşte, i-am zice „socotitor”. 
+
+Socotitorul lui Turing din 1936 dobândeşte însă cu totul alte semnificaţii în 1950. În acel an, Turing publică în Mind un articol în care socotitorul, de data aceasta unul văzut ca o maşină matematică, are calitatea de a fi inteligent . Computerul este acum o maşină ideală, de nedeosebit de om. 

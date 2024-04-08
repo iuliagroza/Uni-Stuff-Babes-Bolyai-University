@@ -1,0 +1,13 @@
+Ce este Blockchain? Comediantul american Stephen Colbert spune că „este aur pentru tocilari”. Ei bine, tocilarii sunt acum copiii populari din bloc, iar tehnologia blockchain devine una dintre cele mai proeminente tendințe în domeniul finanțelor și inovației digitale de la crearea internetului.
+
+Blockchain–urile sunt baze de date. În loc că să fie stocate pe un server central ce poate fi accesat de toți utilizatorii, înregistrările de pe blockchain sunt stocate pe computerele utilizatorilor de peste tot din lume. Acest fapt face din blockchain o bază de date distribuită cu o arhitectură peer–to–peer. “Distribuit” înseamnă că datele sunt stocate în locații multiple iar “peer–to–peer” înseamnă că nu există o autoritate centrală care deține o copie master a datelor.
+
+Blockchain–ul lui Satoshi Nakamoto nu este prima bază de date distribuită și nu este prima bază de date peer–to–peer. De fapt, nu este primul blockchain. În schimb, reprezintă baza pentru prima criptomonedă modernă fiind punctul de pornire pentru toate blockchain–urile de după el.
+
+Cipurile de memorie din calculatorul tău și din smartphone detectează erorile de utilizare ale sistemului. Acest sistem este de asemenea folosit pentru găsirea erorilor de pe hard drive–ul tău.
+
+Acest sistem simplu de sumă de control este esențial pentru tehnologia de blockchain iar studenții la informatică din anul întâi sunt bine familiarizați cu el.
+
+În același timp este ridicol de vulnerabil pentru hacker pentru că oricine are suficiente drepturi de acces să schimbe valorile cărților poate de asemenea să modifice sumele de control pentru a–și acoperi urmele. Sau un hacker poate să modifice indicatoarele pentru “cartea anterioară” și “cartea următoare” ca să înlocuiască o carte a mâinii tale cu o carte stocată pe un rând diferit.
+
+Nakamoto a anticipa aceste vulnerabilități în arhitectura sa de blockchain. În loc să implice o simplă adunare pentru a crea sume de control și pentru a urmări verigi in lanțul de date, a folosit un proces criptografic numit “hashing”

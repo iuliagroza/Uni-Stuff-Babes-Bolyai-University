@@ -1,0 +1,30 @@
+        [
+            "term limits"
+        ], 
+        [
+            "congressional term limitation"
+        ], 
+        [
+            "legislative influence"
+        ], 
+        [
+            "six-year limits"
+        ], 
+        [
+            "term-limit initiatives"
+        ], 
+        [
+            "congressional delegations"
+        ], 
+        [
+            "true citizen congress"
+        ], 
+        [
+            "power-lusting professional politicians"
+        ], 
+        [
+            "impervious congress"
+        ], 
+        [
+            "corrupting influence"
+        ]

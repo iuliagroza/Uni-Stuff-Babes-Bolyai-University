@@ -1,0 +1,21 @@
+O echipă de cercetători australieni a reușit să transforme apa de mare în apă potabilă sigură și curată în mai puțin de 30 de minute, folosind cadre cristaline metal-organice (MOF) și lumina soarelui.
+
+Într-o descoperire care ar putea furniza apă potabilă pentru milioane de oameni din întreaga lume, cercetătorii au putut nu doar să filtreze particulele dăunătoare din apă și să genereze 139,5 L de apă curată pe kilogram de MOF pe zi, ci și să îndeplinească această sarcină cu un consum de energie mult mai mic comparativ cu practicile actuale de desalinizare.
+
+Conform Organizației Mondiale a Sănătății, apa potabilă de bună calitate ar trebui să aibă un solid dizolvat total (TDS) de <600 părți pe milion (ppm). Cercetătorii au reușit să obțină un TDS <500 ppm în doar 30 de minute și să regenereze MOF pentru reutilizare în patru minute sub lumina soarelui.
+
+Potrivit profesorului principal Huanting Wang, de la Departamentul de Inginerie Chimică de la Universitatea Monash din Australia, această lucrare a deschis o nouă direcție pentru proiectarea materialelor receptive la stimuli, care pot fi utilizate ulterior în cadrul unor procese sustenabile de  purificare și desalinizare a apei.
+
+„Desalinizarea a fost utilizată pentru a aborda creșterea deficitului de apă la nivel global. Datorită disponibilității apei salmastre și a apei de mare și a faptului că procesele de desalinizare sunt fiabile, apa tratată poate fi integrată în sistemele acvatice existente cu riscuri minime pentru sănătate ”, a spus profesorul Wang.
+
+„Dar, procesele de desalinizare termică prin evaporare consumă multă energie, iar alte tehnologii, cum ar fi osmoza inversă, prezintă o serie de dezavantaje, inclusiv un consum ridicat de energie și utilizarea chimică în curățarea și declorarea membranelor,” a mai explicat cercetătorul.
+
+Cadrele metal-organice sunt o clasă de compuși constând din ioni metalici care formează un material cristalin cu cea mai mare suprafață a oricărui material cunoscut.
+
+Echipa de cercetare a creat un MOF dedicat numit PSP-MIL-53. Australienii au demonstrat că PSP-MIL-53 a reușit să producă 139,5 L de apă proaspătă pe kilogram de MOF pe zi, cu un consum redus de energie.
+
+Rezultatele obținute în cadrul acestui studiu demonstrează sustenabilitatea utilizării acestui MOF pentru viitoarele soluții de apă curată.
+
+„Lumina soarelui este cea mai abundentă și regenerabilă sursă de energie de pe Pământ. Dezvoltarea unui nou proces de desalinizare pe bază de adsorbant prin utilizarea luminii solare pentru regenerare oferă o soluție eficientă din punct de vedere energetic și durabilă din punct de vedere ecologic pentru desalinizare, ” a explicat Wang.
+
+Aplicabilitatea acestei tehnologii ar putea fi extinsă la minerit si alte aplicații conexe.

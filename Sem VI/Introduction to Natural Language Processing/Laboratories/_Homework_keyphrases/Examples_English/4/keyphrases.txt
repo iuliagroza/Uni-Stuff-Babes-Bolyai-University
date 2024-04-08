@@ -1,0 +1,18 @@
+        [
+            "clarence thomas"
+        ], 
+        [
+            "hometown crowd"
+        ], 
+        [
+            "birthplace"
+        ], 
+        [
+            "senate vote"
+        ], 
+        [
+            "georgia"
+        ], 
+        [
+            "williams"
+        ]

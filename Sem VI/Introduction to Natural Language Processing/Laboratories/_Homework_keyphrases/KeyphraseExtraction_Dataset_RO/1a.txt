@@ -1,0 +1,15 @@
+Echivalentul chimic este o cantitate de substanță care substituie, corespunde, echivalează cu 1,008 părți de hidrogen. Se notează cu simbolul E.
+
+Echivalentul chimic reprezintă numărul care arată raportul de combinare al unei substanțe cu 1 gram de hidrogen sau cu 8 grame de oxigen. Echivalentul gram reprezintă cantitatea de substanță exprimată în grame numeric egală cu echivalentul chimic.
+
+Pentru elemente, echivalentul chimic se exprimă prin raportul dintre masa atomică a elementului și valența acestuia.
+
+Pentru oxizi, echivalentul chimic se exprimă prin raportul dintre masa molară a oxidului și produsul dintre numărul de atomi de metal și valența acestuia.
+
+Pentru hidroxizi, echivalentul chimic se exprimă prin raportul dintre masa molară a hidroxidului și numărul de grupări hidroxil.
+
+Pentru acizi, echivalentul chimic se exprimă prin raportul dintre masa molară a acidului și numărul de atomi de hidrogen înlocuiți.
+
+Pentru săruri, echivalentul chimic se exprimă prin raportul dintre masa molară a sării și produsul dintre numărul de atomi de metal din sare și valența acestuia.
+
+În cazul substanțelor care participă la reacții redox, echivalentul chimic se exprimă prin raportul dintre masa molară a substanței și numărul de elctroni transferați (cedați sau acceptați).

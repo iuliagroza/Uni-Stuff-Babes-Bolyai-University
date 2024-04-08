@@ -1,0 +1,15 @@
+        [
+            "active tuberculosis disease"
+        ], 
+        [
+            "health department"
+        ], 
+        [
+            "tuberculosis testing"
+        ], 
+        [
+            "tuberculosis prevention"
+        ], 
+        [
+            "control"
+        ]

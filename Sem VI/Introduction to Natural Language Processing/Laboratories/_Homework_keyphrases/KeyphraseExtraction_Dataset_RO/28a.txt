@@ -1,0 +1,13 @@
+Motorul în patru timpi este un tip de motor cu ardere internă al cărui piston face 4 curse simple într-un ciclu motor. Pistonul se mișcă într-un cilindru închis la un capăt de chiulasă. Mișcarea pistonului este asigurată de un mecanism bielă-arbore cotit și are loc între două poziții extreme: punctul mort interior și punctul mort exterior.
+
+În punctul mort interior (PMI), pistonul este în interiorul cilindrului și volumul acestuia este minim.
+
+La punctul mort exterior (PME), pistonul se găsește la cealaltă extremitate în raport cu PMI și volumul acestuia este maxim.
+
+Un ciclu motor are loc de-a lungul a două rotații ale arborelui cotit și cuprinde patru faze: admisia, compresia, arderea și destinderea și, în final, evacuarea.
+
+În momentul deplasării pistonului de la punctul mort interior la punctul mort exterior, supapa de admisie 6 (vezi imaginea din stânga) este deschisă și prin urmare în cilindru intră încărcătură proaspătă (din cauza depresiunii create de mișcarea pistonului). Așadar are loc admisia (curba g-a din diagramă). În continuare, prin deplasarea pistonului de la punctul mort exterior la punctul mort interior, are loc comprimarea încărcăturii, ambele supape (6 și 7) fiind închise. Până ca pistonul să ajungă la punctul mort interior, încărcătura este aprinsă și arde degajând căldură, ceea ce duce la mărirea presiunii în cilindru.
+
+Potrivit recentelor studii istorice, inventatorii italieni Eugenio Barsanti și Felice Matteucci au brevetat o primă versiune, care mergea eficient, a unui motor cu ardere internă, în 1854 la Londra (pt. Num. 1072). Se susține că motorul Otto este în multe părți, cel puțin, inspirat din precedentele invenții ale acestuia, dar, deocamdată nu există nici o documentație despre motorul italian creat înaintea celui al lui Otto.
+
+Nikolaus August Otto a fost inventatorul german al primului motor cu ardere internă care ardea în mod eficient combustibilul direct într-o cameră cu piston. Deși au mai fost inventate și alte motoare cu ardere internă (de exemplu, de către Etienne Lenoir), acestea nu s-au bazat pe patru timpi separați. Conceptul de patru timpi este posibil să fi fost deja discutat la data invenției lui Otto, dar el a fost primul care l-a pus în practică.

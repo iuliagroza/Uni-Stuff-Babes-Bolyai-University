@@ -1,0 +1,13 @@
+Realitatea augmentată (AR) reprezintă o nouă tehnologie ce oferă o experiență interactivă și unică utilizatorului. Pe scurt, realitatea augmentată combină lumea virtuală cu cea reală prin suprapunerea în timp real a obiectelor virtuale, în unele cazuri tridimensionale (3D), într-un mediu real. De exemplu, când vei privi cu ajutorul camerei unui telefon sau a unei tablete, un model AR va apărea ca și cum s-ar afla în lumea reală.
+
+Această tehnologie oferă o experiență vizuală unică ce îmbunătățește considerabil viziunea utilizatorului față de realitate. De asemenea, cu ajutorul realității augmentate, informațiile bazate pe diverse teme devin interactive și mult mai ușor de manevrat. Datorită oportunităților de experimentare în timp real pe care le oferă, tehnologia AR este din ce în ce mai utilizată în lumea educației, întrucât oferă posibilitatea copiilor de a învăța lucruri noi și interesante într-un mod practic.
+
+Mai mult, tehnologia AR mărește eficiența și ajută la elaborarea unor lecții fascinante ce implică mult mai mult elevii în materie. Aceștia au oportunitatea de a explora subiectul și sunt încurajați să privească informația din mai multe puncte de vedere. Așadar, realitatea augmentată este deosebit de utilă pentru dezvoltarea gândirii critice și a abilităților de rezolvare a problemelor.
+
+Anul 1968 marchează începutul realității augmentate. Ivan Sutherland, informatician și profesor de la Harvard, a creat primul afișaj montat pe cap din întreaga lume, care a fost intitulat „The Sword of Damocles” (Sabia lui Damocles).
+
+Miron Krueger, informatician și artist, a creat „Videoplace” în anul 1975, un laborator dedicat în totalitate realității artificiale. În cadrul acestei realizări, tehnologia a fost utilizată pentru a emite diverse siluete pe ecran, oferind astfel o experiență interactivă și unică pentru acele vremuri.
+
+Termenul de „Augmented Reality” a fost inventat în anul 1990 de Tom Caudell, cercetător pentru compania Boeing.
+
+„Virtual Fixutres” a fost creat în anul 1992 de Louis Rosenberg și a fost unul dintre primele sisteme AR complet funcționale. Sistemul permitea personalului militar să controleze și să ghideze virtual mașinile pentru îndeplinirea diverselor sarcini. De exemplu, cu ajutorul acestui sistem, piloții US Air Force puteau fi instruiți cu privire la cele mai sigure practici de zbor.

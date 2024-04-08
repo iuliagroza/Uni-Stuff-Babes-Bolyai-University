@@ -1,0 +1,21 @@
+        [
+            "ben johnson"
+        ], 
+        [
+            "canadian olympic sprinter"
+        ], 
+        [
+            "angella issajenko"
+        ], 
+        [
+            "olympic gold medal"
+        ], 
+        [
+            "steroid stanozolol"
+        ], 
+        [
+            "illegal drugs"
+        ], 
+        [
+            "100-metre sprint"
+        ]

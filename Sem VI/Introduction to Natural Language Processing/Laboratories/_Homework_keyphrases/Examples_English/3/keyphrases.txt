@@ -1,0 +1,24 @@
+        [
+            "mad cow disease"
+        ], 
+        [
+            "bse case"
+        ], 
+        [
+            "cjd cases"
+        ], 
+        [
+            "bovine spongiform encephalopathy"
+        ], 
+        [
+            "infectious protein"
+        ], 
+        [
+            "scientific evidence"
+        ], 
+        [
+            "public anxiety"
+        ], 
+        [
+            "causal link"
+        ]

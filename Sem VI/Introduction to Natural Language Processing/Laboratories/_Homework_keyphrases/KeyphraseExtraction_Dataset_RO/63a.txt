@@ -1,0 +1,17 @@
+Termenul de Inginerie genetică părea, acum ceva timp, ca fiind desprins din domeniul științifico-fantastic. Astăzi, a devenit o realitate bine conturată și cu rezultate promițătoare în toate domeniile vieții cotidiene.
+
+Ingineria genetică reprezintă un ansamblu de metode de lucru prin care se manipulează materialul genetic la nivel molecular și celular. Astfel se obțin microorganisme, plante și animale reprogramate genetic, în al căror genom sunt incluse gene străine, utile, exprimabile și transmisibile stabil la descendenți.
+
+Ingineria genetică utilizează metode de cultură in vitro a celulelor și țesuturilor animale și vegetale și tehnologia ADN-ului recombinat. Pe aceste metode se bazează hibridarea somatică la plante și animale, haploidia prin androgeneză și ginogeneză experimentală, precum și clonarea, la fel ca si imunitatea genetica cu privire la anumite virusuri si boli.
+
+Hibridarea somatică la plante se realizează cu ajutorul protoplaștilor, celule în care s-a distrus peretele celular prin tratamente enzimatice (exemple: celulaza, pectinaza). Drept urmare, fiecare celulă va fi perfect izolată de celelalte, permițând efectuarea experimentelor.
+
+Protoplaștii pot fi izolați din orice organ al plantei. Ei manifestă totipotență, având capacitatea să regenereze plante întregi, prin cultivarea pe mediul artificial in vitro (exemplu mediu solid de agar-agar).
+
+Fiind lipsiți de perete celular, protoplaștii pot fuziona spontan sub influența anumitor substanțe (nitrat de sodiu, polietilenglicol, ioni de calciu). După fuzionarea celulelor, fuzionează nucleii, se reface peretele celular și începe diviziunea celulară. După circa trei săptămâni se formează calusuri de culoare verde, care încep să crească. Pentru a regenera plantele, calusurile se transferă în medii speciale de diferențiere.
+
+În urma hibridării somatice rezultă hibrizi interspecifici asemănători cu cei obținuți prin hibridarea sexuată.
+
+Avantajul hibridării este acela că se pot obține hibrizi celulari între specii diferite care în mod normal nu se pot încrucișa sexuat. Un exemplu este cazul amfiploizilor de tutun (2n = 42 cromozomi) obținuți din două specii de tutun: Nicotiana glauca (2n = 24 cromozomi) și Nicotiana langsdorfii (2n = 18 cromozomi). Hibrizii obținuți înglobează numărul de cromozomi ai celor doi părinți.
+
+Alte avantaje ale utilizării protoplaștilor sunt: înmulțirea vegetativă foarte rapidă în urma căreia rezultă clone; obținerea unor forme poliploide ce vor fi utilizate în ameliorare; inducerea de mutante; transferul de gene sau cromozomi în protoplaști; transferul de cloroplaste în protoplaști; obținerea unor plante rezistente la viroze, etc.

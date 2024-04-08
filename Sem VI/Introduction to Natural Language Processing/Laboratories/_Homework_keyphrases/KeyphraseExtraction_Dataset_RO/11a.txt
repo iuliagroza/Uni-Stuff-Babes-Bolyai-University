@@ -1,0 +1,14 @@
+Electricitatea este totalitatea fenomenelor fizice asociate cu prezența și deplasarea sarcinilor electrice. Energia electrică produce o mare varietate de efecte bine-cunoscute, cum ar fi: fulgerul, electricitatea statică, inducția electromagnetică și curentul electric. În plus, energia electrică permite crearea și absorbția de radiații electromagnetice, cum ar fi undele radio.
+
+În domeniul energiei electrice, sarcina produce câmpuri electromagnetice care acționează asupra altor sarcini. Energia electrică apare ca urmare a mai multor tipuri de fizică:
+	- sarcină electrică: o proprietate a unor particule subatomice, care determină interacțiunile lor electromagnetice. Materia încărcată electric produce și este influențată de câmpuri electromagnetice; sarcinile electrice pot fi pozitive sau negative;
+	- curentul electric: o mișcare sau flux de particule încărcate electric, măsurat, de obicei, în amperi;
+	- câmp electric (a se vedea electrostatică): un tip special, simplu de câmp electromagnetic produs de o sarcină electrică, chiar atunci când nu este în mișcare (de exemplu, nu există curent electric). Câmpul electric exercită o forță asupra altor sarcini din vecinătatea sa. Sarcinile care se deplasează produc, în plus, un câmp magnetic;
+	- potențialul electric: capacitatea unui câmp electric de a face lucru mecanic pe o sarcină electrică, de obicei, măsurată în volți;
+	- electromagneți: curenții electrici generează câmpuri magnetice, iar variația câmpurilor magnetice generează curent electric.
+
+În electrotehnică, electricitatea este utilizată pentru:
+	- energie electrică, unde curentul electric este folosit pentru a pune în funcțiune echipamente;
+	- electronică, care se ocupă cu circuite electrice care implică componente electrice active, cum ar fi: tuburi vidate, tranzistoare, diode și circuite integrate, precum și tehnologii pasive asociate de interconectare.
+
+Fenomenele electrice au fost studiate încă din antichitate, deși progrese în domeniul științei nu s-au făcut până în secolele al XVII-lea și al XVIII-lea. Aplicațiile practice pentru energia electrică au rămas însă puține, și nu au putut fi exploatate pentru utilizare industrială și rezidențială de către ingineri până în secolul al XIX-lea. Expansiunea rapidă în domeniul tehnologiei electrice a transformat, din acest moment, industria și societatea. Versatilitatea extraordinară a electricității ca mijloc de furnizare a energiei înseamnă că poate fi aplicată la un set aproape nelimitat de utilizări, între care: transport, încălzire, iluminat, comunicații, precum și calcul. Energia electrică este coloana vertebrală a societății industriale moderne.

@@ -1,0 +1,15 @@
+Astăzi roboţii industriali reprezintă cea mai bună soluţie pentru combinarea celor două nevoi principale şi anume productivitatea şi flexibilitatea, caracteristici care îi recomandă şi pentru fabricaţia de serie mică. Nu în ultimul rând roboţii industriali sunt construiţi pentru un anumit tip de produs, prin aceasta satisfacându-se şi cerinţele industriale referitoare la scurtarea timpilor de producţie şi la menţinerea riguroasă a valorilor parametrilor tehnologici.
+
+Superflexibilitatea unui sistem robotizat impune noi concepte de programare pentru a obţine timpi minimi de setare şi implică un grad mult mai mare de tipizare, de modularizare al mâinilor mecanice şi dispozitivelor de lucru manevrate de roboţii industriali şi de control computerizat al parametrilor tehnologici, decât cel actual, pentru a obţine o mare eficienţă în aplicaţiile industriale.
+
+Realizarea unui sistem flexibil implică pe langă robotul industrial, utilajul deservit şi sisteme flexibile de adaptare între robot şi elementele sistemului – mâini mecanice (grippere), dispozitive de lucru, dispozitive de complianţă, soft – cărora trebuie de asemenea să li se confere flexibilitate.
+
+Acest sistem robotizat prezintă un mare grad de noutate deoarece rezolvă noi cerinţe de mare flexibilitate în robotică atât pe partea de structură a robotului şi de programare a acestuia, cât şi pe partea de componente ale sistemului robotizat, gradul ridicat de flexibilitate fiind obţinut prin unificarea flexibilităţii componentelor sistemului cu cea a structurii sistemului.
+
+La baza superflexibilitatii stă posibilitatea schimbării rapide şi sigure de către robot a mâinilor mecanice, a portbacurilor şi a dispozitivelor de lucru prin acţionarea directă a sistemului de zăvorâre/dezăvorâre doar prin deplasarea braţului robotului în raport cu magaziile în care sunt depuse componentele respective.
+
+În componenţa unui sistem robotizat superflexibil sunt incluse o serie de mâini mecanice simple sau cu portbacuri interschimbabile, precum şi dispozitive de lucru care sunt depozitate în magazii specifice, de unde robotul le extrage conform programului, pentru efectuarea unor anumite activităţi, dupa care le depune înapoi în magazii.
+
+Pentru mâinile mecanice şi pentru suporţii specifici ai dispozitivelor de lucru s-a adoptat un mecanism de zăvorâre care are la bază un sistem de blocare cu elemente lise a carui element de blocare este acţionat, producând dezăvorârea doar atunci când componenta respectivă este depusă în magazie şi când ştutul dispozitivului de cuplare automată, fixat pe braţul robotului, este retras din componenta respectivă.
+
+Pentru portbacuri s-au adoptat mecanisme de zăvorâre cu ştifturi cilindrice care, intrând în alezajele aferente din portbacuri, blochează deplasarea transversală a acestora în ghidajele suporţilor din structura mâinilor mecanice.

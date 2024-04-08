@@ -1,0 +1,25 @@
+Universitatea POLITEHNICA din Bucureşti, prin Centrul Naţional de Cercetare a Performanţelor Sistemelor Tehnologice CNCPST-Optimum oferă întreprinderilor mici şi mijlocii interesate un serviciu inovativ de diagnosticare a starii tehnice a masinilor si echipamentelor industriale pe baza unei analize combinate vibratii si/sau zgomot, dupa o procedura care sa elimine factorii perturbatori ce ascund defectul.
+
+Universitatea POLITEHNICA din Bucureşti, prin Centrul Naţional de Cercetare a PSe vor obtine spectre de vibratii care vor fi dublate de investigatii pe baza de zgomot la functionarea in-situ. Proiectul creeaza un serviciu nou, special destinat utilizatorilor de echipamente industriale din constructia de masini-unelte, echipamente complexe, masini agricole si instalatii conexe.
+
+Obiectivul acestei tehnici de diagnosticare este de a lua una din deciziile urmatoare:
+	- masina poate continua sa opereze fara a lua nici o masura;
+	- trebuie realizate anumite actiuni de mentenanta planificate in timp;
+	- trebuie efectuat un diagnostic analitic pentru a elimina cauzele ce pot produce avarii masinii;
+	- masina trebuie oprita imediat pentru a evita o avarie iminentă.
+
+In evaluarea starii normale de functionare a unei masini se remarca faptul ca nu este disponibila o singura variabila direct masurabila. Ca si in domeniul medical, nu exista doar o singura variabila pentru a determina conditia de sanatate a unei persoane, deci in termeni tehnici, doar semne individuale ale avariilor pot fi masurate, iar o decizie poate fi luata in conditii generale. Cu cat vor fi mai evidente semnele avariilor care sunt masurate, cu atat va fi mai exacta evaluarea starii de functionare a masinii. Evaluarea conditiei de functionare a unei masini utilizand valorile generale ale nivelului de vibratii si zgomot este metoda cea mai simpla si mai rapida de a realiza o diagnosticare.
+
+Necesitand costuri scazute, aceasta metoda produce rezultate de incredere si genereaza informatii pentru o recunoastere timpurie a avariilor si dezechilibrelor, o planificare optima a actiunii de mentinere si de prevenire a unor avarii sau intreruperi ale proceselor productive.
+
+Obiectivul acestei tehnici de diagnosticare este de a lua una din deciziile urmatoare:
+	- Masina poate continua sa opereze fara a lua nici o masura;
+	- Trebuie realizate anumite actiuni de mentenanta planificate in timp;
+	- Trebuie efectuat un diagnostic analitic pentru a elimina cauzele ce pot produce avarii masinii; in timp;
+	- Masina trebuie oprita imediat pentru a evita o avarie iminenta;
+
+Va fi creat un serviciu de diagnosticare oferit gratuit IMM-urilor selectate de către un consorţiu format din cinci parteneri. Institutul National pentru Intreprinderi Mici si Mijlocii are ca sarcină selectarea potenţialilor beneficiari ai acestui serviciu.
+
+Se vor obtine spectre de vibratii/ zgomot la functionarea masinilor in conditii de regim stabil de functionare, care vor fi utile pentru corecta utilizare a respectivelor echipamente. Proiectul se adreseaza IMM-urilor cu profil productiv, creeaza un serviciu nou, si este destinat utilizarii corecte a echipamentor industriale, masinilor-unelte, echipamentelor complexe, masini agricole si instalatii conexe. Scopul acestui proiect este ca masinile cu probleme sa reprezinte un procent de sub 6-8% din totalul celor existente in cadrul unei firme.
+
+Scopul acestui proiect este ca masinile cu probleme sa reprezinte un procent de sub 6-8% In literatura internationala de specialitate, analiza vibroacustica este utilizata de mult timp pentru detectarea si identificarea conditiilor masinilorunelte. Intretinerea predictiva este posibila prin recunoasterea celor mai mici schimbari in starea de functionare a masinii. In contrast cu intretinerea corectiva in care raspunsul rapid este prima cerinta, monitorizarea predictiva nu este limitata de timp si foloseste o mare diversitate de caracteristici complexe. Mentenanta se concentreaza in principal asupra identificarii unei proceduri de obtinere a frecventelor proprii pentru arborele principal al unei masini-unelte folosind analiza de tip «tracking ».in totalul celor existente in cadrul unei firme.
