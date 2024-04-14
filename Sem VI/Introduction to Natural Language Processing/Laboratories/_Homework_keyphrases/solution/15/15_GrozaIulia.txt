@@ -1,0 +1,21 @@
+[    
+    "Legea instituţiilor financiare"
+],
+[    
+    "Banca Naţională a Moldovei"
+],
+[    
+    "operaţiuni valutare"
+],
+[    
+    "sistemul bancar"
+],
+[    
+    "intermediar economic"
+],
+[    
+    "politica monetară"
+],
+[   
+    "disciplină financiară"
+]

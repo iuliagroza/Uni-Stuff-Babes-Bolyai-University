@@ -1,0 +1,30 @@
+[
+    "literatura latină și autohtonă"
+], 
+[
+    "schimbări de mentalitate"
+], 
+[
+    "tehnici de perspectivă"
+], 
+[
+    "reformă educațională"
+], 
+[
+    "Francesco Petrarca"
+], 
+[
+    "apariția tiparului"
+], 
+[
+    "Evul Mediu Târziu"
+], 
+[
+    "Florența - Italia"
+], 
+[
+    "mișcare culturală"
+], 
+[
+    "Renașterea"
+]

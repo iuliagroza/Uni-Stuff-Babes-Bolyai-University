@@ -1,0 +1,30 @@
+[
+    "democraţie"
+], 
+[
+    "politologie tradiţională"
+],  
+[
+    "politologie modernă"
+],    
+[
+    "economie capitalistă"
+], 
+[
+    "guvernarea celor mulţi şi săraci"
+], 
+[
+    "aranjamentul constituţional oligarhic"
+], 
+[
+    "guvernare mixtă"
+],  
+[
+    "polarizarea societăţii"
+], 
+[
+    "instabilitate politică"
+], 
+[
+    "imprudenţă politică"
+] 

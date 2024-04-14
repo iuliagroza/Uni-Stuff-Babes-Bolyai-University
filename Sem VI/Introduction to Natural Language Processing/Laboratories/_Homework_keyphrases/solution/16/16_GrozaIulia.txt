@@ -1,0 +1,18 @@
+[    
+    "celule fotovoltaice"
+],
+[    
+    "energia solară în Republica Moldova"
+],
+[    
+    "programul de asimilare a energiei regenerabile"
+],
+[    
+    "instalarea de colectoare solare"
+],
+[    
+    "tehnologii eficiente și de perspectivă"
+],
+[    
+    "celule solare organice"
+]

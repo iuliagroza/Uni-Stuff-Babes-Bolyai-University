@@ -1,0 +1,27 @@
+[    
+    "Munții Rodnei - Carpații Orientali"
+],
+[    
+    "piscul Pietrosul - înălțimea maximă"
+],
+[    
+    "roci vulcanice neogene"
+],
+[    
+    "circuri glaciare și cascade"
+],
+[    
+    "Parcul Național Munții Rodnei"
+],
+[    
+    "Cascada Cailor"
+],
+[    
+    "rezervația științifică Pietrosu Mare"
+],
+[    
+    "rezervația naturală Piatra Rea"
+],
+[    
+    "floare de colț - Leontopodium alpinum"
+]
