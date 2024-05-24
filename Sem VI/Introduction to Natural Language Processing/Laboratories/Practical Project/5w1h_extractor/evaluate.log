@@ -1,0 +1,120 @@
+2024-05-23 13:40:02,945 Evaluating dataset from data/test.json
+2024-05-23 13:40:05,277 Extracted Why Clauses: ['Chestiunea este deosebit de serioasă deoarece, „renunţarea la Crimeea” nu numai că repune pe tapet întreaga discuţie despre „teritorii contra pace”, dar, ceea ce este absolut grav, dă dreptate lui Putin care a pus lumea în faţa unui fapt împlinit, preluarea Crimeei, fost teritoriu dintr-un stat suveran şi independent şi asimilarea lui la propriul teritoriu naţional.', 'Foarte greu, deoarece acum – şi aici Trump are perfectă dreptate – scenariul nu se mai reduce doar la Crimeea, ci priveşte viitoare structură naţională a statului ucrainean.', 'Principiul sacrosant al „porţilor deschise” pe bază de merite şi îndeplinirea grilei de performanţă (cum s-a spus de atâtea ori şi României) poate avea o contra-pondere prin frâna trasă deoarece, cum spunea şi Macron, trebuie să oferim şi Rusiei ceva.\n\n']
+2024-05-23 13:40:05,278 Extracted How Clauses: ['Şi poate nu mai pare nimănui o glumiţă harta publicată de Medvedev prin care propunea împărţirea teritoriului actualei Ucraine între Rusia, Polonia, Ungaria şi România...', 'Rusia a atacat fiindcă vrea să distrugă Ucraina, să omoare copii, să înspăimânte Europa prin cruzimea sa.']
+2024-05-23 13:40:05,282 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.33      1.00      0.50         1
+
+    accuracy                           0.33         3
+   macro avg       0.17      0.50      0.25         3
+weighted avg       0.11      0.33      0.17         3
+
+2024-05-23 13:40:05,285 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.50      1.00      0.67         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+2024-05-23 13:40:05,285 Evaluation for Why Clauses - Precision: 0.33, Recall: 1.00, F1-score: 0.50
+2024-05-23 13:40:05,285 Evaluation for How Clauses - Precision: 0.50, Recall: 1.00, F1-score: 0.67
+2024-05-23 13:40:05,490 Extracted Why Clauses: ['Schroder, chiar dacă spune că războiul din Ucraina este o greşeală a guvernului rus, spune că este absurd ca cineva să creadă în posibilitatea ca promisiunea lui Zelenski să se poată îndeplini şi Ucraina „să ia înapoi Crimeea prin acţiune militară”, asta pur şi simplu deoarece „regiunea Crimeei este rusă”.\n\n']
+2024-05-23 13:40:05,490 Extracted How Clauses: ['Schroder, chiar dacă spune că războiul din Ucraina este o greşeală a guvernului rus, spune că este absurd ca cineva să creadă în posibilitatea ca promisiunea lui Zelenski să se poată îndeplini şi Ucraina „să ia înapoi Crimeea prin acţiune militară”, asta pur şi simplu deoarece „regiunea Crimeei este rusă”.\n\n', 'Asta ar putea, prin „extindere” să fie o soluţie pentru teritoriile cu statut incert dar pe care Rusia să nu le preia direct din cauza economice?']
+2024-05-23 13:40:05,494 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       1.0
+           1       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       2.0
+   macro avg       0.00      0.00      0.00       2.0
+weighted avg       0.00      0.00      0.00       2.0
+
+2024-05-23 13:40:05,497 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       2.0
+           1       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       3.0
+   macro avg       0.00      0.00      0.00       3.0
+weighted avg       0.00      0.00      0.00       3.0
+
+2024-05-23 13:40:05,497 Evaluation for Why Clauses - Precision: 0.00, Recall: 0.00, F1-score: 0.00
+2024-05-23 13:40:05,497 Evaluation for How Clauses - Precision: 0.00, Recall: 0.00, F1-score: 0.00
+2024-05-23 13:40:05,714 Extracted Why Clauses: ['Până acum, aş spune, nimic foarte nou deoarece subiectul relaţiilor SUA-Taiwan este mereu la limite superioare de tensiune diplomatică între Washington şi Beijing.', 'Surprinzător deoarece asta vine în contradicţie cu politica tradiţională a SUA denumită de „ambiguitate strategică” ceea ce însemna un ajutor dat Taiwanului pentru a-şi întări capacitatea de apărare dar fără angajamente explicite de intervenţie militară.\n\n']
+2024-05-23 13:40:05,714 Extracted How Clauses: ['Joe Biden, prudent, a rămas doar la acest nivel de joc, dar asta nu înseamnă că autorităţile chineze, tradiţional extrem de sensibile la această temă, nu au declarat imediat prin vocea lui Zhao Lijan, purtătorul de cuvânt al Ministerului Afacerilor Externe că „în cazul în care SUA insistă să meargă mai departe, China va lua măsuri ferme şi decise pentru a-şi apăra suveranitatea naţională şi integritatea teritorială, iar SUA vor purta răspunderea oricăror consecinţe grave...']
+2024-05-23 13:40:05,718 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.50      1.00      0.67         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+2024-05-23 13:40:05,721 Classification Report:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         1
+   macro avg       1.00      1.00      1.00         1
+weighted avg       1.00      1.00      1.00         1
+
+2024-05-23 13:40:05,721 Evaluation for Why Clauses - Precision: 0.50, Recall: 1.00, F1-score: 0.67
+2024-05-23 13:40:05,721 Evaluation for How Clauses - Precision: 1.00, Recall: 1.00, F1-score: 1.00
+2024-05-23 13:40:05,911 Extracted Why Clauses: ['Persoanele bolnave vor putea furniza celule stem pe baza cărora să se dezvolte viitoare organisme care să ofere posibilitatea unor implanturi viabile, lucru esenţial deoarece, în acest moment, ceea ce este creat în laborator şi vedeţi în imagini, nu poate servi la implanturi.', 'Cine şi pe baza căror criterii va stabili reglementări în domeniu, cât mai rapid posibil, deoarece dezvoltările malefice ale oricărei descoperiri ştiinţifice fac parte din arsenalul tot mai perfecţionat de auto-distrugere al umanităţii?']
+2024-05-23 13:40:05,911 Extracted How Clauses: ['Legenda celebră spune că rabinul ar fi creat un Golem din argilă , dându-i viaţă prin pronunţarea unei incantaţii şi înscriindu-i pe frunte cuvântul „Emeth” („adevăr” în ebraică, unul dintre numele lui Dumnezeu).', 'Într-o zi, alchimistul ar fi uitat să şteargă în zi de sâmbătă litera de pe fruntea Golemului, astfel încât acesta s-a dezlănţuit şi a împrăştiat teroarea, atât de cumplit fiind episodul încât se zice că însuşi împăratul Rudolf al II-lea ar fi ordonat rabinului să dezactiveze Golemul şi să-l distrugă.', 'Dar cred că esenţa discuţie ţine în primul rând de admisibilitatea procedeului creării unui embrion artificial căci, din moment ce are inimă funcţională, creier şi circuite neuronale funcţionale, asta înseamnă că prima chestiune care ar trebui definită, prin tratate internaţionale, este limita de intervenţie în crearea unor organisme capabile de perceperea şi conştientizarea suferinţei.']
+2024-05-23 13:40:05,914 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.50      1.00      0.67         1
+
+    accuracy                           0.50         2
+   macro avg       0.25      0.50      0.33         2
+weighted avg       0.25      0.50      0.33         2
+
+2024-05-23 13:40:05,918 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.33      1.00      0.50         1
+
+    accuracy                           0.33         3
+   macro avg       0.17      0.50      0.25         3
+weighted avg       0.11      0.33      0.17         3
+
+2024-05-23 13:40:05,918 Evaluation for Why Clauses - Precision: 0.50, Recall: 1.00, F1-score: 0.67
+2024-05-23 13:40:05,918 Evaluation for How Clauses - Precision: 0.33, Recall: 1.00, F1-score: 0.50
+2024-05-23 13:40:05,980 Extracted Why Clauses: []
+2024-05-23 13:40:05,980 Extracted How Clauses: []
+2024-05-23 13:40:05,984 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           1       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-05-23 13:40:05,987 Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       0.0
+           1       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+   macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+2024-05-23 13:40:05,987 Evaluation for Why Clauses - Precision: 0.00, Recall: 0.00, F1-score: 0.00
+2024-05-23 13:40:05,987 Evaluation for How Clauses - Precision: 0.00, Recall: 0.00, F1-score: 0.00
