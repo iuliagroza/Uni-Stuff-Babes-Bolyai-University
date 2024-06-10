@@ -198,8 +198,8 @@
   </tr>
   <tr align="center">
     <td> 34. </td>
-    <td> Advancing Market Integrity: A Proximal Policy Optimization Approach to Detect Spoofing and Layering in Algorithmic Trading </td>
-    <td> Spoofing, Proximal Policy Optimization, Markov Decision Processes, Level 3 LOB </td>
+    <td> A Proximal Policy Optimization Approach to Detect Spoofing in Algorithmic Trading </td>
+    <td> PPO, PyTorch, joblib, LUNA, Spoofing, React, TypeScript, SCSS, Jest </td>
   </tr>
 </table>
 
