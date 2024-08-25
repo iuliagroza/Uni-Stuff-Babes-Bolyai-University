@@ -199,12 +199,12 @@
   <tr align="center">
     <td> 34. </td>
     <td> A Proximal Policy Optimization Approach to Detect Spoofing in Algorithmic Trading </td>
-    <td> PPO, PyTorch, joblib, LUNA, Spoofing, React, TypeScript, SCSS, Jest </td>
+    <td> PPO, FNN, Kaiming Normalization, Adam Optimizer, Rolling Statistics, PyTorch, joblib, LUNA, Spoofing, React, TypeScript, SCSS, Jest </td>
   </tr>
 </table>
 
 <p>
-  <br><br>‼️<b>Important remark:</b> The contents of lectures and seminaries (except for personal notes) are not my property. They belong to the BBU teachers of each discipline.
+  <br><br>‼️<b>Important remark:</b> The contents of lectures and seminaries (except for personal notes) are not my property. Credits given to the author of each educational resource (BBU Department of CS).
 </p>
 <p><br><br>‼️ For more details regarding exam resources, check https://drive.google.com/drive/u/0/folders/1TW0SZJbsb5aMYfgKjhyJ4a7z1yArVJE8?fbclid=IwAR1eokzROA8toGSJcGf0e5i0xJGaF1nYO3FouOcfH47zxI_AIAlFF67FAEw</p>
 
